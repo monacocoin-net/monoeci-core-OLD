@@ -1,0 +1,20 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="bg">locale/monoeci_bg.qm</file>
+        <file alias="de">locale/monoeci_de.qm</file>
+        <file alias="en">locale/monoeci_en.qm</file>
+        <file alias="es">locale/monoeci_es.qm</file>
+        <file alias="fi">locale/monoeci_fi.qm</file>
+        <file alias="fr">locale/monoeci_fr.qm</file>
+        <file alias="it">locale/monoeci_it.qm</file>
+        <file alias="ja">locale/monoeci_ja.qm</file>
+        <file alias="pl">locale/monoeci_pl.qm</file>
+        <file alias="pt">locale/monoeci_pt.qm</file>
+        <file alias="ru">locale/monoeci_ru.qm</file>
+        <file alias="sk">locale/monoeci_sk.qm</file>
+        <file alias="sv">locale/monoeci_sv.qm</file>
+        <file alias="vi">locale/monoeci_vi.qm</file>
+        <file alias="zh_CN">locale/monoeci_zh_CN.qm</file>
+        <file alias="zh_TW">locale/monoeci_zh_TW.qm</file>
+    </qresource>
+</RCC>

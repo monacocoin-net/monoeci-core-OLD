@@ -1,0 +1,33 @@
+# /etc/conf.d/monoecid: config file for /etc/init.d/monoecid
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/monoeciCore/monoeci.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/monoecid"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/monoecid.pid"
+
+# Where to write monoecid data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/monoecid"
+
+# User and group to own monoecid process
+#BITCOIND_USER="monoeciCore"
+#BITCOIND_GROUP="monoeciCore"
+
+# Path to monoecid executable
+#BITCOIND_BIN="/usr/bin/monoecid"
+
+# Nice value to run monoecid under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS="-disablewallet"
+
+# The timeout in seconds OpenRC will wait for bitcoind to terminate
+# after a SIGTERM has been raised.
+# Note that this will be mapped as argument to start-stop-daemon's
+# '--retry' option, which means you can specify a retry schedule
+# here. For more information see man 8 start-stop-daemon.
+BITCOIND_SIGTERM_TIMEOUT=60

@@ -1,0 +1,1 @@
+qt/qt_libbitcoinqt_a-qrc_monoeci.o: qt/qrc_monoeci.cpp
