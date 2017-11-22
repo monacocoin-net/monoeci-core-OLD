@@ -1,4 +1,4 @@
-monoeci Core V1 (0.12.1.5) (XMCC)
+Mnoeci Core V1 (0.12.2.0) (XMCC)
 ===============================
 
 
@@ -15,7 +15,7 @@ are carried out collectively by the network. monoeci Core is the name of the ope
 source software which enables the use of this currency.
 
 For more information, as well as an immediately useable, binary version of
-the monoeci Core software, see https://github.com/monoeci-net/monoeci-Core.git
+the monoeci Core software, see https://github.com/monacocoin-net/monoeci-core.git
 
 
 License
@@ -28,7 +28,7 @@ Development Process
 -------------------
 
 The `master` branch is meant to be stable. Development is normally done in separate branches.
-[Tags](https://github.com/monoeci-net/monoeci-Core) are created to indicate new official,
+[Tags](https://github.com/monacocoin-net/monoeci-core) are created to indicate new official,
 stable release versions of monoeci Core.
 
 The contribution workflow is described in [CONTRIBUTING.md](CONTRIBUTING.md).
