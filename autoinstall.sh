@@ -3,7 +3,7 @@ apt-get install build-essential libtool autotools-dev automake pkg-config libssl
 add-apt-repository ppa:bitcoin/bitcoin
 apt-get update && apt-get install libdb4.8-dev libdb4.8++-dev -y
 cd ~
-git clone https://github.com/monoeci-net/monoeci-Core.git && cd monoeci-Core
+git clone https://github.com/monacocore-net/monoeci-core.git && cd monoeci-core
 bash autogen.sh
 ./configure --disable-test
 make

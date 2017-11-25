@@ -8,7 +8,7 @@ Use the autogen script to prepare the build environment.
     make
 
 Precompiled binaries are available at github, see
-https://github.com/monoeci-net/monoeci-Core
+https://github.com/monacocoin-net/monoeci-Core
 
 Always verify the signatures and checksums.
 

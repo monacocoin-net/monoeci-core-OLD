@@ -75,7 +75,7 @@ public:
         strNetworkID = "main";
         consensus.nSubsidyHalvingInterval = 262800; // 1 year
         consensus.nMasternodePaymentsStartBlock = 1000; // not true, but it's ok as long as it's less then nMasternodePaymentsIncreaseBlock
-        consensus.nMasternodePaymentsIncreaseBlock = 110000; // 6 month after genesis
+        consensus.nMasternodePaymentsIncreaseBlock = 120000; // 6 month after genesis
         consensus.nMasternodePaymentsIncreasePeriod = 720*30; // 1 months
         consensus.nInstantSendKeepLock = 24;
         consensus.nBudgetPaymentsStartBlock = 130000; // actual historical value
