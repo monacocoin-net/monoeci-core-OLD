@@ -244,7 +244,7 @@ public:
       
 		 
 
-        // Testnet monoeci addresses start with 'y'
+        // Testnet monoeci addresses start with 'y' or 'x'
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,139);
         // Testnet monoeci script addresses start with '8' or '9'
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,19);
