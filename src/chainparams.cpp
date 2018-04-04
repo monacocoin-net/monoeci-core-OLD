@@ -272,7 +272,7 @@ public:
         vSeeds.push_back(CDNSSeedData("testnet1.monoeci.io",  "testnet1.monoeci.io"));
         vSeeds.push_back(CDNSSeedData("testnet2.monoeci.io",  "testnet2.monoeci.io"));
 
-        // Testnet Monoeci addresses start with 'y'
+        // Testnet Monoeci addresses start with 'y' or 'x'
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,139);
         // Testnet Monoeci script addresses start with '8' or '9'
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,19);
