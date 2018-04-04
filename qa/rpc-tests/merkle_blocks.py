@@ -1,5 +1,5 @@
 #!/usr/bin/env python2
-# Copyright (c) 2014-2015 The Bitcoin Core developers
+# Copyright (c) 2014-2018 The Bitcoin Core developers
 # Distributed under the MIT software license, see the accompanying
 # file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -70,8 +70,8 @@ class MerkleBlockTest(BitcoinTestFramework):
         txid_spent = txin_spent["txid"]
         txid_unspent = txid1 if txin_spent["txid"] != txid1 else txid2
 
-        # We cant find the block from a fully-spent tx
-        # Doesn't apply to monoeci Core - we have txindex always on
+        # We can't find the block from a fully-spent tx
+        # Doesn't apply to Monoeci Core - we have txindex always on
         # assert_raises(JSONRPCException, self.nodes[2].gettxoutproof, [txid_spent])
         # ...but we can if we specify the block
         assert_equal(self.nodes[2].verifytxoutproof(self.nodes[2].gettxoutproof([txid_spent], blockhash)), [txid_spent])

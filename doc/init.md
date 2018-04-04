@@ -104,7 +104,7 @@ use old versions of Upstart and do not supply the start-stop-daemon utility.
 Copy monoecid.init to /etc/init.d/monoecid. Test by running `service monoecid start`.
 
 Using this script, you can adjust the path and flags to the monoecid program by
-setting the monoeciD and FLAGS environment variables in the file
+setting the MONOECID and FLAGS environment variables in the file
 /etc/sysconfig/monoecid. You can also use the DAEMONOPTS environment variable here.
 
 4e) Mac OS X

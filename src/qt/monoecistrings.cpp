@@ -42,7 +42,7 @@ QT_TRANSLATE_NOOP("monoeci-core", ""
 "notation for IPv6. This option can be specified multiple times (default: "
 "bind to all interfaces)"),
 QT_TRANSLATE_NOOP("monoeci-core", ""
-"Cannot obtain a lock on data directory %s. monoeci Core is probably already "
+"Cannot obtain a lock on data directory %s. Monoeci Core is probably already "
 "running."),
 QT_TRANSLATE_NOOP("monoeci-core", ""
 "Create new files with system default permissions, instead of umask 077 (only "
@@ -51,7 +51,7 @@ QT_TRANSLATE_NOOP("monoeci-core", ""
 "Delete all wallet transactions and only recover those parts of the "
 "blockchain through -rescan on startup"),
 QT_TRANSLATE_NOOP("monoeci-core", ""
-"Disable all monoeci specific functionality (Masternodes, PrivateSend, "
+"Disable all Monoeci specific functionality (Masternodes, PrivateSend, "
 "InstantSend, Governance) (0-1, default: %u)"),
 QT_TRANSLATE_NOOP("monoeci-core", ""
 "Discover own IP addresses (default: 1 when listening and no -externalip or -"
@@ -70,6 +70,8 @@ QT_TRANSLATE_NOOP("monoeci-core", ""
 QT_TRANSLATE_NOOP("monoeci-core", ""
 "Enable use of automated PrivateSend for funds stored in this wallet (0-1, "
 "default: %u)"),
+QT_TRANSLATE_NOOP("monoeci-core", ""
+"Error loading %s: You can't enable HD on a already existing non-HD wallet"),
 QT_TRANSLATE_NOOP("monoeci-core", ""
 "Error reading wallet.dat! All keys read correctly, but transaction data or "
 "address book entries might be missing or incorrect."),
@@ -112,6 +114,10 @@ QT_TRANSLATE_NOOP("monoeci-core", ""
 "If paytxfee is not set, include enough fee so transactions begin "
 "confirmation on average within n blocks (default: %u)"),
 QT_TRANSLATE_NOOP("monoeci-core", ""
+"If this block is in the chain assume that it and its ancestors are valid and "
+"potentially skip their script verification (0 to verify all, default: %s, "
+"testnet: %s)"),
+QT_TRANSLATE_NOOP("monoeci-core", ""
 "InstantSend doesn't support sending values that high yet. Transactions are "
 "currently limited to %1 XMCC."),
 QT_TRANSLATE_NOOP("monoeci-core", ""
@@ -136,6 +142,9 @@ QT_TRANSLATE_NOOP("monoeci-core", ""
 "Maintain at most <n> connections to peers (temporary service connections "
 "excluded) (default: %u)"),
 QT_TRANSLATE_NOOP("monoeci-core", ""
+"Make sure to encrypt your wallet and delete all non-encrypted backups after "
+"you verified that wallet works!"),
+QT_TRANSLATE_NOOP("monoeci-core", ""
 "Maximum size of data in data carrier transactions we relay and mine "
 "(default: %u)"),
 QT_TRANSLATE_NOOP("monoeci-core", ""
@@ -149,7 +158,7 @@ QT_TRANSLATE_NOOP("monoeci-core", ""
 "Output debugging information (default: %u, supplying <category> is optional)"),
 QT_TRANSLATE_NOOP("monoeci-core", ""
 "Please check that your computer's date and time are correct! If your clock "
-"is wrong monoeci Core will not work properly."),
+"is wrong Monoeci Core will not work properly."),
 QT_TRANSLATE_NOOP("monoeci-core", ""
 "PrivateSend uses exact denominated amounts to send funds, you might simply "
 "need to anonymize some more coins."),
@@ -185,7 +194,7 @@ QT_TRANSLATE_NOOP("monoeci-core", ""
 "Set the number of threads for coin generation if enabled (-1 = all cores, "
 "default: %d)"),
 QT_TRANSLATE_NOOP("monoeci-core", ""
-"Show N confirmations for a successfully locked transaction (0-9999, default: "
+"Show N confirmations for a successfully locked transaction (0-24157, default: "
 "%u)"),
 QT_TRANSLATE_NOOP("monoeci-core", ""
 "Specify full path to directory for automatic wallet backups (must exist)"),
@@ -212,7 +221,7 @@ QT_TRANSLATE_NOOP("monoeci-core", ""
 "Tries to keep outbound traffic under the given target (in MiB per 24h), 0 = "
 "no limit (default: %d)"),
 QT_TRANSLATE_NOOP("monoeci-core", ""
-"Unable to bind to %s on this computer. monoeci Core is probably already running."),
+"Unable to bind to %s on this computer. Monoeci Core is probably already running."),
 QT_TRANSLATE_NOOP("monoeci-core", ""
 "Unable to locate enough PrivateSend denominated funds for this transaction."),
 QT_TRANSLATE_NOOP("monoeci-core", ""
@@ -233,20 +242,26 @@ QT_TRANSLATE_NOOP("monoeci-core", ""
 QT_TRANSLATE_NOOP("monoeci-core", ""
 "Use UPnP to map the listening port (default: 1 when listening and no -proxy)"),
 QT_TRANSLATE_NOOP("monoeci-core", ""
+"Use hierarchical deterministic key generation (HD) after bip39/bip44. Only "
+"has effect during wallet creation/first start"),
+QT_TRANSLATE_NOOP("monoeci-core", ""
 "Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: "
 "%s)"),
+QT_TRANSLATE_NOOP("monoeci-core", ""
+"User defined mnemonic for HD wallet (bip39). Only has effect during wallet "
+"creation/first start (default: randomly generated)"),
+QT_TRANSLATE_NOOP("monoeci-core", ""
+"User defined mnemonic passphrase for HD wallet (bip39). Only has effect "
+"during wallet creation/first start (default: empty string)"),
+QT_TRANSLATE_NOOP("monoeci-core", ""
+"User defined seed for HD wallet (should be in hex). Only has effect during "
+"wallet creation/first start (default: randomly generated)"),
 QT_TRANSLATE_NOOP("monoeci-core", ""
 "Username and hashed password for JSON-RPC connections. The field <userpw> "
 "comes in the format: <USERNAME>:<SALT>$<HASH>. A canonical python script is "
 "included in share/rpcuser. This option can be specified multiple times"),
 QT_TRANSLATE_NOOP("monoeci-core", ""
 "WARNING! Failed to replenish keypool, please unlock your wallet to do so."),
-QT_TRANSLATE_NOOP("monoeci-core", ""
-"WARNING: abnormally high number of blocks generated, %d blocks received in "
-"the last %d hours (%d expected)"),
-QT_TRANSLATE_NOOP("monoeci-core", ""
-"WARNING: check your network connection, %d blocks received in the last %d "
-"hours (%d expected)"),
 QT_TRANSLATE_NOOP("monoeci-core", ""
 "Wallet is locked, can't replenish keypool! Automatic backups and mixing are "
 "disabled, please unlock your wallet to replenish keypool."),
@@ -259,6 +274,9 @@ QT_TRANSLATE_NOOP("monoeci-core", ""
 QT_TRANSLATE_NOOP("monoeci-core", ""
 "Warning: We do not appear to fully agree with our peers! You may need to "
 "upgrade, or other nodes may need to upgrade."),
+QT_TRANSLATE_NOOP("monoeci-core", ""
+"Warning: incorrect parameter -walletbackupsdir, path must exist! Using "
+"default path."),
 QT_TRANSLATE_NOOP("monoeci-core", ""
 "Warning: wallet.dat corrupt, data salvaged! Original wallet.dat saved as "
 "wallet.{timestamp}.bak in %s; if your balance or transactions are incorrect "
@@ -276,6 +294,8 @@ QT_TRANSLATE_NOOP("monoeci-core", ""
 "You need to rebuild the database using -reindex to go back to unpruned "
 "mode.  This will redownload the entire blockchain"),
 QT_TRANSLATE_NOOP("monoeci-core", ""
+"You need to rebuild the database using -reindex-chainstate to change -txindex"),
+QT_TRANSLATE_NOOP("monoeci-core", ""
 "masternodeaddr option is deprecated. Please use masternode.conf to manage "
 "your remote masternodes."),
 QT_TRANSLATE_NOOP("monoeci-core", "%s - %d confirmations"),
@@ -288,7 +308,6 @@ QT_TRANSLATE_NOOP("monoeci-core", "<category> can be:"),
 QT_TRANSLATE_NOOP("monoeci-core", "Accept command line and JSON-RPC commands"),
 QT_TRANSLATE_NOOP("monoeci-core", "Accept connections from outside (default: 1 if no -proxy or -connect)"),
 QT_TRANSLATE_NOOP("monoeci-core", "Accept public REST requests (default: %u)"),
-QT_TRANSLATE_NOOP("monoeci-core", "Activating best chain..."),
 QT_TRANSLATE_NOOP("monoeci-core", "Add a node to connect to and attempt to keep the connection open"),
 QT_TRANSLATE_NOOP("monoeci-core", "Allow DNS lookups for -addnode, -seednode and -connect"),
 QT_TRANSLATE_NOOP("monoeci-core", "Already have that input."),
@@ -298,14 +317,15 @@ QT_TRANSLATE_NOOP("monoeci-core", "Attempt to recover private keys from a corrup
 QT_TRANSLATE_NOOP("monoeci-core", "Automatic backups disabled"),
 QT_TRANSLATE_NOOP("monoeci-core", "Automatically create Tor hidden service (default: %d)"),
 QT_TRANSLATE_NOOP("monoeci-core", "Block creation options:"),
-QT_TRANSLATE_NOOP("monoeci-core", "Can't denominate: no compatible inputs left."),
 QT_TRANSLATE_NOOP("monoeci-core", "Can't find random Masternode."),
 QT_TRANSLATE_NOOP("monoeci-core", "Can't mix while sync in progress."),
+QT_TRANSLATE_NOOP("monoeci-core", "Can't mix: no compatible inputs found!"),
 QT_TRANSLATE_NOOP("monoeci-core", "Cannot downgrade wallet"),
 QT_TRANSLATE_NOOP("monoeci-core", "Cannot resolve -bind address: '%s'"),
 QT_TRANSLATE_NOOP("monoeci-core", "Cannot resolve -externalip address: '%s'"),
 QT_TRANSLATE_NOOP("monoeci-core", "Cannot resolve -whitebind address: '%s'"),
 QT_TRANSLATE_NOOP("monoeci-core", "Cannot write default address"),
+QT_TRANSLATE_NOOP("monoeci-core", "Chain selection options:"),
 QT_TRANSLATE_NOOP("monoeci-core", "Collateral not valid."),
 QT_TRANSLATE_NOOP("monoeci-core", "Connect only to the specified node(s)"),
 QT_TRANSLATE_NOOP("monoeci-core", "Connect through SOCKS5 proxy"),
@@ -313,7 +333,8 @@ QT_TRANSLATE_NOOP("monoeci-core", "Connect to KeePassHttp on port <port> (defaul
 QT_TRANSLATE_NOOP("monoeci-core", "Connect to a node to retrieve peer addresses, and disconnect"),
 QT_TRANSLATE_NOOP("monoeci-core", "Connection options:"),
 QT_TRANSLATE_NOOP("monoeci-core", "Copyright (C) 2009-%i The Bitcoin Core Developers"),
-QT_TRANSLATE_NOOP("monoeci-core", "Copyright (C) 2014-%i The monoeci Core Developers"),
+QT_TRANSLATE_NOOP("monoeci-core", "Copyright (C) 2014-%i The Dash Core Developers"),
+QT_TRANSLATE_NOOP("monoeci-core", "Copyright (C) 2017-%i The Monoeci Core Developers"),
 QT_TRANSLATE_NOOP("monoeci-core", "Corrupted block database detected"),
 QT_TRANSLATE_NOOP("monoeci-core", "Could not parse masternode.conf"),
 QT_TRANSLATE_NOOP("monoeci-core", "Debugging/Testing options:"),
@@ -330,13 +351,15 @@ QT_TRANSLATE_NOOP("monoeci-core", "Enable publish raw transaction in <address>")
 QT_TRANSLATE_NOOP("monoeci-core", "Enable the client to act as a masternode (0-1, default: %u)"),
 QT_TRANSLATE_NOOP("monoeci-core", "Enable transaction replacement in the memory pool (default: %u)"),
 QT_TRANSLATE_NOOP("monoeci-core", "Entries are full."),
+QT_TRANSLATE_NOOP("monoeci-core", "Entry exceeds maximum size."),
 QT_TRANSLATE_NOOP("monoeci-core", "Error connecting to Masternode."),
 QT_TRANSLATE_NOOP("monoeci-core", "Error initializing block database"),
 QT_TRANSLATE_NOOP("monoeci-core", "Error initializing wallet database environment %s!"),
+QT_TRANSLATE_NOOP("monoeci-core", "Error loading %s: You can't disable HD on a already existing HD wallet"),
 QT_TRANSLATE_NOOP("monoeci-core", "Error loading block database"),
 QT_TRANSLATE_NOOP("monoeci-core", "Error loading wallet.dat"),
 QT_TRANSLATE_NOOP("monoeci-core", "Error loading wallet.dat: Wallet corrupted"),
-QT_TRANSLATE_NOOP("monoeci-core", "Error loading wallet.dat: Wallet requires newer version of monoeci Core"),
+QT_TRANSLATE_NOOP("monoeci-core", "Error loading wallet.dat: Wallet requires newer version of Monoeci Core"),
 QT_TRANSLATE_NOOP("monoeci-core", "Error opening block database"),
 QT_TRANSLATE_NOOP("monoeci-core", "Error reading from database, shutting down."),
 QT_TRANSLATE_NOOP("monoeci-core", "Error"),
@@ -346,6 +369,10 @@ QT_TRANSLATE_NOOP("monoeci-core", "Failed to create backup %s!"),
 QT_TRANSLATE_NOOP("monoeci-core", "Failed to create backup, error: %s"),
 QT_TRANSLATE_NOOP("monoeci-core", "Failed to delete backup, error: %s"),
 QT_TRANSLATE_NOOP("monoeci-core", "Failed to listen on any port. Use -listen=0 if you want this."),
+QT_TRANSLATE_NOOP("monoeci-core", "Failed to load fulfilled requests cache from"),
+QT_TRANSLATE_NOOP("monoeci-core", "Failed to load governance cache from"),
+QT_TRANSLATE_NOOP("monoeci-core", "Failed to load masternode cache from"),
+QT_TRANSLATE_NOOP("monoeci-core", "Failed to load masternode payments cache from"),
 QT_TRANSLATE_NOOP("monoeci-core", "Failed to parse host:port string"),
 QT_TRANSLATE_NOOP("monoeci-core", "Fee (in %s/kB) to add to transactions you send (default: %s)"),
 QT_TRANSLATE_NOOP("monoeci-core", "Found enough users, signing ( waiting %s )"),
@@ -359,7 +386,7 @@ QT_TRANSLATE_NOOP("monoeci-core", "Incompatible mode."),
 QT_TRANSLATE_NOOP("monoeci-core", "Incompatible version."),
 QT_TRANSLATE_NOOP("monoeci-core", "Incorrect or no genesis block found. Wrong datadir for network?"),
 QT_TRANSLATE_NOOP("monoeci-core", "Information"),
-QT_TRANSLATE_NOOP("monoeci-core", "Initialization sanity check failed. monoeci Core is shutting down."),
+QT_TRANSLATE_NOOP("monoeci-core", "Initialization sanity check failed. Monoeci Core is shutting down."),
 QT_TRANSLATE_NOOP("monoeci-core", "Input is not valid."),
 QT_TRANSLATE_NOOP("monoeci-core", "InstantSend options:"),
 QT_TRANSLATE_NOOP("monoeci-core", "Insufficient funds."),
@@ -380,14 +407,16 @@ QT_TRANSLATE_NOOP("monoeci-core", "KeePassHttp key for AES encrypted communicati
 QT_TRANSLATE_NOOP("monoeci-core", "Keep N XMCC anonymized (default: %u)"),
 QT_TRANSLATE_NOOP("monoeci-core", "Keep at most <n> unconnectable transactions in memory (default: %u)"),
 QT_TRANSLATE_NOOP("monoeci-core", "Keep the transaction memory pool below <n> megabytes (default: %u)"),
+QT_TRANSLATE_NOOP("monoeci-core", "Keypool ran out, please call keypoolrefill first"),
 QT_TRANSLATE_NOOP("monoeci-core", "Last PrivateSend was too recent."),
 QT_TRANSLATE_NOOP("monoeci-core", "Last successful PrivateSend action was too recent."),
 QT_TRANSLATE_NOOP("monoeci-core", "Line: %d"),
 QT_TRANSLATE_NOOP("monoeci-core", "Listen for JSON-RPC connections on <port> (default: %u or testnet: %u)"),
 QT_TRANSLATE_NOOP("monoeci-core", "Listen for connections on <port> (default: %u or testnet: %u)"),
 QT_TRANSLATE_NOOP("monoeci-core", "Loading addresses..."),
+QT_TRANSLATE_NOOP("monoeci-core", "Loading banlist..."),
 QT_TRANSLATE_NOOP("monoeci-core", "Loading block index..."),
-QT_TRANSLATE_NOOP("monoeci-core", "Loading fullfiled requests cache..."),
+QT_TRANSLATE_NOOP("monoeci-core", "Loading fulfilled requests cache..."),
 QT_TRANSLATE_NOOP("monoeci-core", "Loading governance cache..."),
 QT_TRANSLATE_NOOP("monoeci-core", "Loading masternode cache..."),
 QT_TRANSLATE_NOOP("monoeci-core", "Loading masternode payment cache..."),
@@ -406,11 +435,11 @@ QT_TRANSLATE_NOOP("monoeci-core", "Maximum per-connection send buffer, <n>*1000 
 QT_TRANSLATE_NOOP("monoeci-core", "Minimum bytes per sigop in transactions we relay and mine (default: %u)"),
 QT_TRANSLATE_NOOP("monoeci-core", "Missing input transaction information."),
 QT_TRANSLATE_NOOP("monoeci-core", "Mixing in progress..."),
+QT_TRANSLATE_NOOP("monoeci-core", "Mnemonic passphrase is too long, must be at most 256 characters"),
 QT_TRANSLATE_NOOP("monoeci-core", "Need to specify a port with -whitebind: '%s'"),
 QT_TRANSLATE_NOOP("monoeci-core", "No Masternodes detected."),
 QT_TRANSLATE_NOOP("monoeci-core", "No compatible Masternode found."),
 QT_TRANSLATE_NOOP("monoeci-core", "No errors detected."),
-QT_TRANSLATE_NOOP("monoeci-core", "No funds detected in need of denominating."),
 QT_TRANSLATE_NOOP("monoeci-core", "No matching denominations found for mixing."),
 QT_TRANSLATE_NOOP("monoeci-core", "Node relay options:"),
 QT_TRANSLATE_NOOP("monoeci-core", "Non-standard public key detected."),
@@ -433,7 +462,8 @@ QT_TRANSLATE_NOOP("monoeci-core", "Prune cannot be configured with a negative va
 QT_TRANSLATE_NOOP("monoeci-core", "Prune mode is incompatible with -txindex."),
 QT_TRANSLATE_NOOP("monoeci-core", "Pruning blockstore..."),
 QT_TRANSLATE_NOOP("monoeci-core", "RPC server options:"),
-QT_TRANSLATE_NOOP("monoeci-core", "Rebuild block chain index from current blk000??.dat files on startup"),
+QT_TRANSLATE_NOOP("monoeci-core", "Rebuild chain state and block index from the blk*.dat files on disk"),
+QT_TRANSLATE_NOOP("monoeci-core", "Rebuild chain state from the currently indexed blocks"),
 QT_TRANSLATE_NOOP("monoeci-core", "Receive and display P2P network alerts (default: %u)"),
 QT_TRANSLATE_NOOP("monoeci-core", "Reducing -maxconnections from %d to %d, because of system limitations."),
 QT_TRANSLATE_NOOP("monoeci-core", "Relay and mine data carrier transactions (default: %u)"),
@@ -466,13 +496,13 @@ QT_TRANSLATE_NOOP("monoeci-core", "Spend unconfirmed change when sending transac
 QT_TRANSLATE_NOOP("monoeci-core", "Submitted following entries to masternode: %u / %d"),
 QT_TRANSLATE_NOOP("monoeci-core", "Submitted to masternode, waiting for more entries ( %u / %d ) %s"),
 QT_TRANSLATE_NOOP("monoeci-core", "Submitted to masternode, waiting in queue %s"),
+QT_TRANSLATE_NOOP("monoeci-core", "Synchroning blockchain..."),
 QT_TRANSLATE_NOOP("monoeci-core", "Synchronization failed"),
 QT_TRANSLATE_NOOP("monoeci-core", "Synchronization finished"),
 QT_TRANSLATE_NOOP("monoeci-core", "Synchronization pending..."),
 QT_TRANSLATE_NOOP("monoeci-core", "Synchronizing governance objects..."),
 QT_TRANSLATE_NOOP("monoeci-core", "Synchronizing masternode payments..."),
 QT_TRANSLATE_NOOP("monoeci-core", "Synchronizing masternodes..."),
-QT_TRANSLATE_NOOP("monoeci-core", "Synchronizing sporks..."),
 QT_TRANSLATE_NOOP("monoeci-core", "The transaction amount is too small to pay the fee"),
 QT_TRANSLATE_NOOP("monoeci-core", "This help message"),
 QT_TRANSLATE_NOOP("monoeci-core", "This is experimental software."),
@@ -500,15 +530,15 @@ QT_TRANSLATE_NOOP("monoeci-core", "Unsupported argument -tor found, use -onion."
 QT_TRANSLATE_NOOP("monoeci-core", "Upgrade wallet to latest format on startup"),
 QT_TRANSLATE_NOOP("monoeci-core", "Use KeePass 2 integration using KeePassHttp plugin (default: %u)"),
 QT_TRANSLATE_NOOP("monoeci-core", "Use UPnP to map the listening port (default: %u)"),
+QT_TRANSLATE_NOOP("monoeci-core", "Use the test chain"),
 QT_TRANSLATE_NOOP("monoeci-core", "User Agent comment (%s) contains unsafe characters."),
 QT_TRANSLATE_NOOP("monoeci-core", "Username for JSON-RPC connections"),
-QT_TRANSLATE_NOOP("monoeci-core", "Value more than PrivateSend pool maximum allows."),
 QT_TRANSLATE_NOOP("monoeci-core", "Verifying blocks..."),
 QT_TRANSLATE_NOOP("monoeci-core", "Verifying wallet..."),
 QT_TRANSLATE_NOOP("monoeci-core", "Very low number of keys left: %d"),
 QT_TRANSLATE_NOOP("monoeci-core", "Wallet %s resides outside data directory %s"),
 QT_TRANSLATE_NOOP("monoeci-core", "Wallet is locked."),
-QT_TRANSLATE_NOOP("monoeci-core", "Wallet needed to be rewritten: restart monoeci Core to complete"),
+QT_TRANSLATE_NOOP("monoeci-core", "Wallet needed to be rewritten: restart Monoeci Core to complete"),
 QT_TRANSLATE_NOOP("monoeci-core", "Wallet options:"),
 QT_TRANSLATE_NOOP("monoeci-core", "Wallet window title"),
 QT_TRANSLATE_NOOP("monoeci-core", "Warning"),
@@ -516,7 +546,6 @@ QT_TRANSLATE_NOOP("monoeci-core", "Warning: unknown new rules activated (version
 QT_TRANSLATE_NOOP("monoeci-core", "Wasn't able to create wallet backup folder %s!"),
 QT_TRANSLATE_NOOP("monoeci-core", "Whether to operate in a blocks only mode (default: %u)"),
 QT_TRANSLATE_NOOP("monoeci-core", "Will retry..."),
-QT_TRANSLATE_NOOP("monoeci-core", "You need to rebuild the database using -reindex to change -txindex"),
 QT_TRANSLATE_NOOP("monoeci-core", "Your entries added successfully."),
 QT_TRANSLATE_NOOP("monoeci-core", "Your transaction was accepted into the pool!"),
 QT_TRANSLATE_NOOP("monoeci-core", "Zapping all transactions from wallet..."),

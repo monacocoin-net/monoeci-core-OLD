@@ -1,9 +1,9 @@
 Gitian building
 ================
 
-*Setup instructions for a Gitian build of monoeci Core using a Debian VM or physical system.*
+*Setup instructions for a Gitian build of Monoeci Core using a Debian VM or physical system.*
 
-Gitian is the deterministic build process that is used to build the monoeci
+Gitian is the deterministic build process that is used to build the Monoeci
 Core executables. It provides a way to be reasonably sure that the
 executables are really built from the source on GitHub. It also makes sure that
 the same, tested dependencies are used and statically built into the executable.
@@ -26,7 +26,7 @@ Table of Contents
 - [Installing Gitian](#installing-gitian)
 - [Setting up the Gitian image](#setting-up-the-gitian-image)
 - [Getting and building the inputs](#getting-and-building-the-inputs)
-- [Building monoeci Core](#building-monoeci-core)
+- [Building Monoeci Core](#building-monoeci-core)
 - [Building an alternative repository](#building-an-alternative-repository)
 - [Signing externally](#signing-externally)
 - [Uploading signatures](#uploading-signatures)
@@ -300,11 +300,11 @@ cd ..
 
 **Note**: When sudo asks for a password, enter the password for the user *debian* not for *root*.
 
-Clone the git repositories for monoeci Core and Gitian.
+Clone the git repositories for Monoeci Core and Gitian.
 
 ```bash
 git clone https://github.com/devrandom/gitian-builder.git
-git clone https://github.com/monoeci-net/monoeci-Core
+git clone https://github.com/monacocoin-net/monoeci-core
 ```
 
 Setting up the Gitian image
@@ -339,16 +339,16 @@ Getting and building the inputs
 --------------------------------
 
 Follow the instructions in [doc/release-process.md](release-process.md#fetch-and-build-inputs-first-time-or-when-dependency-versions-change)
-in the monoeci Core repository under 'Fetch and build inputs' to install sources which require
+in the Monoeci Core repository under 'Fetch and build inputs' to install sources which require
 manual intervention. Also optionally follow the next step: 'Seed the Gitian sources cache
 and offline git repositories' which will fetch the remaining files required for building
 offline.
 
-Building monoeci Core
+Building Monoeci Core
 ----------------
 
-To build monoeci Core (for Linux, OS X and Windows) just follow the steps under 'perform
-Gitian builds' in [doc/release-process.md](release-process.md#perform-gitian-builds) in the monoeci Core repository.
+To build Monoeci Core (for Linux, OS X and Windows) just follow the steps under 'perform
+Gitian builds' in [doc/release-process.md](release-process.md#perform-gitian-builds) in the Monoeci Core repository.
 
 This may take some time as it will build all the dependencies needed for each descriptor.
 These dependencies will be cached after a successful build to avoid rebuilding them when possible.
@@ -368,7 +368,7 @@ Output from `gbuild` will look something like
     remote: Total 57959 (delta 0), reused 0 (delta 0), pack-reused 57958
     Receiving objects: 100% (57959/57959), 53.76 MiB | 484.00 KiB/s, done.
     Resolving deltas: 100% (41590/41590), done.
-    From https://github.com/monoeci-net/monoeci-Core
+    From https://github.com/monacocoin-net/monoeci-core
     ... (new tags, new branch etc)
     --- Building for precise amd64 ---
     Stopping target if it is up
@@ -444,7 +444,7 @@ Then when building, override the remote URLs that gbuild would otherwise pull fr
 ```bash
 
 cd /some/root/path/
-git clonehttps://github.com/monoeci-net/monoeci-Core.git
+git clone https://github.com/monacocoin-net/monoeci-core-detached-sigs.git
 
 BTCPATH=/some/root/path/monoeci.git
 SIGPATH=/some/root/path/monoeci-detached-sigs.git
@@ -476,6 +476,6 @@ Uploading signatures (not yet implemented)
 ---------------------
 
 In the future it will be possible to push your signatures (both the `.assert` and `.assert.sig` files) to the
-[monoeci/gitian.sigs](https://github.com/monoeci-net/monoeci-Core.sigs/) repository, or if that's not possible to create a pull
+[monoeci/gitian.sigs](https://github.com/monoecipay/gitian.sigs/) repository, or if that's not possible to create a pull
 request.
 There will be an official announcement when this repository is online.

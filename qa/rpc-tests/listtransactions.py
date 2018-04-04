@@ -1,5 +1,5 @@
 #!/usr/bin/env python2
-# Copyright (c) 2014-2015 The Bitcoin Core developers
+# Copyright (c) 2014-2018 The Bitcoin Core developers
 # Distributed under the MIT software license, see the accompanying
 # file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -94,7 +94,7 @@ class ListTransactionsTest(BitcoinTestFramework):
                            {"category":"receive","amount":Decimal("0.1")},
                            {"txid":txid, "account" : "watchonly"} )
 
-        # rbf is disabled in monoeci Core
+        # rbf is disabled in Monoeci Core
         # self.run_rbf_opt_in_test()
 
     # Check that the opt-in-rbf flag works properly, for sent and received

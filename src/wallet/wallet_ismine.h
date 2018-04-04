@@ -1,10 +1,10 @@
 // Copyright (c) 2009-2010 Satoshi Nakamoto
-// Copyright (c) 2009-2015 The Bitcoin Core developers
+// Copyright (c) 2009-2018 The Bitcoin Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef BITCOIN_WALLET_WALLET_ISMINE_H
-#define BITCOIN_WALLET_WALLET_ISMINE_H
+#ifndef MONOECI_WALLET_WALLET_ISMINE_H
+#define MONOECI_WALLET_WALLET_ISMINE_H
 
 #include "script/standard.h"
 
@@ -17,7 +17,7 @@ class CScript;
 enum isminetype
 {
     ISMINE_NO = 0,
-    //! Indicates that we dont know how to create a scriptSig that would solve this if we were given the appropriate private keys
+    //! Indicates that we don't know how to create a scriptSig that would solve this if we were given the appropriate private keys
     ISMINE_WATCH_UNSOLVABLE = 1,
     //! Indicates that we know how to create a scriptSig that would solve this if we were given the appropriate private keys
     ISMINE_WATCH_SOLVABLE = 2,
@@ -31,4 +31,4 @@ typedef uint8_t isminefilter;
 isminetype IsMine(const CKeyStore& keystore, const CScript& scriptPubKey);
 isminetype IsMine(const CKeyStore& keystore, const CTxDestination& dest);
 
-#endif // BITCOIN_WALLET_WALLET_ISMINE_H
+#endif // MONOECI_WALLET_WALLET_ISMINE_H

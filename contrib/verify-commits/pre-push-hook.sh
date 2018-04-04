@@ -1,5 +1,5 @@
 #!/bin/bash
-if ! [[ "$2" =~ ^(git@)?(www.)?github.com(:|/)dashpay/monoeci(.git)?$ ]]; then
+if ! [[ "$2" =~ ^(git@)?(www.)?github.com(:|/)monacocoin-net/monoeci-core(.git)?$ ]]; then
     exit 0
 fi
 

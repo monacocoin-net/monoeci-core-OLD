@@ -58,12 +58,12 @@
         <translation>Mottagaradresser</translation>
     </message>
     <message>
-        <source>These are your monacoCoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>De här är dina monacoCoin-adresser för att skicka betalningar. Kontrollera alltid mängden och mottagaradressen innan du skickar mynt.</translation>
+        <source>These are your Monoeci addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>De här är dina Monoeci-adresser för att skicka betalningar. Kontrollera alltid mängden och mottagaradressen innan du skickar mynt.</translation>
     </message>
     <message>
-        <source>These are your monacoCoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>De här är dina monacoCoin-adresser för betalningsmottagningar. Det rekommenderas att använda en ny mottagaradress för varje transaktion.</translation>
+        <source>These are your Monoeci addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>De här är dina Monoeci-adresser för betalningsmottagningar. Det rekommenderas att använda en ny mottagaradress för varje transaktion.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -164,8 +164,8 @@
         <translation>Bekräfta plånbokskryptering</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR MCC&lt;/b&gt;!</source>
-        <translation>Varning: Om du krypterar din plånbok och förlorar din lösenfras kommer du att &lt;b&gt;FÖRLORA ALLA DINA MCC&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR XMCC&lt;/b&gt;!</source>
+        <translation>Varning: Om du krypterar din plånbok och förlorar din lösenfras kommer du att &lt;b&gt;FÖRLORA ALLA DINA XMCC&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -176,8 +176,8 @@
         <translation>Plånbok krypterad</translation>
     </message>
     <message>
-        <source>monacoCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your monacoCoins from being stolen by malware infecting your computer.</source>
-        <translation>monacoCoin kommer nu att färdigställa krypteringsprocessen. Kom ihåg att krypteringen av din plånbok inte kan skydda dig helt och hållet från att dina monacoCoin stjäls av skadeprogram som har infekterat din dator.</translation>
+        <source>Monoeci will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your monoecis from being stolen by malware infecting your computer.</source>
+        <translation>Monoeci kommer nu att färdigställa krypteringsprocessen. Kom ihåg att krypteringen av din plånbok inte kan skydda dig helt och hållet från att dina Monoeci stjäls av skadeprogram som har infekterat din dator.</translation>
     </message>
     <message>
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
@@ -219,8 +219,8 @@
 <context>
     <name>BitcoinGUI</name>
     <message>
-        <source>monacoCoin Core</source>
-        <translation>monacoCoin Core
+        <source>Monoeci Core</source>
+        <translation>Monoeci Core
 </translation>
     </message>
     <message>
@@ -244,16 +244,16 @@
         <translation>&amp;Skicka</translation>
     </message>
     <message>
-        <source>Send coins to a monacoCoin address</source>
-        <translation>Skicka mynt till en monacoCoin-adress</translation>
+        <source>Send coins to a Monoeci address</source>
+        <translation>Skicka mynt till en Monoeci-adress</translation>
     </message>
     <message>
         <source>&amp;Receive</source>
         <translation>&amp;Motta</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and monacoCoin: URIs)</source>
-        <translation>Begär betalningar (genererar QR-koder och monacoCoin:-URI:s)</translation>
+        <source>Request payments (generates QR codes and monoeci: URIs)</source>
+        <translation>Begär betalningar (genererar QR-koder och Monoeci:-URI:s)</translation>
     </message>
     <message>
         <source>&amp;Transactions</source>
@@ -272,8 +272,8 @@
         <translation>Avsluta applikationen</translation>
     </message>
     <message>
-        <source>&amp;About monacoCoin Core</source>
-        <translation>&amp;Om monacoCoin Core</translation>
+        <source>&amp;About Monoeci Core</source>
+        <translation>&amp;Om Monoeci Core</translation>
     </message>
     <message>
         <source>About &amp;Qt</source>
@@ -288,8 +288,8 @@
         <translation>&amp;Alternativ...</translation>
     </message>
     <message>
-        <source>Modify configuration options for monacoCoin</source>
-        <translation>Anpassa konfigurationsalternatv för monacoCoin</translation>
+        <source>Modify configuration options for Monoeci</source>
+        <translation>Anpassa konfigurationsalternatv för Monoeci</translation>
     </message>
     <message>
         <source>&amp;Show / Hide</source>
@@ -340,16 +340,16 @@
         <translation>Signera &amp;meddelande...</translation>
     </message>
     <message>
-        <source>Sign messages with your monacoCoin addresses to prove you own them</source>
-        <translation>Signera meddelanden med dina monacoCoin-adresser för att bevisa att du äger dem</translation>
+        <source>Sign messages with your Monoeci addresses to prove you own them</source>
+        <translation>Signera meddelanden med dina Monoeci-adresser för att bevisa att du äger dem</translation>
     </message>
     <message>
         <source>&amp;Verify message...</source>
         <translation>&amp;Bekräfta meddelande...</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified monacoCoin addresses</source>
-        <translation>Bekräfta meddelanden för att garantera att de signerades med de angivna monacoCoin-adresserna</translation>
+        <source>Verify messages to ensure they were signed with specified Monoeci addresses</source>
+        <translation>Bekräfta meddelanden för att garantera att de signerades med de angivna Monoeci-adresserna</translation>
     </message>
     <message>
         <source>&amp;Information</source>
@@ -404,16 +404,16 @@
         <translation>Öppna &amp;URI...</translation>
     </message>
     <message>
-        <source>Open a monacoCoin: URI or payment request</source>
-        <translation>Öppna en monacoCoin-URI eller betalningsbegäran</translation>
+        <source>Open a monoeci: URI or payment request</source>
+        <translation>Öppna en Monoeci-URI eller betalningsbegäran</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
         <translation>&amp;Kommandoradalternativ</translation>
     </message>
     <message>
-        <source>Show the monacoCoin Core help message to get a list with possible monacoCoin command-line options</source>
-        <translation>Visa monacoCoin Core-hjälpmeddelandet för att få en lista med möjliga monacoCoin-kommandoradalternativ</translation>
+        <source>Show the Monoeci Core help message to get a list with possible Monoeci command-line options</source>
+        <translation>Visa Monoeci Core-hjälpmeddelandet för att få en lista med möjliga Monoeci-kommandoradalternativ</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -758,28 +758,28 @@ Adress: %4
         <translation>Vänligen välj en integritetsnivå.</translation>
     </message>
     <message>
-        <source>Use 2 separate masternodes to mix funds up to 1000 MCC</source>
-        <translation>Använd 2 enskilda masternoder för att mixa medel upp till 1000 MCC</translation>
+        <source>Use 2 separate masternodes to mix funds up to 1000 XMCC</source>
+        <translation>Använd 2 enskilda masternoder för att mixa medel upp till 1000 XMCC</translation>
     </message>
     <message>
-        <source>Use 8 separate masternodes to mix funds up to 1000 MCC</source>
-        <translation>Använd 8 enskilda masternoder för att mixa medel upp till 1000 MCC.</translation>
+        <source>Use 8 separate masternodes to mix funds up to 1000 XMCC</source>
+        <translation>Använd 8 enskilda masternoder för att mixa medel upp till 1000 XMCC.</translation>
     </message>
     <message>
         <source>Use 16 separate masternodes</source>
         <translation>Använd 16 enskilda masternoder</translation>
     </message>
     <message>
-        <source>This option is the quickest and will cost about ~0.025 MCC to anonymize 1000 MCC</source>
-        <translation>Detta alternativ är det snabbaste och kommer att kosta omkring ~0,025 MCC för att anonymisera 1000 MCC</translation>
+        <source>This option is the quickest and will cost about ~0.025 XMCC to anonymize 1000 XMCC</source>
+        <translation>Detta alternativ är det snabbaste och kommer att kosta omkring ~0,025 XMCC för att anonymisera 1000 XMCC</translation>
     </message>
     <message>
-        <source>This option is moderately fast and will cost about 0.05 MCC to anonymize 1000 MCC</source>
-        <translation>Detta alternativ är relativt snabbt och kommer att kosta omkring 0,05 MCC för att anonymisera 1000 MCC</translation>
+        <source>This option is moderately fast and will cost about 0.05 XMCC to anonymize 1000 XMCC</source>
+        <translation>Detta alternativ är relativt snabbt och kommer att kosta omkring 0,05 XMCC för att anonymisera 1000 XMCC</translation>
     </message>
     <message>
-        <source>0.1 MCC per 1000 MCC you anonymize.</source>
-        <translation>0,1 MCC per 1000 MCC du anonymiserar.</translation>
+        <source>0.1 XMCC per 1000 XMCC you anonymize.</source>
+        <translation>0,1 XMCC per 1000 XMCC du anonymiserar.</translation>
     </message>
     <message>
         <source>This is the slowest and most secure option. Using maximum anonymity will cost</source>
@@ -790,16 +790,16 @@ Adress: %4
         <translation>Darksend-konfiguration</translation>
     </message>
     <message>
-        <source>Darksend was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening monacoCoin's configuration screen.</source>
-        <translation>Darksend ställdes framgångsrikt om till grundläggande (%1 och 2 omgångar). Du kan ändra detta när som helst genom att öppna monacoCoin:s konfigurationsskärm.</translation>
+        <source>Darksend was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening Monoeci's configuration screen.</source>
+        <translation>Darksend ställdes framgångsrikt om till grundläggande (%1 och 2 omgångar). Du kan ändra detta när som helst genom att öppna Monoeci:s konfigurationsskärm.</translation>
     </message>
     <message>
-        <source>Darksend was successfully set to high (%1 and 8 rounds). You can change this at any time by opening monacoCoin's configuration screen.</source>
-        <translation>Darksend ställdes framgångsrikt in på hög (%1 och 8 omgångar). Du kan ändra detta när som helst genom att öppna monacoCoin:s konfigurationsskärm.</translation>
+        <source>Darksend was successfully set to high (%1 and 8 rounds). You can change this at any time by opening Monoeci's configuration screen.</source>
+        <translation>Darksend ställdes framgångsrikt in på hög (%1 och 8 omgångar). Du kan ändra detta när som helst genom att öppna Monoeci:s konfigurationsskärm.</translation>
     </message>
     <message>
-        <source>Darksend was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening monacoCoin's configuration screen.</source>
-        <translation>Darksend ställdes framgångsrikt in på maximal (%1 och 16 omgångar). Du kan ändra detta när som helst genom att öppna monacoCoin:s konfigurationsskärm</translation>
+        <source>Darksend was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening Monoeci's configuration screen.</source>
+        <translation>Darksend ställdes framgångsrikt in på maximal (%1 och 16 omgångar). Du kan ändra detta när som helst genom att öppna Monoeci:s konfigurationsskärm</translation>
     </message>
 </context>
 <context>
@@ -841,8 +841,8 @@ Adress: %4
         <translation>Redigera avsändaradress</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid monacoCoin address.</source>
-        <translation>Den angivna adressen "%1" är inte en giltig monacoCoin-adress.</translation>
+        <source>The entered address "%1" is not a valid Monoeci address.</source>
+        <translation>Den angivna adressen "%1" är inte en giltig Monoeci-adress.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -883,8 +883,8 @@ Adress: %4
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>monacoCoin Core</source>
-        <translation>monacoCoin Core
+        <source>Monoeci Core</source>
+        <translation>Monoeci Core
 </translation>
     </message>
     <message>
@@ -931,16 +931,16 @@ Adress: %4
         <translation>Välkommen</translation>
     </message>
     <message>
-        <source>Welcome to monacoCoin Core.</source>
-        <translation>Välkommen till monacoCoin Core.</translation>
+        <source>Welcome to Monoeci Core.</source>
+        <translation>Välkommen till Monoeci Core.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where monacoCoin Core will store its data.</source>
-        <translation>Då detta är första gången programmet startas kan du välja var monacoCoin Core ska lagra sin data.</translation>
+        <source>As this is the first time the program is launched, you can choose where Monoeci Core will store its data.</source>
+        <translation>Då detta är första gången programmet startas kan du välja var Monoeci Core ska lagra sin data.</translation>
     </message>
     <message>
-        <source>monacoCoin Core will download and store a copy of the monacoCoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>monacoCoin Core kommer att laddas ned och lagra en kopia av monacoCoin:s blockkedja. Minst %1 GB data kommer att lagras i denna katalog och den kommer att växa med tiden. Plånboken kommer också att lagras i denna katalog.</translation>
+        <source>Monoeci Core will download and store a copy of the Monoeci block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>Monoeci Core kommer att laddas ned och lagra en kopia av Monoeci:s blockkedja. Minst %1 GB data kommer att lagras i denna katalog och den kommer att växa med tiden. Plånboken kommer också att lagras i denna katalog.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -989,12 +989,12 @@ Adress: %4
         <translation>&amp;Huvud</translation>
     </message>
     <message>
-        <source>Automatically start monacoCoin after logging in to the system.</source>
-        <translation>Starta monacoCoin automatiskt efter systeminloggning.</translation>
+        <source>Automatically start Monoeci after logging in to the system.</source>
+        <translation>Starta Monoeci automatiskt efter systeminloggning.</translation>
     </message>
     <message>
-        <source>&amp;Start monacoCoin on system login</source>
-        <translation>&amp;Starta monacoCoin vid systeminloggning</translation>
+        <source>&amp;Start Monoeci on system login</source>
+        <translation>&amp;Starta Monoeci vid systeminloggning</translation>
     </message>
     <message>
         <source>Size of &amp;database cache</source>
@@ -1021,8 +1021,8 @@ Adress: %4
         <translation>Denna mängd fungerar som en tröskel att stänga av Darksend då det har uppnåtts.</translation>
     </message>
     <message>
-        <source>Amount of monacoCoin to keep anonymized</source>
-        <translation>Mängd monacoCoin att bibehålla anonymiserade</translation>
+        <source>Amount of Monoeci to keep anonymized</source>
+        <translation>Mängd Monoeci att bibehålla anonymiserade</translation>
     </message>
     <message>
         <source>W&amp;allet</source>
@@ -1049,8 +1049,8 @@ Adress: %4
         <translation>&amp;Nätverk</translation>
     </message>
     <message>
-        <source>Automatically open the monacoCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Öppna monacoCoin:s klientport automatiskt på routern. Detta fungerar bara om din router stöder UPnP och är aktiverad.</translation>
+        <source>Automatically open the Monoeci client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Öppna Monoeci:s klientport automatiskt på routern. Detta fungerar bara om din router stöder UPnP och är aktiverad.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -1101,14 +1101,14 @@ Adress: %4
         <translation>Användargränssnitt&amp;språk: </translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting monacoCoin.</source>
-        <translation>Användargränssnittspråket kan ställas in här. Denna inställning träder i kraft efter att monacoCoin startats om.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting Monoeci.</source>
+        <translation>Användargränssnittspråket kan ställas in här. Denna inställning träder i kraft efter att Monoeci startats om.</translation>
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
-https://www.transifex.com/projects/p/monacoCoin/</source>
+https://www.transifex.com/projects/p/monoeci/</source>
         <translation>Fattas språk eller är det en ofullständig översättning? Hjälp till att bidra med översättningar här:
-https://www.transifex.com/projects/p/monacoCoin/</translation>
+https://www.transifex.com/projects/p/monoeci/</translation>
     </message>
     <message>
         <source>&amp;Unit to show amounts in:</source>
@@ -1182,8 +1182,8 @@ https://www.transifex.com/projects/p/monacoCoin/</translation>
         <translation>Formulär</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the monacoCoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>Den visade informationen kan vara utdaterad. Din plånbok synkroniseras automatiskt med monacoCoin-nätverket efter att en anslutning har etablerats men denna process har ännu inte slutförts.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Monoeci network after a connection is established, but this process has not completed yet.</source>
+        <translation>Den visade informationen kan vara utdaterad. Din plånbok synkroniseras automatiskt med Monoeci-nätverket efter att en anslutning har etablerats men denna process har ännu inte slutförts.</translation>
     </message>
     <message>
         <source>Available:</source>
@@ -1238,8 +1238,8 @@ https://www.transifex.com/projects/p/monacoCoin/</translation>
         <translation>Mängd och omgångar:</translation>
     </message>
     <message>
-        <source>0 MCC / 0 Rounds</source>
-        <translation>0 MCC/0 omgångar</translation>
+        <source>0 XMCC / 0 Rounds</source>
+        <translation>0 XMCC/0 omgångar</translation>
     </message>
     <message>
         <source>Submitted Denom:</source>
@@ -1335,8 +1335,8 @@ https://www.transifex.com/projects/p/monacoCoin/</translation>
         <translation>Fel vid betalningsbegäran</translation>
     </message>
     <message>
-        <source>Cannot start monacoCoin: click-to-pay handler</source>
-        <translation>Kan inte starta monacoCoin: klicka-för-att-betala hanterare</translation>
+        <source>Cannot start monoeci: click-to-pay handler</source>
+        <translation>Kan inte starta monoeci: klicka-för-att-betala hanterare</translation>
     </message>
     <message>
         <source>URI handling</source>
@@ -1435,8 +1435,8 @@ https://www.transifex.com/projects/p/monacoCoin/</translation>
         <translation>Antal anslutningar</translation>
     </message>
     <message>
-        <source>Open the monacoCoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Öppna monacoCoins avsökningsloggfil från den nuvarande datakatalogen. Detta kan ta ett par sekunder för stora loggfiler.</translation>
+        <source>Open the Monoeci debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Öppna Monoecis avsökningsloggfil från den nuvarande datakatalogen. Detta kan ta ett par sekunder för stora loggfiler.</translation>
     </message>
     <message>
         <source>&amp;Open</source>
@@ -1507,8 +1507,8 @@ https://www.transifex.com/projects/p/monacoCoin/</translation>
         <translation>Ut:</translation>
     </message>
     <message>
-        <source>Welcome to the monacoCoin RPC console.</source>
-        <translation>Välkommen till monacoCoins RPC-konsol.</translation>
+        <source>Welcome to the Monoeci RPC console.</source>
+        <translation>Välkommen till Monoecis RPC-konsol.</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
@@ -1542,8 +1542,8 @@ https://www.transifex.com/projects/p/monacoCoin/</translation>
         <translation>Åt&amp;eranvänd en befintlig mottagaradress (rekommenderas inte)</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the monacoCoin network.</source>
-        <translation>Ett valfritt meddelande att bifoga betalningsbegärandet vilket kommer att visas när begärandet öppnas. Observera: Meddelandet kommer inte att skickas med betalningen över monacoCoin-nätverket.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Monoeci network.</source>
+        <translation>Ett valfritt meddelande att bifoga betalningsbegärandet vilket kommer att visas när begärandet öppnas. Observera: Meddelandet kommer inte att skickas med betalningen över Monoeci-nätverket.</translation>
     </message>
     <message>
         <source>&amp;Message:</source>
@@ -1899,8 +1899,8 @@ https://www.transifex.com/projects/p/monacoCoin/</translation>
         <translation>Fel: Plånboken låstes upp enbart för att anonymisera mynt.</translation>
     </message>
     <message>
-        <source>Warning: Invalid monacoCoin address</source>
-        <translation>Varning: Ogiltig monacoCoin-adress</translation>
+        <source>Warning: Invalid Monoeci address</source>
+        <translation>Varning: Ogiltig Monoeci-adress</translation>
     </message>
     <message>
         <source>Warning: Unknown change address</source>
@@ -1958,8 +1958,8 @@ https://www.transifex.com/projects/p/monacoCoin/</translation>
         <translation>Meddelande:</translation>
     </message>
     <message>
-        <source>A message that was attached to the monacoCoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the monacoCoin network.</source>
-        <translation>Ett meddelande som bifogades till monacoCoin: URI vilket kommer att lagras med transaktionen så att du vet. Observera: Meddelandet kommer inte att skickas över monacoCoin-nätverket.</translation>
+        <source>A message that was attached to the monoeci: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Monoeci network.</source>
+        <translation>Ett meddelande som bifogades till Monoeci: URI vilket kommer att lagras med transaktionen så att du vet. Observera: Meddelandet kommer inte att skickas över Monoeci-nätverket.</translation>
     </message>
     <message>
         <source>This is an unverified payment request.</source>
@@ -1985,8 +1985,8 @@ https://www.transifex.com/projects/p/monacoCoin/</translation>
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>monacoCoin Core is shutting down...</source>
-        <translation>monacoCoin Core stängs ned...</translation>
+        <source>Monoeci Core is shutting down...</source>
+        <translation>Monoeci Core stängs ned...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -2036,8 +2036,8 @@ https://www.transifex.com/projects/p/monacoCoin/</translation>
         <translation>Kopiera den nuvarande valda signaturen till systemurklippet</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this monacoCoin address</source>
-        <translation>Signera meddelandet för att bevisa att du äger denna monacoCoin-adress</translation>
+        <source>Sign the message to prove you own this Monoeci address</source>
+        <translation>Signera meddelandet för att bevisa att du äger denna Monoeci-adress</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -2060,8 +2060,8 @@ https://www.transifex.com/projects/p/monacoCoin/</translation>
         <translation>Skriv in signeringsadressen, meddelandet, (försäkra dig om att du kopierar linjeavbrott, mellanslag, flikar med mera) och signera nedtill för att verifiera meddelandet. Var försiktig med att inte läsa in mer i signaturen än vad som finns i det signerade meddelandet för att undvika att bli lurad av en mellanhandattack.</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified monacoCoin address</source>
-        <translation>Bekräfta meddelandet för att försäkra dig om att den signerades med den angivna monacoCoin-adressen</translation>
+        <source>Verify the message to ensure it was signed with the specified Monoeci address</source>
+        <translation>Bekräfta meddelandet för att försäkra dig om att den signerades med den angivna Monoeci-adressen</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -2127,8 +2127,8 @@ https://www.transifex.com/projects/p/monacoCoin/</translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>monacoCoin Core</source>
-        <translation>monacoCoin Core
+        <source>Monoeci Core</source>
+        <translation>Monoeci Core
 </translation>
     </message>
     <message>
@@ -2140,8 +2140,12 @@ https://www.transifex.com/projects/p/monacoCoin/</translation>
         <translation>Bitcoin Core-utvecklarna</translation>
     </message>
     <message>
-        <source>The monacoCoin Core developers</source>
-        <translation>monacoCoin Core-utvecklarna</translation>
+        <source>The Da sh Core developers</source>
+        <translation>Dash Core-utvecklarna</translation>
+    </message>
+	<message>
+        <source>The Monoeci Core developers</source>
+        <translation>Monoeci Core-utvecklarna</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -2656,14 +2660,14 @@ https://www.transifex.com/projects/p/monacoCoin/</translation>
     </message>
 </context>
 <context>
-    <name>monacoCoin-core</name>
+    <name>monoeci-core</name>
     <message>
         <source>Bind to given address and always listen on it. Use [host]:port notation for IPv6</source>
         <translation>Sammanbind till fastställd adress och avlyssna alltid den. Använd [host]:port-notation för IPv6</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. monacoCoin Core is probably already running.</source>
-        <translation>Kan inte erhålla ett lås på datakatalog %s. monacoCoin Core körs förmodligen redan.</translation>
+        <source>Cannot obtain a lock on data directory %s. Monoeci Core is probably already running.</source>
+        <translation>Kan inte erhålla ett lås på datakatalog %s. Monoeci Core körs förmodligen redan.</translation>
     </message>
     <message>
         <source>Darksend uses exact denominated amounts to send funds, you might simply need to anonymize some more coins.</source>
@@ -2718,16 +2722,16 @@ https://www.transifex.com/projects/p/monacoCoin/</translation>
         <translation>Detta är en förhandsutgiven testkompilering - använd på egen risk - använd inte för utvinning eller handlarapplikationer.</translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. monacoCoin Core is probably already running.</source>
-        <translation>Det går inte att binda till %s till denna dator. monacoCoin Core körs förmodligen redan.</translation>
+        <source>Unable to bind to %s on this computer. Monoeci Core is probably already running.</source>
+        <translation>Det går inte att binda till %s till denna dator. Monoeci Core körs förmodligen redan.</translation>
     </message>
     <message>
         <source>Unable to locate enough Darksend denominated funds for this transaction.</source>
         <translation>Kunde inte hitta tillräckliga Darksend-denominationsmedel för denna transaktion.</translation>
     </message>
     <message>
-        <source>Unable to locate enough Darksend non-denominated funds for this transaction that are not equal 1000 MCC.</source>
-        <translation>Kunde inte hitta tillräckliga Darksend-icke-denominationsmedel för denna transaktion som inte är likvärdiga 1000 MCC.</translation>
+        <source>Unable to locate enough Darksend non-denominated funds for this transaction that are not equal 1000 XMCC.</source>
+        <translation>Kunde inte hitta tillräckliga Darksend-icke-denominationsmedel för denna transaktion som inte är likvärdiga 1000 XMCC.</translation>
     </message>
     <message>
         <source>Warning: -paytxfee is set very high! This is the transaction fee you will pay if you send a transaction.</source>
@@ -2942,8 +2946,8 @@ https://www.transifex.com/projects/p/monacoCoin/</translation>
         <translation>Information</translation>
     </message>
     <message>
-        <source>Initialization sanity check failed. monacoCoin Core is shutting down.</source>
-        <translation>Initialiseringstillståndkontroll misslyckades. monacoCoin Core stängs ned.</translation>
+        <source>Initialization sanity check failed. Monoeci Core is shutting down.</source>
+        <translation>Initialiseringstillståndkontroll misslyckades. Monoeci Core stängs ned.</translation>
     </message>
     <message>
         <source>Input is not valid.</source>

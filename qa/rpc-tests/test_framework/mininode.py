@@ -1,4 +1,4 @@
-# mininode.py - monoeci P2P network half-a-node
+# mininode.py - Monoeci P2P network half-a-node
 #
 # Distributed under the MIT/X11 software license, see the accompanying
 # file COPYING or http://www.opensource.org/licenses/mit-license.php.
@@ -32,10 +32,10 @@ from threading import Thread
 import logging
 import copy
 
-import dash_hash
+import monoeci_hash
 
 BIP0031_VERSION = 60000
-MY_VERSION = 70206  # current MIN_PEER_PROTO_VERSION
+MY_VERSION = 70208  # current MIN_PEER_PROTO_VERSION
 MY_SUBVERSION = b"/python-mininode-tester:0.0.2/"
 
 MAX_INV_SZ = 50000
@@ -64,8 +64,8 @@ def sha256(s):
 def hash256(s):
     return sha256(sha256(s))
 
-def dashhash(s):
-    return dash_hash.getPoWHash(s)
+def monoecihash(s):
+    return monoeci_hash.getPoWHash(s)
 
 def deser_string(f):
     nit = struct.unpack("<B", f.read(1))[0]
@@ -496,8 +496,8 @@ class CBlockHeader(object):
             r += struct.pack("<I", self.nTime)
             r += struct.pack("<I", self.nBits)
             r += struct.pack("<I", self.nNonce)
-            self.sha256 = uint256_from_str(dashhash(r))
-            self.hash = encode(dashhash(r)[::-1], 'hex_codec').decode('ascii')
+            self.sha256 = uint256_from_str(monoecihash(r))
+            self.hash = encode(monoecihash(r)[::-1], 'hex_codec').decode('ascii')
 
     def rehash(self):
         self.sha256 = None
@@ -1185,7 +1185,7 @@ class NodeConn(asyncore.dispatcher):
         vt.addrFrom.ip = "0.0.0.0"
         vt.addrFrom.port = 0
         self.send_message(vt, True)
-        print 'MiniNode: Connecting to monoeci Node IP # ' + dstaddr + ':' \
+        print 'MiniNode: Connecting to Monoeci Node IP # ' + dstaddr + ':' \
             + str(dstport)
 
         try:

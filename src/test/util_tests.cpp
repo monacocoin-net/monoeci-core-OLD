@@ -1,4 +1,4 @@
-// Copyright (c) 2011-2015 The Bitcoin Core developers
+// Copyright (c) 2011-2018 The Bitcoin Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -487,6 +487,21 @@ BOOST_AUTO_TEST_CASE(test_ParseFixedPoint)
     BOOST_CHECK(!ParseFixedPoint("1.1e", 8, &amount));
     BOOST_CHECK(!ParseFixedPoint("1.1e-", 8, &amount));
     BOOST_CHECK(!ParseFixedPoint("1.", 8, &amount));
+}
+
+BOOST_AUTO_TEST_CASE(version_info_helper)
+{
+    BOOST_CHECK(StringVersionToInt("1.1.1") == 0x010101);
+    BOOST_CHECK(IntVersionToString(0x010101) == "1.1.1");
+
+    BOOST_CHECK_THROW(StringVersionToInt("1.1.hgdghfgf"), bad_cast);
+    BOOST_CHECK_THROW(StringVersionToInt("1.1"), bad_cast);
+    BOOST_CHECK_THROW(StringVersionToInt("1.1.1f"), bad_cast);
+    BOOST_CHECK_THROW(StringVersionToInt("1.1.1000"), bad_cast);
+    BOOST_CHECK_THROW(StringVersionToInt("10"), bad_cast);
+    BOOST_CHECK_THROW(StringVersionToInt("1.1.1.1"), bad_cast);
+    BOOST_CHECK_THROW(IntVersionToString(0x01010101), bad_cast);
+    BOOST_CHECK_THROW(IntVersionToString(0), bad_cast);
 }
 
 BOOST_AUTO_TEST_SUITE_END()

@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Monoeci
+Comment=Monoeci P2P Cryptocurrency
+Comment[fr]=Monoeci, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=Monoeci, eşten eşe kriptografik sanal para birimi
+Exec=monoeci-qt %u
+Terminal=false
+Type=Application
+Icon=monoeci128
+MimeType=x-scheme-handler/monoeci;
+Categories=Office;Finance;

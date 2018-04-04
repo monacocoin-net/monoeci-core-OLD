@@ -1,5 +1,5 @@
-// // Copyright (c) 2014-2017 The *D ash Core developers
-// Copyright (c) 2016-2017 The MonacoCore Core developers
+// Copyright (c) 2014-2018 The Dash Core developers 
+// Copyright (c) 2017-2018 The Monoeci Core developers
 
 #include "cachemap.h"
 

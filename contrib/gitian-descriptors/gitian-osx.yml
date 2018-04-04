@@ -23,7 +23,7 @@ packages:
 - "python"
 reference_datetime: "2017-01-01 00:00:00"
 remotes:
-- "url": "https://github.com/dashpay/monoeci.git"
+- "url": "https://github.com/monacocoin-net/monoeci-core.git"
   "dir": "monoeci"
 files:
 - "MacOSX10.9.sdk.tar.gz"
@@ -123,7 +123,7 @@ script: |
     popd
 
     make deploy
-    ${WRAP_DIR}/dmg dmg monoeci-Core.dmg ${OUTDIR}/${DISTNAME}-osx-unsigned.dmg
+    ${WRAP_DIR}/dmg dmg Monoeci-Core.dmg ${OUTDIR}/${DISTNAME}-osx-unsigned.dmg
 
     cd installed
     find . -name "lib*.la" -delete

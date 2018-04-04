@@ -1,7 +1,7 @@
 Description
 ------------
 
-This directory contains data-driven tests for various aspects of monoeci.
+This directory contains data-driven tests for various aspects of Monoeci.
 
 License
 --------

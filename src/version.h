@@ -1,17 +1,17 @@
-// Copyright (c) 2012-2014 The Bitcoin Core developers
-// // Copyright (c) 2014-2017 The *D ash Core developers
-// Copyright (c) 2016-2017 The MonacoCore Core developers
+// Copyright (c) 2012-2018 The Bitcoin Core developers
+// Copyright (c) 2014-2018 The Dash Core developers 
+// Copyright (c) 2017-2018 The Monoeci Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef BITCOIN_VERSION_H
-#define BITCOIN_VERSION_H
+#ifndef MONOECI_VERSION_H
+#define MONOECI_VERSION_H
 
 /**
  * network protocol versioning
  */
 
-static const int PROTOCOL_VERSION = 70206;
+static const int PROTOCOL_VERSION = 70208;
 
 //! initial proto version, to be increased after version/verack negotiation
 static const int INIT_PROTO_VERSION = 209;
@@ -42,4 +42,7 @@ static const int NO_BLOOM_VERSION = 70201;
 //! "sendheaders" command and announcing blocks with headers starts with this version
 static const int SENDHEADERS_VERSION = 70201;
 
-#endif // BITCOIN_VERSION_H
+//! DIP0001 was activated in this version
+static const int DIP0001_PROTOCOL_VERSION = 70208;
+
+#endif // MONOECI_VERSION_H

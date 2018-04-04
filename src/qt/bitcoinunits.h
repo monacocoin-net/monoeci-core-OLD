@@ -1,11 +1,11 @@
-// Copyright (c) 2011-2015 The Bitcoin Core developers
-// Copyright (c) 2014-2017 The *D ash Core developers
-// Copyright (c) 2016-2017 The monoeci Core developers
+// Copyright (c) 2011-2018 The Bitcoin Core developers
+// Copyright (c) 2014-2018 The Dash Core developers 
+// Copyright (c) 2017-2018 The Monoeci Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef BITCOIN_QT_BITCOINUNITS_H
-#define BITCOIN_QT_BITCOINUNITS_H
+#ifndef MONOECI_QT_BITCOINUNITS_H
+#define MONOECI_QT_BITCOINUNITS_H
 
 #include "amount.h"
 
@@ -43,7 +43,7 @@
 #define THIN_SP_UTF8 REAL_THIN_SP_UTF8
 #define THIN_SP_HTML HTML_HACK_SP
 
-/** XMCC unit definitions. Encapsulates parsing and formatting
+/** Monoeci unit definitions. Encapsulates parsing and formatting
    and serves as list model for drop-down selection boxes.
 */
 class BitcoinUnits: public QAbstractListModel
@@ -53,7 +53,7 @@ class BitcoinUnits: public QAbstractListModel
 public:
     explicit BitcoinUnits(QObject *parent);
 
-    /** XMCC units.
+    /** Monoeci units.
       @note Source: https://en.bitcoin.it/wiki/Units . Please add only sensible ones
      */
     enum Unit
@@ -61,7 +61,7 @@ public:
         XMCC,
         mXMCC,
         uXMCC,
-        oneXMCC
+        duffs
     };
 
     enum SeparatorStyle
@@ -132,4 +132,4 @@ private:
 };
 typedef BitcoinUnits::Unit BitcoinUnit;
 
-#endif // BITCOIN_QT_BITCOINUNITS_H
+#endif // MONOECI_QT_BITCOINUNITS_H
