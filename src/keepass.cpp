@@ -1,5 +1,5 @@
-// // Copyright (c) 2014-2017 The *D ash Core developers
-// Copyright (c) 2016-2017 The MonacoCore Core developers
+// Copyright (c) 2014-2018 The Dash Core developers 
+// Copyright (c) 2017-2018 The Monoeci Core developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -9,7 +9,7 @@
 #include "clientversion.h"
 #include "protocol.h"
 #include "random.h"
-#include "rpcprotocol.h"
+#include "rpc/protocol.h"
 
 // Necessary to prevent compile errors due to forward declaration of
 //CScript in serialize.h (included from crypter.h)

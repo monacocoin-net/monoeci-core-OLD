@@ -24,18 +24,18 @@ Build-Depends: debhelper,
  libprotobuf-dev, protobuf-compiler,
  python
 Standards-Version: 3.9.2
-Homepage: https://www.monoeci.org/
-Vcs-Git: git://github.com/dashpay/monoeci.git
-Vcs-Browser: https://github.com/dashpay/monoeci
+Homepage: https://www.monoeci.io/
+Vcs-Git: git://github.com/monacocoin-net/monoeci-core.git
+Vcs-Browser: https://github.com/monacocoin-net/monoeci-core
 
 Package: monoecid
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: peer-to-peer network based digital currency - daemon
- monoeci is an experimental new digital currency that enables anonymous, instant
- payments to anyone, anywhere in the world. monoeci uses peer-to-peer
+ Monoeci is an experimental new digital currency that enables anonymous, instant
+ payments to anyone, anywhere in the world. Monoeci uses peer-to-peer
  technology to operate with no central authority: managing transactions
- and issuing money are carried out collectively by the network. monoeci Core
+ and issuing money are carried out collectively by the network. Monoeci Core
  is the name of the open source software which enables the use of this currency.
  .
  This package provides the daemon, monoecid, and the CLI tool
@@ -45,22 +45,22 @@ Package: monoeci-qt
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: peer-to-peer network based digital currency - Qt GUI
- monoeci is an experimental new digital currency that enables anonymous, instant
- payments to anyone, anywhere in the world. monoeci uses peer-to-peer
+ Monoeci is an experimental new digital currency that enables anonymous, instant
+ payments to anyone, anywhere in the world. Monoeci uses peer-to-peer
  technology to operate with no central authority: managing transactions
- and issuing money are carried out collectively by the network. monoeci Core
+ and issuing money are carried out collectively by the network. Monoeci Core
  is the name of the open source software which enables the use of this currency.
  .
- This package provides monoeci-Qt, a GUI for monoeci based on Qt.
+ This package provides Monoeci-Qt, a GUI for Monoeci based on Qt.
 
 Package: monoeci-tx
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: peer-to-peer digital currency - standalone transaction tool
- monoeci is an experimental new digital currency that enables anonymous, instant
- payments to anyone, anywhere in the world. monoeci uses peer-to-peer
+ Monoeci is an experimental new digital currency that enables anonymous, instant
+ payments to anyone, anywhere in the world. Monoeci uses peer-to-peer
  technology to operate with no central authority: managing transactions
- and issuing money are carried out collectively by the network. monoeci Core
+ and issuing money are carried out collectively by the network. Monoeci Core
  is the name of the open source software which enables the use of this currency.
  .
  This package provides monoeci-tx, a command-line transaction creation

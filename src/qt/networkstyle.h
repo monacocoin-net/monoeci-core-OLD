@@ -1,11 +1,11 @@
 // Copyright (c) 2014 The Bitcoin Core developers
-// Copyright (c) 2014-2017 The *D ash Core developers
-// Copyright (c) 2016-2017 The monoeci Core developers
+// Copyright (c) 2014-2018 The Dash Core developers 
+// Copyright (c) 2017-2018 The Monoeci Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef BITCOIN_QT_NETWORKSTYLE_H
-#define BITCOIN_QT_NETWORKSTYLE_H
+#ifndef MONOECI_QT_NETWORKSTYLE_H
+#define MONOECI_QT_NETWORKSTYLE_H
 
 #include <QIcon>
 #include <QPixmap>
@@ -36,4 +36,4 @@ private:
     void rotateColors(QImage& img, const int iconColorHueShift, const int iconColorSaturationReduction);
 };
 
-#endif // BITCOIN_QT_NETWORKSTYLE_H
+#endif // MONOECI_QT_NETWORKSTYLE_H

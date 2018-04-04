@@ -2,14 +2,16 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef BITCOIN_MEMUSAGE_H
-#define BITCOIN_MEMUSAGE_H
+#ifndef MONOECI_MEMUSAGE_H
+#define MONOECI_MEMUSAGE_H
 
 #include <stdlib.h>
 
 #include <map>
 #include <set>
 #include <vector>
+#include <unordered_map>
+#include <unordered_set>
 
 #include <boost/foreach.hpp>
 #include <boost/unordered_set.hpp>
@@ -109,7 +111,7 @@ static inline size_t IncrementalDynamicUsage(const std::map<X, Y, Z>& m)
 // Boost data structures
 
 template<typename X>
-struct boost_unordered_node : private X
+struct unordered_node : private X
 {
 private:
     void* ptr;
@@ -118,15 +120,27 @@ private:
 template<typename X, typename Y>
 static inline size_t DynamicUsage(const boost::unordered_set<X, Y>& s)
 {
-    return MallocUsage(sizeof(boost_unordered_node<X>)) * s.size() + MallocUsage(sizeof(void*) * s.bucket_count());
+    return MallocUsage(sizeof(unordered_node<X>)) * s.size() + MallocUsage(sizeof(void*) * s.bucket_count());
 }
 
 template<typename X, typename Y, typename Z>
 static inline size_t DynamicUsage(const boost::unordered_map<X, Y, Z>& m)
 {
-    return MallocUsage(sizeof(boost_unordered_node<std::pair<const X, Y> >)) * m.size() + MallocUsage(sizeof(void*) * m.bucket_count());
+    return MallocUsage(sizeof(unordered_node<std::pair<const X, Y> >)) * m.size() + MallocUsage(sizeof(void*) * m.bucket_count());
+}
+
+template<typename X, typename Y>
+static inline size_t DynamicUsage(const std::unordered_set<X, Y>& s)
+{
+    return MallocUsage(sizeof(unordered_node<X>)) * s.size() + MallocUsage(sizeof(void*) * s.bucket_count());
+}
+
+template<typename X, typename Y, typename Z>
+static inline size_t DynamicUsage(const std::unordered_map<X, Y, Z>& m)
+{
+    return MallocUsage(sizeof(unordered_node<std::pair<const X, Y> >)) * m.size() + MallocUsage(sizeof(void*) * m.bucket_count());
 }
 
 }
 
-#endif // BITCOIN_MEMUSAGE_H
+#endif // MONOECI_MEMUSAGE_H

@@ -1,7 +1,7 @@
 The [pull-tester](/qa/pull-tester/) folder contains a script to call
 multiple tests from the [rpc-tests](/qa/rpc-tests/) folder.
 
-Every pull request to the monoeci Core repository is built and run through
+Every pull request to the Monoeci Core repository is built and run through
 the regression test suite. You can also run all or only individual
 tests locally.
 
@@ -31,8 +31,8 @@ Possible options:
 
 ```
   -h, --help            show this help message and exit
-  --nocleanup           Leave dashds and test.* datadir on exit or error
-  --noshutdown          Don't stop dashds after the test execution
+  --nocleanup           Leave monoecids and test.* datadir on exit or error
+  --noshutdown          Don't stop monoecids after the test execution
   --srcdir=SRCDIR       Source directory containing monoecid/monoeci-cli
                         (default: ../../src)
   --tmpdir=TMPDIR       Root directory for datadirs

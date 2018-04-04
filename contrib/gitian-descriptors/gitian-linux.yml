@@ -20,7 +20,7 @@ packages:
 - "python"
 reference_datetime: "2017-01-01 00:00:00"
 remotes:
-- "url": "https://github.com/dashpay/monoeci.git"
+- "url": "https://github.com/monacocoin-net/monoeci-core.git"
   "dir": "monoeci"
 files: []
 script: |

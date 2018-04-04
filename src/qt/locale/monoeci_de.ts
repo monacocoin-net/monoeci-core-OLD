@@ -1,4 +1,4 @@
-<TS language="de" version="2.1">
+<TS language="de" version="2.0">
 <context>
     <name>AddressBookPage</name>
     <message>
@@ -43,11 +43,11 @@
     </message>
     <message>
         <source>Choose the address to send coins to</source>
-        <translation>Wählen Sie die Adresse aus, an die Sie monacoCoin überweisen möchten</translation>
+        <translation>Wählen Sie die Adresse aus, an die Sie Monoeci überweisen möchten</translation>
     </message>
     <message>
         <source>Choose the address to receive coins with</source>
-        <translation>Wählen Sie die Adresse aus, über die Sie monacoCoin empfangen wollen</translation>
+        <translation>Wählen Sie die Adresse aus, über die Sie Monoeci empfangen wollen</translation>
     </message>
     <message>
         <source>C&amp;hoose</source>
@@ -62,12 +62,12 @@
         <translation>Empfangsadressen</translation>
     </message>
     <message>
-        <source>These are your monacoCoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Dies sind ihre monacoCoin-Adressen zum Tätigen von Überweisungen. Bitte prüfen Sie den Betrag und die Empfangsadresse, bevor Sie monacoCoin überweisen.</translation>
+        <source>These are your Monoeci addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Dies sind ihre Monoeci-Adressen zum Tätigen von Überweisungen. Bitte prüfen Sie den Betrag und die Empfangsadresse, bevor Sie Monoeci überweisen.</translation>
     </message>
     <message>
-        <source>These are your monacoCoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Dies sind ihre monacoCoin-Adressen zum Empfangen von Zahlungen. Es wird empfohlen für jede Transaktion eine neue Empfangsadresse zu verwenden.</translation>
+        <source>These are your Monoeci addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Dies sind ihre Monoeci-Adressen zum Empfangen von Zahlungen. Es wird empfohlen für jede Transaktion eine neue Empfangsadresse zu verwenden.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -168,12 +168,16 @@
         <translation>Passphrase ändern</translation>
     </message>
     <message>
+        <source>Enter the old passphrase and new passphrase to the wallet.</source>
+        <translation>Geben Sie die alte und neue Wallet-Passphrase ein.</translation>
+    </message>
+    <message>
         <source>Confirm wallet encryption</source>
         <translation>Wallet-Verschlüsselung bestätigen</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR MCC&lt;/b&gt;!</source>
-        <translation>Warnung: Wenn Sie ihre Wallet verschlüsseln und ihre Passphrase verlieren werden Sie &lt;b&gt;alle ihre monacoCoin verlieren&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR XMCC&lt;/b&gt;!</source>
+        <translation>Warnung: Wenn Sie ihre Wallet verschlüsseln und ihre Passphrase verlieren werden Sie &lt;b&gt;alle ihre Monoeci verlieren&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -184,12 +188,8 @@
         <translation>Wallet verschlüsselt</translation>
     </message>
     <message>
-        <source>Enter the old passphrase and new passphrase to the wallet.</source>
-        <translation>Geben Sie die alte und neue Wallet-Passphrase ein.</translation>
-    </message>
-    <message>
-        <source>monacoCoin Core will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your monacoCoins from being stolen by malware infecting your computer.</source>
-        <translation>monacoCoin wird jetzt beendet, um den Verschlüsselungsprozess abzuschließen. Bitte beachten Sie, dass die Wallet-Verschlüsselung nicht vollständig vor Diebstahl ihrer monacoCoin durch Schadsoftware schützt, die ihren Computer befallen könnte.</translation>
+        <source>Monoeci Core will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your monoecis from being stolen by malware infecting your computer.</source>
+        <translation>Monoeci wird jetzt beendet, um den Verschlüsselungsprozess abzuschließen. Bitte beachten Sie, dass die Wallet-Verschlüsselung nicht vollständig vor Diebstahl ihrer Monoeci durch Schadsoftware schützt, die ihren Computer befallen könnte.</translation>
     </message>
     <message>
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
@@ -242,8 +242,12 @@
 <context>
     <name>BitcoinGUI</name>
     <message>
-        <source>monacoCoin Core</source>
-        <translation>monacoCoin Core</translation>
+        <source>A fatal error occurred. Monoeci Core can no longer continue safely and will quit.</source>
+        <translation>Ein kritischer Fehler ist aufgetreten. Monoeci Core kann nicht mehr ausgeführt werden und wird nun beendet.</translation>
+    </message>
+    <message>
+        <source>Monoeci Core</source>
+        <translation>Monoeci Core</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -266,16 +270,16 @@
         <translation>&amp;Überweisen</translation>
     </message>
     <message>
-        <source>Send coins to a monacoCoin address</source>
-        <translation>monacoCoin an eine monacoCoin-Adresse überweisen</translation>
+        <source>Send coins to a Monoeci address</source>
+        <translation>Monoeci an eine Monoeci-Adresse überweisen</translation>
     </message>
     <message>
         <source>&amp;Receive</source>
         <translation>&amp;Empfangen</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and monacoCoin: URIs)</source>
-        <translation>Zahlungen anfordern (erzeugt QR-Codes und "monacoCoin:"-URIs)</translation>
+        <source>Request payments (generates QR codes and monoeci: URIs)</source>
+        <translation>Zahlungen anfordern (erzeugt QR-Codes und "monoeci:"-URIs)</translation>
     </message>
     <message>
         <source>&amp;Transactions</source>
@@ -302,12 +306,12 @@
         <translation>Anwendung beenden</translation>
     </message>
     <message>
-        <source>&amp;About monacoCoin Core</source>
-        <translation>&amp;Über monacoCoin Core</translation>
+        <source>&amp;About Monoeci Core</source>
+        <translation>&amp;Über Monoeci Core</translation>
     </message>
     <message>
-        <source>Show information about monacoCoin Core</source>
-        <translation>Informationen über monacoCoin Core anzeigen</translation>
+        <source>Show information about Monoeci Core</source>
+        <translation>Informationen über Monoeci Core anzeigen</translation>
     </message>
     <message>
         <source>About &amp;Qt</source>
@@ -320,6 +324,10 @@
     <message>
         <source>&amp;Options...</source>
         <translation>&amp;Konfiguration...</translation>
+    </message>
+    <message>
+        <source>Modify configuration options for Monoeci Core</source>
+        <translation>Die Konfiguration des Clients bearbeiten</translation>
     </message>
     <message>
         <source>&amp;Show / Hide</source>
@@ -370,16 +378,16 @@
         <translation>Nachricht s&amp;ignieren...</translation>
     </message>
     <message>
-        <source>Sign messages with your monacoCoin addresses to prove you own them</source>
-        <translation>Nachrichten signieren, um den Besitz ihrer monacoCoin-Adressen zu beweisen</translation>
+        <source>Sign messages with your Monoeci addresses to prove you own them</source>
+        <translation>Nachrichten signieren, um den Besitz ihrer Monoeci-Adressen zu beweisen</translation>
     </message>
     <message>
         <source>&amp;Verify message...</source>
         <translation>Nachricht &amp;verifizieren...</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified monacoCoin addresses</source>
-        <translation>Nachrichten verifizieren, um sicherzustellen, dass diese mit den angegebenen monacoCoin-Adressen signiert wurden</translation>
+        <source>Verify messages to ensure they were signed with specified Monoeci addresses</source>
+        <translation>Nachrichten verifizieren, um sicherzustellen, dass diese mit den angegebenen Monoeci-Adressen signiert wurden</translation>
     </message>
     <message>
         <source>&amp;Information</source>
@@ -422,8 +430,20 @@
         <translation>Optionen zur Wallet-Reparatur anzeigen</translation>
     </message>
     <message>
+        <source>Open Wallet &amp;Configuration File</source>
+        <translation>&amp;Konfigurationsdatei öffnen</translation>
+    </message>
+    <message>
         <source>Open configuration file</source>
         <translation>Konfigurationsdatei öffnen</translation>
+    </message>
+    <message>
+        <source>Open &amp;Masternode Configuration File</source>
+        <translation>&amp;Masternode Konfigurationsdatei öffnen</translation>
+    </message>
+    <message>
+        <source>Open Masternode configuration file</source>
+        <translation>Masternode Konfigurationsdatei öffnen</translation>
     </message>
     <message>
         <source>Show Automatic &amp;Backups</source>
@@ -454,20 +474,24 @@
         <translation>&amp;URI öffnen...</translation>
     </message>
     <message>
-        <source>Open a monacoCoin: URI or payment request</source>
-        <translation>Eine "monacoCoin:"-URI oder Zahlungsanforderung öffnen</translation>
+        <source>Open a monoeci: URI or payment request</source>
+        <translation>Eine "monoeci:"-URI oder Zahlungsanforderung öffnen</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
         <translation>&amp;Kommandozeilenoptionen</translation>
     </message>
     <message>
-        <source>monacoCoin Core client</source>
-        <translation>monacoCoin Core Client</translation>
+        <source>Show the Monoeci Core help message to get a list with possible Monoeci Core command-line options</source>
+        <translation>Zeige den "Monoeci Core"-Hilfetext, um eine Liste mit möglichen Kommandozeilenoptionen zu erhalten</translation>
     </message>
     <message>
-        <source>Synchronizing additional data: %p%</source>
-        <translation>Synchronisiere zusätzliche Daten:  %p%</translation>
+        <source>&amp;PrivateSend information</source>
+        <translation>&amp;PrivateSend Informationen</translation>
+    </message>
+    <message>
+        <source>Show the PrivateSend basic information</source>
+        <translation>&amp;PrivateSend Basisinformationen</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -489,81 +513,45 @@
         <source>Tabs toolbar</source>
         <translation>Registerkartenleiste</translation>
     </message>
+    <message>
+        <source>Monoeci Core client</source>
+        <translation>Monoeci Core Client</translation>
+    </message>
     <message numerus="yes">
-        <source>%n active connection(s) to monacoCoin network</source>
-        <translation><numerusform>%n aktive Verbindung zum monacoCoin-Netzwerk</numerusform><numerusform>%n aktive Verbindungen zum monacoCoin-Netzwerk</numerusform></translation>
+        <source>%n active connection(s) to Monoeci network</source>
+        <translation><numerusform>%n aktive Verbindung zum Monoeci-Netzwerk</numerusform><numerusform>%n aktive Verbindungen zum Monoeci-Netzwerk</numerusform></translation>
+    </message>
+    <message>
+        <source>Network activity disabled</source>
+        <translation>Netzwerk-Aktivität deaktiviert</translation>
+    </message>
+    <message>
+        <source>Syncing Headers (%1%)...</source>
+        <translation>Synchronisiere Header (%1%)...</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
         <translation>Synchronisiere mit Netzwerk...</translation>
     </message>
     <message>
-        <source>Importing blocks from disk...</source>
-        <translation>Importiere Blöcke von Datenträger...</translation>
+        <source>Indexing blocks on disk...</source>
+        <translation>Indiziere Blöcke auf Datenträger...</translation>
+    </message>
+    <message>
+        <source>Processing blocks on disk...</source>
+        <translation>Verarbeite Blöcke auf Datenträger...</translation>
     </message>
     <message>
         <source>Reindexing blocks on disk...</source>
         <translation>Reindiziere Blöcke auf Datenträger...</translation>
     </message>
     <message>
-        <source>No block source available...</source>
-        <translation>Keine Blockquelle verfügbar...</translation>
-    </message>
-    <message>
-        <source>Up to date</source>
-        <translation>Auf aktuellem Stand</translation>
-    </message>
-    <message numerus="yes">
-        <source>%n hour(s)</source>
-        <translation><numerusform>%n Stunde</numerusform><numerusform>%n Stunden</numerusform></translation>
-    </message>
-    <message>
-        <source>Modify configuration options for monacoCoin Core</source>
-        <translation>Die Konfiguration des Clients bearbeiten</translation>
-    </message>
-    <message>
-        <source>Open Wallet &amp;Configuration File</source>
-        <translation>&amp;Konfigurationsdatei öffnen</translation>
-    </message>
-    <message>
-        <source>Open &amp;Masternode Configuration File</source>
-        <translation>&amp;Masternode Konfigurationsdatei öffnen</translation>
-    </message>
-    <message>
-        <source>Open Masternode configuration file</source>
-        <translation>Masternode Konfigurationsdatei öffnen</translation>
-    </message>
-    <message>
-        <source>Show the monacoCoin Core help message to get a list with possible monacoCoin Core command-line options</source>
-        <translation>Zeige den "monacoCoin Core"-Hilfetext, um eine Liste mit möglichen Kommandozeilenoptionen zu erhalten</translation>
-    </message>
-    <message>
-        <source>&amp;PrivateSend information</source>
-        <translation>&amp;PrivateSend Informationen</translation>
-    </message>
-    <message>
-        <source>Show the PrivateSend basic information</source>
-        <translation>&amp;PrivateSend Basisinformationen</translation>
+        <source>Connecting to peers...</source>
+        <translation>Verbinde mit Peers...</translation>
     </message>
     <message numerus="yes">
         <source>Processed %n block(s) of transaction history.</source>
         <translation><numerusform>%n Block des Transaktionsverlaufs verarbeitet.</numerusform><numerusform>%n Blöcke des Transaktionsverlaufs verarbeitet.</numerusform></translation>
-    </message>
-    <message numerus="yes">
-        <source>%n day(s)</source>
-        <translation><numerusform>%n Tag</numerusform><numerusform>%n Tage</numerusform></translation>
-    </message>
-    <message numerus="yes">
-        <source>%n week(s)</source>
-        <translation><numerusform>%n Woche</numerusform><numerusform>%n Wochen</numerusform></translation>
-    </message>
-    <message>
-        <source>%1 and %2</source>
-        <translation>%1 und %2</translation>
-    </message>
-    <message numerus="yes">
-        <source>%n year(s)</source>
-        <translation><numerusform>%n Jahr</numerusform><numerusform>%n Jahre</numerusform></translation>
     </message>
     <message>
         <source>%1 behind</source>
@@ -580,6 +568,14 @@
     <message>
         <source>Transactions after this will not yet be visible.</source>
         <translation>Transaktionen hiernach werden noch nicht angezeigt.</translation>
+    </message>
+    <message>
+        <source>Up to date</source>
+        <translation>Auf aktuellem Stand</translation>
+    </message>
+    <message>
+        <source>Synchronizing additional data: %p%</source>
+        <translation>Synchronisiere zusätzliche Daten: %p%</translation>
     </message>
     <message>
         <source>Error</source>
@@ -632,12 +628,20 @@
         <translation>Eingehende Transaktion</translation>
     </message>
     <message>
-        <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt; for mixing only</source>
-        <translation>Wallet ist &lt;b&gt;verschlüsselt&lt;/b&gt; und aktuell nur zum Anonymisieren &lt;b&gt;entsperrt&lt;/b&gt;</translation>
+        <source>HD key generation is &lt;b&gt;enabled&lt;/b&gt;</source>
+        <translation>HD-Schlüssel Erzeugung ist &lt;b&gt;aktiviert&lt;/b&gt;</translation>
+    </message>
+    <message>
+        <source>HD key generation is &lt;b&gt;disabled&lt;/b&gt;</source>
+        <translation>HD-Schlüssel Erzeugung ist &lt;b&gt;inaktiv&lt;/b&gt;</translation>
     </message>
     <message>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt;</source>
         <translation>Wallet ist &lt;b&gt;verschlüsselt&lt;/b&gt; und aktuell &lt;b&gt;entsperrt&lt;/b&gt;</translation>
+    </message>
+    <message>
+        <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt; for mixing only</source>
+        <translation>Wallet ist &lt;b&gt;verschlüsselt&lt;/b&gt; und aktuell nur zum Anonymisieren &lt;b&gt;entsperrt&lt;/b&gt;</translation>
     </message>
     <message>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</source>
@@ -668,10 +672,6 @@
     <message>
         <source>Amount:</source>
         <translation>Betrag:</translation>
-    </message>
-    <message>
-        <source>Priority:</source>
-        <translation>Priorität:</translation>
     </message>
     <message>
         <source>Fee:</source>
@@ -742,10 +742,6 @@
         <translation>Bestätigt</translation>
     </message>
     <message>
-        <source>Priority</source>
-        <translation>Priorität</translation>
-    </message>
-    <message>
         <source>Copy address</source>
         <translation>Adresse kopieren</translation>
     </message>
@@ -786,10 +782,6 @@
         <translation>Byte kopieren</translation>
     </message>
     <message>
-        <source>Copy priority</source>
-        <translation>Priorität kopieren</translation>
-    </message>
-    <message>
         <source>Copy dust</source>
         <translation>"Dust" Betrag kopieren</translation>
     </message>
@@ -806,68 +798,8 @@
         <translation>Nicht-anonymisierter Input ausgewählt. &lt;b&gt;PrivateSend wird deaktiviert.&lt;/b&gt;&lt;br&gt;&lt;br&gt;Sollten Sie trotzdem PrivateSend verwenden wollen, müssen Sie zuerst alle nicht-anonymisierten Inputs entmarkieren und  das Ankreuzfeld "PrivateSend" erneut auswählen.</translation>
     </message>
     <message>
-        <source>highest</source>
-        <translation>am höchsten</translation>
-    </message>
-    <message>
-        <source>higher</source>
-        <translation>höher</translation>
-    </message>
-    <message>
-        <source>high</source>
-        <translation>hoch</translation>
-    </message>
-    <message>
-        <source>medium-high</source>
-        <translation>mittel-hoch</translation>
-    </message>
-    <message>
-        <source>This label turns red if the transaction size is greater than 1000 bytes.</source>
-        <translation>Diese Bezeichnung wird rot, wenn die Transaktion größer als 1000 Byte ist.</translation>
-    </message>
-    <message>
-        <source>This label turns red if the priority is smaller than "medium".</source>
-        <translation>Diese Bezeichnung wird rot, wenn die Priorität niedriger als "mittel" ist.</translation>
-    </message>
-    <message>
-        <source>This label turns red if any recipient receives an amount smaller than %1.</source>
-        <translation>Diese Bezeichnung wird rot, wenn irgendein Empfänger einen Betrag kleiner als %1 erhält.</translation>
-    </message>
-    <message>
-        <source>Can vary +/- %1 duff(s) per input.</source>
-        <translation>Kann um +/- %1 duff(s) pro Eingabe variieren.</translation>
-    </message>
-    <message>
-        <source>n/a</source>
-        <translation>k.A.</translation>
-    </message>
-    <message>
-        <source>medium</source>
-        <translation>mittel</translation>
-    </message>
-    <message>
-        <source>low-medium</source>
-        <translation>niedrig-mittel</translation>
-    </message>
-    <message>
-        <source>low</source>
-        <translation>niedrig</translation>
-    </message>
-    <message>
-        <source>lower</source>
-        <translation>niedriger</translation>
-    </message>
-    <message>
-        <source>lowest</source>
-        <translation>am niedrigsten</translation>
-    </message>
-    <message>
         <source>(%1 locked)</source>
         <translation>(%1 gesperrt)</translation>
-    </message>
-    <message>
-        <source>none</source>
-        <translation>keine</translation>
     </message>
     <message>
         <source>yes</source>
@@ -878,16 +810,12 @@
         <translation>nein</translation>
     </message>
     <message>
-        <source>This means a fee of at least %1 per kB is required.</source>
-        <translation>Das bedeutet, dass eine Gebühr von mindestens %1 pro kB erforderlich ist.</translation>
+        <source>This label turns red if any recipient receives an amount smaller than the current dust threshold.</source>
+        <translation>Diese Bezeichnung wird rot, wenn ein Empfänger einen Betrag kleiner als die gegenwärtige Schwelle für Dust erhält.</translation>
     </message>
     <message>
-        <source>Can vary +/- 1 byte per input.</source>
-        <translation>Kann um +/- 1 Byte pro Eingabe variieren.</translation>
-    </message>
-    <message>
-        <source>Transactions with higher priority are more likely to get included into a block.</source>
-        <translation>Transaktionen mit höherer Priorität haben eine größere Chance in einen Block aufgenommen zu werden.</translation>
+        <source>Can vary +/- %1 duff(s) per input.</source>
+        <translation>Kann um +/- %1 duff(s) pro Eingabe variieren.</translation>
     </message>
     <message>
         <source>(no label)</source>
@@ -900,6 +828,10 @@
     <message>
         <source>(change)</source>
         <translation>(Wechselgeld)</translation>
+    </message>
+    <message>
+        <source>n/a</source>
+        <translation>k.A.</translation>
     </message>
 </context>
 <context>
@@ -925,28 +857,28 @@
         <translation>Bitten wählen Sie eine Datenschutz-Stufe.</translation>
     </message>
     <message>
-        <source>Use 2 separate masternodes to mix funds up to 1000 MCC</source>
-        <translation>Benutze 2 separate Masternodes um bis zu 1000 MCC zu mixen</translation>
+        <source>Use 2 separate masternodes to mix funds up to 1000 XMCC</source>
+        <translation>Benutze 2 separate Masternodes um bis zu 1000 XMCC zu mixen</translation>
     </message>
     <message>
-        <source>Use 8 separate masternodes to mix funds up to 1000 MCC</source>
-        <translation>Benutze 8 separate Masternodes um bis zu 1000 MCC zu mixen</translation>
+        <source>Use 8 separate masternodes to mix funds up to 1000 XMCC</source>
+        <translation>Benutze 8 separate Masternodes um bis zu 1000 XMCC zu mixen</translation>
     </message>
     <message>
         <source>Use 16 separate masternodes</source>
         <translation>Benutze 16 separate Masternodes</translation>
     </message>
     <message>
-        <source>This option is the quickest and will cost about ~0.025 MCC to anonymize 1000 MCC</source>
-        <translation>Diese Option ist am Schnellsten und kostet ungefähr 0,025 MCC, um 1000 MCC zu anonymisieren</translation>
+        <source>This option is the quickest and will cost about ~0.025 XMCC to anonymize 1000 XMCC</source>
+        <translation>Diese Option ist am Schnellsten und kostet ungefähr 0,025 XMCC, um 1000 XMCC zu anonymisieren</translation>
     </message>
     <message>
-        <source>This option is moderately fast and will cost about 0.05 MCC to anonymize 1000 MCC</source>
-        <translation>Diese Option ist einigermaßen schnell und kostet ungefähr 0,05 MCC, um 1000 MCC zu anonymisieren</translation>
+        <source>This option is moderately fast and will cost about 0.05 XMCC to anonymize 1000 XMCC</source>
+        <translation>Diese Option ist einigermaßen schnell und kostet ungefähr 0,05 XMCC, um 1000 XMCC zu anonymisieren</translation>
     </message>
     <message>
-        <source>0.1 MCC per 1000 MCC you anonymize.</source>
-        <translation>0,1 MCC pro 1000 zu anonymisierende monacoCoin.</translation>
+        <source>0.1 XMCC per 1000 XMCC you anonymize.</source>
+        <translation>0,1 XMCC pro 1000 zu anonymisierende Monoeci.</translation>
     </message>
     <message>
         <source>This is the slowest and most secure option. Using maximum anonymity will cost</source>
@@ -957,16 +889,16 @@
         <translation>PrivateSend Konfiguration</translation>
     </message>
     <message>
-        <source>PrivateSend was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening monacoCoin's configuration screen.</source>
-        <translation>PrivateSend wurde erfolgreich auf einfachen Datenschutz (%1 und 2 Runden) gesetzt. Sie können dies jederzeit im Konfigurationsfenster von monacoCoin ändern.</translation>
+        <source>PrivateSend was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening Monoeci's configuration screen.</source>
+        <translation>PrivateSend wurde erfolgreich auf einfachen Datenschutz (%1 und 2 Runden) gesetzt. Sie können dies jederzeit im Konfigurationsfenster von Monoeci ändern.</translation>
     </message>
     <message>
-        <source>PrivateSend was successfully set to high (%1 and 8 rounds). You can change this at any time by opening monacoCoin's configuration screen.</source>
-        <translation>PrivateSend wurde erfolgreich auf hohen Datenschutz (%1 und 8 Runden) gesetzt. Sie können dies jederzeit im Konfigurationsfenster von monacoCoin ändern.</translation>
+        <source>PrivateSend was successfully set to high (%1 and 8 rounds). You can change this at any time by opening Monoeci's configuration screen.</source>
+        <translation>PrivateSend wurde erfolgreich auf hohen Datenschutz (%1 und 8 Runden) gesetzt. Sie können dies jederzeit im Konfigurationsfenster von Monoeci ändern.</translation>
     </message>
     <message>
-        <source>PrivateSend was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening monacoCoin's configuration screen.</source>
-        <translation>PrivateSend wurde erfolgreich auf maximalen Datenschutz (%1 und 16 Runden) gesetzt. Sie können dies jederzeit im Konfigurationsfenster von monacoCoin ändern.</translation>
+        <source>PrivateSend was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening Monoeci's configuration screen.</source>
+        <translation>PrivateSend wurde erfolgreich auf maximalen Datenschutz (%1 und 16 Runden) gesetzt. Sie können dies jederzeit im Konfigurationsfenster von Monoeci ändern.</translation>
     </message>
 </context>
 <context>
@@ -1008,8 +940,8 @@
         <translation>Zahlungsadresse bearbeiten</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid monacoCoin address.</source>
-        <translation>Die eingegebene Adresse "%1" ist keine gültige monacoCoin-Adresse.</translation>
+        <source>The entered address "%1" is not a valid Monoeci address.</source>
+        <translation>Die eingegebene Adresse "%1" ist keine gültige Monoeci-Adresse.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -1050,8 +982,8 @@
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>monacoCoin Core</source>
-        <translation>monacoCoin Core</translation>
+        <source>Monoeci Core</source>
+        <translation>Monoeci Core</translation>
     </message>
     <message>
         <source>version</source>
@@ -1062,8 +994,8 @@
         <translation>(%1-Bit)</translation>
     </message>
     <message>
-        <source>About monacoCoin Core</source>
-        <translation>Über monacoCoin Core</translation>
+        <source>About Monoeci Core</source>
+        <translation>Über Monoeci Core</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1086,23 +1018,6 @@
         <translation>Datenverzeichnis beim Starten auswählen (Standard: %u)</translation>
     </message>
     <message>
-        <source>Show splash screen on startup (default: %u)</source>
-        <translation>Startbildschirm beim Starten anzeigen (Standard: %u)</translation>
-    </message>
-    <message>
-        <source>Reset all settings changes made over the GUI</source>
-        <translation>Alle über die Benutzeroberfläche gemachten Einstellungen zurücksetzen</translation>
-    </message>
-    <message>
-        <source>PrivateSend information</source>
-        <translation>PrivateSend Informationen</translation>
-    </message>
-    <message>
-        <source>&lt;h3&gt;PrivateSend Basics&lt;/h3&gt; PrivateSend gives you true financial privacy by obscuring the origins of your funds. All the monacoCoin in your wallet is comprised of different "inputs" which you can think of as separate, discrete coins.&lt;br&gt; PrivateSend uses an innovative process to mix your inputs with the inputs of two other people, without having your coins ever leave your wallet. You retain control of your money at all times..&lt;hr&gt; &lt;b&gt;The PrivateSend process works like this:&lt;/b&gt;&lt;ol type="1"&gt; &lt;li&gt;PrivateSend begins by breaking your transaction inputs down into standard denominations. These denominations are 0.01 MCC, 0.1 MCC, 1 MCC and 10 MCC -- sort of like the paper money you use every day.&lt;/li&gt; &lt;li&gt;Your wallet then sends requests to specially configured software nodes on the network, called "masternodes." These masternodes are informed then that you are interested in mixing a certain denomination. No identifiable information is sent to the masternodes, so they never know "who" you are.&lt;/li&gt; &lt;li&gt;When two other people send similar messages, indicating that they wish to mix the same denomination, a mixing session begins. The masternode mixes up the inputs and instructs all three users' wallets to pay the now-transformed input back to themselves. Your wallet pays that denomination directly to itself, but in a different address (called a change address).&lt;/li&gt; &lt;li&gt;In order to fully obscure your funds, your wallet must repeat this process a number of times with each denomination. Each time the process is completed, it's called a "round." Each round of PrivateSend makes it exponentially more difficult to determine where your funds originated.&lt;/li&gt; &lt;li&gt;This mixing process happens in the background without any intervention on your part. When you wish to make a transaction, your funds will already be anonymized. No additional waiting is required.&lt;/li&gt; &lt;/ol&gt; &lt;hr&gt;&lt;b&gt;IMPORTANT:&lt;/b&gt; Your wallet only contains 1000 of these "change addresses." Every time a mixing event happens, up to 9 of your addresses are used up. This means those 1000 addresses last for about 100 mixing events. When 900 of them are used, your wallet must create more addresses. It can only do this, however, if you have automatic backups enabled.&lt;br&gt; Consequently, users who have backups disabled will also have PrivateSend disabled. &lt;hr&gt;For more info see &lt;a href="https://monacoCoinpay.atlassian.net/wiki/display/DOC/PrivateSend"&gt;https://monacoCoinpay.atlassian.net/wiki/display/DOC/PrivateSend&lt;/a&gt;         </source>
-        <translation>&lt;h3&gt;Basisinformation zu PrivateSend&lt;/h3&gt; PrivateSend bietet finanziellen Datenschutz durch geschickte Verschleierung der Herkunft Ihres Geldes. Die monacoCoin in Ihrer Geldbörse setzen sich aus völlig unterschiedlichen eigenständigen "Inputs" zusammen.&lt;br&gt; PrivateSend benutzt einen innovativen Prozeß, um Ihre "Inputs" mit denen von 2 anderen Personen zu mischen, ohne das Ihr Geld jemals Ihre Geldbörse verlassen muß, d.h. Sie haben während dieses Prozesses immer die Kontrolle über Ihr Geld.&lt;hr&gt;&lt;b&gt;Der PrivateSend-Prozess funktioniert folgendermaßen:&lt;/b&gt;&lt;ol type="1"&gt;&lt;li&gt;PrivateSend stückelt Ihre "Inputs" in kleinere Teile. Diese sind 0,01 MCC, 0,1 MCC, 1monacoCoin und 10 MCC -- im Prinzip wie Münzen oder Scheine, wie wir sie jeden Tag benutzen.&lt;/li&gt; &lt;li&gt;Ihre Geldbörse sendet dann eine entsprechende Mixing Anforderungen an spezielle monacoCoin-Server im Internet, die sogenannten "Masternodes". Damit werden diese Masternodes darüber informiert, daß Sie Ihre gestückelten MCC gerne mixen würden. Dabei wird keinerlei Information über Sie versendet, d.h. die Masternodes wissen nie, wer genau mixen möchte.&lt;/li&gt; &lt;li&gt; Sobald zwei andere Personen eine gleiche Mixing-Anforderung mit der gleichen Stückelung senden beginnt der Mixing-Prozeß. Der Masternode vermischt (daher das Wort "Mixing") die gestückelten Inputs und weist das Ergebnis wieder den Geldbörsen zu, allerdings mit neuen Empfängeradressen (die natürlich zu Ihrer Wallet gehören), so daß man sie nicht mehr den ursprünglichen Adressen zuordnen kann.. Man kann sich das so vorstellen wie wenn 3 Personen jeweils 100 Euro in der gleichen Anzahl von 10 Euro Scheinen, 5 Euro Scheinen, 2- und 1-Euro Münzen auf einen Tisch legen, alles einmal gut durchmischen, und sich anschießend ohne hinzusehen wieder 100 Euro vom Tischen nehmen. Jeder hat genau so viele Euro wie vorher, aber keiner weiß, wessen Scheine oder Münzen er letztendlich in seiner Geldbörse hat, oder wo sie herkommen. Und das Gute dabei ist, im monacoCoin Mixing Prozeß verlassen die Scheine oder Münzen niemals die Geldbörse ihres Besitzers, daher kann kein Betrug stattfinden.&lt;/li&gt; &lt;li&gt;Um die Herkunft Ihres Guthabens vollständig zu verschleiern muß dieser Prozeß mehrmals wiederholt werden, d.h. es gibt mehrere "Runden" des Mixing-Prozesses. Die Anzahl der Runden ist einstellbar, je mehr, desto besser ist die Herkunft Ihres Guthabens verschleiert, aber um so länger dauert der Prozeß.&lt;/li&gt; &lt;li&gt;
-Der Mixing-Prozeß läuft nach dem Start vollständig im Hintergrund, d.h. es ist keine Benutzerinteraktion mehr erforderlich. Das Wallet informiert Sie über den Fortschrittsbalken über den aktuellen Status des Prozesses.&lt;/li&gt; &lt;/ol&gt; &lt;hr&gt;&lt;b&gt;WICHTIG:&lt;/b&gt; beim Mischen der Inputs werden die einzelnen Stückelungen einer NEUEN Empfängeradresse zugeordnet (siehe Oben). Ihre Geldbörse hat bereits beim ersten Start 1000 dieser "Wechseladressen" auf Vorrat erzeugt. Bei jedem Mischen werden 9 dieser Wechseladressen verbraucht, d.h. nach ungefähr 100 Mischvorgänge sind diese 1000 Wechseladressen aufgebraucht. Die Geldbörse ist so eingestellt, daß sie bei Erreichen von 900 benutzen Wechseladressen wieder genug neue Wechseladressen erzeugt, damit man auch in der Zukunft wieder mischen kann. Die neuen Wechseladressen werden aber nur dann erzeugt, wenn man in den Einstellungen "Automatische Datensicherungen" aktiviert hat.&lt;br&gt; Daher ist bei Benutzern, die "Automatische Datensicherungen" deaktiviert haben, automatisch auch PrivateSend dekativiert.&lt;hr&gt; Weitere Information hierzu finden Sie auf  &lt;a href="https://monacoCoinpay.atlassian.net/wiki/display/DOC/PrivateSend"&gt;https://monacoCoinpay.atlassian.net/wiki/display/DOC/PrivateSend&lt;/a&gt;</translation>
-    </message>
-    <message>
         <source>Set language, for example "de_DE" (default: system locale)</source>
         <translation>Sprache festlegen, z.B. "de_DE" (Standard: Systemstandard)</translation>
     </message>
@@ -1114,6 +1029,23 @@ Der Mixing-Prozeß läuft nach dem Start vollständig im Hintergrund, d.h. es is
         <source>Set SSL root certificates for payment request (default: -system-)</source>
         <translation>SSL-Wurzelzertifikate für Zahlungsanforderungen festlegen (Standard: Systemstandard)</translation>
     </message>
+    <message>
+        <source>Show splash screen on startup (default: %u)</source>
+        <translation>Startbildschirm beim Starten anzeigen (Standard: %u)</translation>
+    </message>
+    <message>
+        <source>Reset all settings changed in the GUI</source>
+        <translation>Alle über die Benutzeroberfläche gemachten Einstellungen zurücksetzen</translation>
+    </message>
+    <message>
+        <source>PrivateSend information</source>
+        <translation>PrivateSend Informationen</translation>
+    </message>
+    <message>
+        <source>&lt;h3&gt;PrivateSend Basics&lt;/h3&gt; PrivateSend gives you true financial privacy by obscuring the origins of your funds. All the Monoeci in your wallet is comprised of different "inputs" which you can think of as separate, discrete coins.&lt;br&gt; PrivateSend uses an innovative process to mix your inputs with the inputs of two other people, without having your coins ever leave your wallet. You retain control of your money at all times..&lt;hr&gt; &lt;b&gt;The PrivateSend process works like this:&lt;/b&gt;&lt;ol type="1"&gt; &lt;li&gt;PrivateSend begins by breaking your transaction inputs down into standard denominations. These denominations are 0.01 XMCC, 0.1 XMCC, 1 XMCC and 10 XMCC -- sort of like the paper money you use every day.&lt;/li&gt; &lt;li&gt;Your wallet then sends requests to specially configured software nodes on the network, called "masternodes." These masternodes are informed then that you are interested in mixing a certain denomination. No identifiable information is sent to the masternodes, so they never know "who" you are.&lt;/li&gt; &lt;li&gt;When two other people send similar messages, indicating that they wish to mix the same denomination, a mixing session begins. The masternode mixes up the inputs and instructs all three users' wallets to pay the now-transformed input back to themselves. Your wallet pays that denomination directly to itself, but in a different address (called a change address).&lt;/li&gt; &lt;li&gt;In order to fully obscure your funds, your wallet must repeat this process a number of times with each denomination. Each time the process is completed, it's called a "round." Each round of PrivateSend makes it exponentially more difficult to determine where your funds originated.&lt;/li&gt; &lt;li&gt;This mixing process happens in the background without any intervention on your part. When you wish to make a transaction, your funds will already be anonymized. No additional waiting is required.&lt;/li&gt; &lt;/ol&gt; &lt;hr&gt;&lt;b&gt;IMPORTANT:&lt;/b&gt; Your wallet only contains 1000 of these "change addresses." Every time a mixing event happens, up to 9 of your addresses are used up. This means those 1000 addresses last for about 100 mixing events. When 900 of them are used, your wallet must create more addresses. It can only do this, however, if you have automatic backups enabled.&lt;br&gt; Consequently, users who have backups disabled will also have PrivateSend disabled. &lt;hr&gt;For more info see &lt;a href="https://monoecipay.atlassian.net/wiki/display/DOC/PrivateSend"&gt;https://monoecipay.atlassian.net/wiki/display/DOC/PrivateSend&lt;/a&gt;         </source>
+        <translation>&lt;h3&gt;Basisinformation zu PrivateSend&lt;/h3&gt; PrivateSend bietet finanziellen Datenschutz durch geschickte Verschleierung der Herkunft Ihres Geldes. Die Monoeci in Ihrer Geldbörse setzen sich aus völlig unterschiedlichen eigenständigen "Inputs" zusammen.&lt;br&gt; PrivateSend benutzt einen innovativen Prozeß, um Ihre "Inputs" mit denen von 2 anderen Personen zu mischen, ohne das Ihr Geld jemals Ihre Geldbörse verlassen muß, d.h. Sie haben während dieses Prozesses immer die Kontrolle über Ihr Geld.&lt;hr&gt;&lt;b&gt;Der PrivateSend-Prozess funktioniert folgendermaßen:&lt;/b&gt;&lt;ol type="1"&gt;&lt;li&gt;PrivateSend stückelt Ihre "Inputs" in kleinere Teile. Diese sind 0,01 XMCC, 0,1 XMCC, 1XMCC und 10 XMCC -- im Prinzip wie Münzen oder Scheine, wie wir sie jeden Tag benutzen.&lt;/li&gt; &lt;li&gt;Ihre Geldbörse sendet dann eine entsprechende Mixing Anforderungen an spezielle Monoeci-Server im Internet, die sogenannten "Masternodes". Damit werden diese Masternodes darüber informiert, daß Sie Ihre gestückelten XMCC gerne mixen würden. Dabei wird keinerlei Information über Sie versendet, d.h. die Masternodes wissen nie, wer genau mixen möchte.&lt;/li&gt; &lt;li&gt; Sobald zwei andere Personen eine gleiche Mixing-Anforderung mit der gleichen Stückelung senden beginnt der Mixing-Prozeß. Der Masternode vermischt (daher das Wort "Mixing") die gestückelten Inputs und weist das Ergebnis wieder den Geldbörsen zu, allerdings mit neuen Empfängeradressen (die natürlich zu Ihrer Wallet gehören), so daß man sie nicht mehr den ursprünglichen Adressen zuordnen kann.. Man kann sich das so vorstellen wie wenn 3 Personen jeweils 100 Euro in der gleichen Anzahl von 10 Euro Scheinen, 5 Euro Scheinen, 2- und 1-Euro Münzen auf einen Tisch legen, alles einmal gut durchmischen, und sich anschießend ohne hinzusehen wieder 100 Euro vom Tischen nehmen. Jeder hat genau so viele Euro wie vorher, aber keiner weiß, wessen Scheine oder Münzen er letztendlich in seiner Geldbörse hat, oder wo sie herkommen. Und das Gute dabei ist, im Monoeci Mixing Prozeß verlassen die Scheine oder Münzen niemals die Geldbörse ihres Besitzers, daher kann kein Betrug stattfinden.&lt;/li&gt; &lt;li&gt;Um die Herkunft Ihres Guthabens vollständig zu verschleiern muß dieser Prozeß mehrmals wiederholt werden, d.h. es gibt mehrere "Runden" des Mixing-Prozesses. Die Anzahl der Runden ist einstellbar, je mehr, desto besser ist die Herkunft Ihres Guthabens verschleiert, aber um so länger dauert der Prozeß.&lt;/li&gt; &lt;li&gt;
+Der Mixing-Prozeß läuft nach dem Start vollständig im Hintergrund, d.h. es ist keine Benutzerinteraktion mehr erforderlich. Das Wallet informiert Sie über den Fortschrittsbalken über den aktuellen Status des Prozesses.&lt;/li&gt; &lt;/ol&gt; &lt;hr&gt;&lt;b&gt;WICHTIG:&lt;/b&gt; beim Mischen der Inputs werden die einzelnen Stückelungen einer NEUEN Empfängeradresse zugeordnet (siehe Oben). Ihre Geldbörse hat bereits beim ersten Start 1000 dieser "Wechseladressen" auf Vorrat erzeugt. Bei jedem Mischen werden 9 dieser Wechseladressen verbraucht, d.h. nach ungefähr 100 Mischvorgänge sind diese 1000 Wechseladressen aufgebraucht. Die Geldbörse ist so eingestellt, daß sie bei Erreichen von 900 benutzen Wechseladressen wieder genug neue Wechseladressen erzeugt, damit man auch in der Zukunft wieder mischen kann. Die neuen Wechseladressen werden aber nur dann erzeugt, wenn man in den Einstellungen "Automatische Datensicherungen" aktiviert hat.&lt;br&gt; Daher ist bei Benutzern, die "Automatische Datensicherungen" deaktiviert haben, automatisch auch PrivateSend dekativiert.&lt;hr&gt; Weitere Information hierzu finden Sie auf  &lt;a href="https://monoecipay.atlassian.net/wiki/display/DOC/PrivateSend"&gt;https://monoecipay.atlassian.net/wiki/display/DOC/PrivateSend&lt;/a&gt;</translation>
+    </message>
 </context>
 <context>
     <name>Intro</name>
@@ -1122,16 +1054,16 @@ Der Mixing-Prozeß läuft nach dem Start vollständig im Hintergrund, d.h. es is
         <translation>Willkommen</translation>
     </message>
     <message>
-        <source>Welcome to monacoCoin Core.</source>
-        <translation>Willkommen zu monacoCoin Core.</translation>
+        <source>Welcome to Monoeci Core.</source>
+        <translation>Willkommen zu Monoeci Core.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where monacoCoin Core will store its data.</source>
-        <translation>Da dies das erste Mal ist, dass Sie monacoCoin Core starten, legen Sie jetzt bitte fest, an welchem Ort die Daten gespeichert werden sollen.</translation>
+        <source>As this is the first time the program is launched, you can choose where Monoeci Core will store its data.</source>
+        <translation>Da dies das erste Mal ist, dass Sie Monoeci Core starten, legen Sie jetzt bitte fest, an welchem Ort die Daten gespeichert werden sollen.</translation>
     </message>
     <message>
-        <source>monacoCoin Core will download and store a copy of the monacoCoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>monacoCoin Core wird jetzt die Blockchain laden und lokal speichern. Dafür sind mindestens %1GB freier Speicherplatz erforderlich. Der Speicherbedarf wird mit der Zeit anwachsen. Das Wallet wird ebenfalls in diesem Verzeichnis gespeichert.</translation>
+        <source>Monoeci Core will download and store a copy of the Monoeci block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>Monoeci Core wird jetzt die Blockchain laden und lokal speichern. Dafür sind mindestens %1GB freier Speicherplatz erforderlich. Der Speicherbedarf wird mit der Zeit anwachsen. Das Wallet wird ebenfalls in diesem Verzeichnis gespeichert.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1142,8 +1074,8 @@ Der Mixing-Prozeß läuft nach dem Start vollständig im Hintergrund, d.h. es is
         <translation>Ein benutzerdefiniertes Datenverzeichnis verwenden:</translation>
     </message>
     <message>
-        <source>monacoCoin Core</source>
-        <translation>monacoCoin Core</translation>
+        <source>Monoeci Core</source>
+        <translation>Monoeci Core</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1282,6 +1214,61 @@ Der Mixing-Prozeß läuft nach dem Start vollständig im Hintergrund, d.h. es is
     </message>
 </context>
 <context>
+    <name>ModalOverlay</name>
+    <message>
+        <source>Form</source>
+        <translation>Formular</translation>
+    </message>
+    <message>
+        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the Monoeci network, as detailed below.</source>
+        <translation>Kontostand möglicherweise falsch, da die neuesten Transaktionen ggf. noch nicht sichtbar sind. Der Kontostand wird automatisch aktualisiert, sobald Ihre Wallet die Synchronisation mit dem Monoeci Netzwerk abgeschlossen hat.</translation>
+    </message>
+    <message>
+        <source>Attempting to spend Monoeci that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
+        <translation>Der Versuch Monoeci aus Transaktionen auszugeben, die noch nicht angezeigt werden, wird vom Netzwerk nicht akzeptiert.</translation>
+    </message>
+    <message>
+        <source>Number of blocks left</source>
+        <translation>Anzahl verbleibender Blöcke</translation>
+    </message>
+    <message>
+        <source>Unknown...</source>
+        <translation>Unbekannt...</translation>
+    </message>
+    <message>
+        <source>Last block time</source>
+        <translation>Letzte Blockzeit</translation>
+    </message>
+    <message>
+        <source>Progress</source>
+        <translation>Fortschritt</translation>
+    </message>
+    <message>
+        <source>~</source>
+        <translation>~</translation>
+    </message>
+    <message>
+        <source>Progress increase per hour</source>
+        <translation>Fortschritt pro Stunde</translation>
+    </message>
+    <message>
+        <source>calculating...</source>
+        <translation>berechne...</translation>
+    </message>
+    <message>
+        <source>Estimated time left until synced</source>
+        <translation>Geschätzte Dauer bis zur Synchronisation</translation>
+    </message>
+    <message>
+        <source>Hide</source>
+        <translation>Verbergen</translation>
+    </message>
+    <message>
+        <source>Unknown. Syncing Headers (%1)...</source>
+        <translation>Unbekannt. Synchronisiere Header (%1)...</translation>
+    </message>
+</context>
+<context>
     <name>OpenURIDialog</name>
     <message>
         <source>Open URI</source>
@@ -1331,20 +1318,20 @@ Der Mixing-Prozeß läuft nach dem Start vollständig im Hintergrund, d.h. es is
         <translation>(0 = automatisch, &lt;0 = so viele Kerne frei lassen)</translation>
     </message>
     <message>
-        <source>Amount of monacoCoin to keep anonymized</source>
-        <translation>Anzahl anonymisierter monacoCoin</translation>
+        <source>Amount of Monoeci to keep anonymized</source>
+        <translation>Anzahl anonymisierter Monoeci</translation>
     </message>
     <message>
         <source>W&amp;allet</source>
         <translation>W&amp;allet</translation>
     </message>
     <message>
-        <source>Automatically start monacoCoin Core after logging in to the system.</source>
-        <translation>monacoCoin Core nach der Anmeldung am System automatisch starten.</translation>
+        <source>Automatically start Monoeci Core after logging in to the system.</source>
+        <translation>Monoeci Core nach der Anmeldung am System automatisch starten.</translation>
     </message>
     <message>
-        <source>&amp;Start monacoCoin Core on system login</source>
-        <translation>&amp;Starte monacoCoin Core während der Systemanmeldung</translation>
+        <source>&amp;Start Monoeci Core on system login</source>
+        <translation>&amp;Starte Monoeci Core während der Systemanmeldung</translation>
     </message>
     <message>
         <source>Show additional tab listing all your masternodes in first sub-tab&lt;br/&gt;and all masternodes on the network in second sub-tab.</source>
@@ -1391,8 +1378,8 @@ Der Mixing-Prozeß läuft nach dem Start vollständig im Hintergrund, d.h. es is
         <translation>Beim Erreichen dieses Betrages wird PrivateSend ausgeschaltet.</translation>
     </message>
     <message>
-        <source>Automatically open the monacoCoin Core client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Automatisch den monacoCoin Core Clientport auf dem Router öffnen. Dies funktioniert nur, wenn Ihr Router UPnP unterstützt und dies aktiviert ist.</translation>
+        <source>Automatically open the Monoeci Core client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Automatisch den Monoeci Core Clientport auf dem Router öffnen. Dies funktioniert nur, wenn Ihr Router UPnP unterstützt und dies aktiviert ist.</translation>
     </message>
     <message>
         <source>Accept connections from outside</source>
@@ -1403,8 +1390,8 @@ Der Mixing-Prozeß läuft nach dem Start vollständig im Hintergrund, d.h. es is
         <translation>Eingehende Verbindungen erlauben</translation>
     </message>
     <message>
-        <source>Connect to the monacoCoin network through a SOCKS5 proxy.</source>
-        <translation>Über einen SOCKS5-Proxy mit dem monacoCoin-Netzwerk verbinden.</translation>
+        <source>Connect to the Monoeci network through a SOCKS5 proxy.</source>
+        <translation>Über einen SOCKS5-Proxy mit dem Monoeci-Netzwerk verbinden.</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
@@ -1415,8 +1402,8 @@ Der Mixing-Prozeß läuft nach dem Start vollständig im Hintergrund, d.h. es is
         <translation>Minimiert die Anwendung anstatt sie zu beenden wenn das Fenster geschlossen wird. Wenn dies aktiviert ist, müssen Sie das Programm über "Beenden" im Menü schließen.</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting monacoCoin Core.</source>
-        <translation>Legt die Sprache der Benutzeroberfläche fest. Diese Einstellung wird erst nach einem Neustart von monacoCoin Core aktiv.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting Monoeci Core.</source>
+        <translation>Legt die Sprache der Benutzeroberfläche fest. Diese Einstellung wird erst nach einem Neustart von Monoeci Core aktiv.</translation>
     </message>
     <message>
         <source>Third party URLs (e.g. a block explorer) that appear in the transactions tab as context menu items.&lt;br/&gt;%s in the URL is replaced by transaction hash. Multiple URLs are separated by vertical bar |.</source>
@@ -1487,8 +1474,8 @@ Der Mixing-Prozeß läuft nach dem Start vollständig im Hintergrund, d.h. es is
         <translation>Tor</translation>
     </message>
     <message>
-        <source>Connect to the monacoCoin network through a separate SOCKS5 proxy for Tor hidden services.</source>
-        <translation>Über einen separaten SOCKS5-Proxy für versteckte Tor Dienste mit dem monacoCoin-Netzwerk verbinden.</translation>
+        <source>Connect to the Monoeci network through a separate SOCKS5 proxy for Tor hidden services.</source>
+        <translation>Über einen separaten SOCKS5-Proxy für versteckte Tor Dienste mit dem Monoeci-Netzwerk verbinden.</translation>
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services:</source>
@@ -1497,6 +1484,14 @@ Der Mixing-Prozeß läuft nach dem Start vollständig im Hintergrund, d.h. es is
     <message>
         <source>&amp;Window</source>
         <translation>&amp;Programmfenster</translation>
+    </message>
+    <message>
+        <source>&amp;Hide the icon from the system tray.</source>
+        <translation>&amp;Verberge Symbol im Infobereich.</translation>
+    </message>
+    <message>
+        <source>Hide tray icon</source>
+        <translation>Infosymbol verbergen</translation>
     </message>
     <message>
         <source>Show only a tray icon after minimizing the window.</source>
@@ -1520,9 +1515,9 @@ Der Mixing-Prozeß läuft nach dem Start vollständig im Hintergrund, d.h. es is
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
-https://www.transifex.com/projects/p/monacoCoin/</source>
+https://www.transifex.com/projects/p/monoeci/</source>
         <translation>Fehlt eine Sprache oder ist unvollständig übersetzt? Hier können Sie helfen:
-https://www.transifex.com/projects/p/monacoCoin/</translation>
+https://www.transifex.com/projects/p/monoeci/</translation>
     </message>
     <message>
         <source>User Interface Theme:</source>
@@ -1534,7 +1529,7 @@ https://www.transifex.com/projects/p/monacoCoin/</translation>
     </message>
     <message>
         <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
-        <translation>Wählen Sie die standardmäßige Untereinheit, die in der Benutzeroberfläche und beim Überweisen von monacoCoin angezeigt werden soll.</translation>
+        <translation>Wählen Sie die standardmäßige Untereinheit, die in der Benutzeroberfläche und beim Überweisen von Monoeci angezeigt werden soll.</translation>
     </message>
     <message>
         <source>Decimal digits</source>
@@ -1600,8 +1595,8 @@ https://www.transifex.com/projects/p/monacoCoin/</translation>
         <translation>Formular</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the monacoCoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>Die angezeigten Informationen sind möglicherweise nicht mehr aktuell. Ihre Wallet wird automatisch synchronisiert, nachdem eine Verbindung zum monacoCoin-Netzwerk hergestellt wurde. Dieser Prozess ist jedoch derzeit noch nicht abgeschlossen.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Monoeci network after a connection is established, but this process has not completed yet.</source>
+        <translation>Die angezeigten Informationen sind möglicherweise nicht mehr aktuell. Ihre Wallet wird automatisch synchronisiert, nachdem eine Verbindung zum Monoeci-Netzwerk hergestellt wurde. Dieser Prozess ist jedoch derzeit noch nicht abgeschlossen.</translation>
     </message>
     <message>
         <source>Available:</source>
@@ -1700,8 +1695,8 @@ https://www.transifex.com/projects/p/monacoCoin/</translation>
         <translation>Betrag und Runden:</translation>
     </message>
     <message>
-        <source>0 MCC / 0 Rounds</source>
-        <translation>0 MCC / 0 Runden</translation>
+        <source>0 XMCC / 0 Rounds</source>
+        <translation>0 XMCC / 0 Runden</translation>
     </message>
     <message>
         <source>Submitted Denom:</source>
@@ -1744,8 +1739,16 @@ https://www.transifex.com/projects/p/monacoCoin/</translation>
         <translation>nicht synchron</translation>
     </message>
     <message>
-        <source>Disabled</source>
-        <translation>Deaktiviert</translation>
+        <source>Automatic backups are disabled, no mixing available!</source>
+        <translation>Automatische Datensicherungen sind deaktiviert, mixen nicht möglich!</translation>
+    </message>
+    <message>
+        <source>Start Mixing</source>
+        <translation>Starte Mixen</translation>
+    </message>
+    <message>
+        <source>Stop Mixing</source>
+        <translation>Stoppe Mixen</translation>
     </message>
     <message>
         <source>No inputs detected</source>
@@ -1754,6 +1757,10 @@ https://www.transifex.com/projects/p/monacoCoin/</translation>
     <message numerus="yes">
         <source>%n Rounds</source>
         <translation><numerusform>%n Runde</numerusform><numerusform>%n Runden</numerusform></translation>
+    </message>
+    <message>
+        <source>Found enough compatible inputs to anonymize %1</source>
+        <translation>Genug kompatible Inputs zum Anonymisieren von %1 gefunden</translation>
     </message>
     <message>
         <source>Not enough compatible inputs to anonymize &lt;span style='color:red;'&gt;%1&lt;/span&gt;,&lt;br&gt;will anonymize &lt;span style='color:red;'&gt;%2&lt;/span&gt; instead</source>
@@ -1768,6 +1775,10 @@ https://www.transifex.com/projects/p/monacoCoin/</translation>
         <translation>Gestückelt</translation>
     </message>
     <message>
+        <source>Mixed</source>
+        <translation>Gemixt</translation>
+    </message>
+    <message>
         <source>Anonymized</source>
         <translation>Anonymisiert</translation>
     </message>
@@ -1776,28 +1787,12 @@ https://www.transifex.com/projects/p/monacoCoin/</translation>
         <translation><numerusform>Gestückelte Inputs haben im Durchschnitt %5 von %n Runden</numerusform><numerusform>Gestückelte Inputs haben im Durchschnitt %5 von %n Runden</numerusform></translation>
     </message>
     <message>
-        <source>Found enough compatible inputs to anonymize %1</source>
-        <translation>Genug kompatible Inputs zum Anonymisieren von %1 gefunden</translation>
-    </message>
-    <message>
-        <source>Automatic backups are disabled, no mixing available!</source>
-        <translation>Automatische Datensicherungen sind deaktiviert, mischen nicht möglich!</translation>
-    </message>
-    <message>
-        <source>Start Mixing</source>
-        <translation>Starte Mixen</translation>
-    </message>
-    <message>
-        <source>Stop Mixing</source>
-        <translation>Stoppe Mixen</translation>
-    </message>
-    <message>
-        <source>Mixed</source>
-        <translation>Gemixt</translation>
-    </message>
-    <message>
         <source>keys left: %1</source>
         <translation>Verfügbare Schlüssel: %1</translation>
+    </message>
+    <message>
+        <source>Disabled</source>
+        <translation>Deaktiviert</translation>
     </message>
     <message>
         <source>Very low number of keys left since last automatic backup!</source>
@@ -1843,6 +1838,10 @@ https://www.transifex.com/projects/p/monacoCoin/</translation>
 </translation>
     </message>
     <message>
+        <source>N/A</source>
+        <translation>k.A.</translation>
+    </message>
+    <message>
         <source>PrivateSend was successfully reset.</source>
         <translation>PrivateSend wurde erfolgreich zurückgesetzt.</translation>
     </message>
@@ -1858,10 +1857,6 @@ https://www.transifex.com/projects/p/monacoCoin/</translation>
         <source>Wallet is locked and user declined to unlock. Disabling PrivateSend.</source>
         <translation>Das Wallet ist gesperrt und der Benutzer hat abgelehnt, es zu entsperren. PrivateSend wird deaktiviert.</translation>
     </message>
-    <message>
-        <source>N/A</source>
-        <translation>k.A.</translation>
-    </message>
 </context>
 <context>
     <name>PaymentServer</name>
@@ -1870,8 +1865,8 @@ https://www.transifex.com/projects/p/monacoCoin/</translation>
         <translation>Fehlerhafte Zahlungsanforderung</translation>
     </message>
     <message>
-        <source>Cannot start monacoCoin: click-to-pay handler</source>
-        <translation>monacoCoin kann nicht gestartet werden: click-to-pay handler</translation>
+        <source>Cannot start monoeci: click-to-pay handler</source>
+        <translation>Monoeci kann nicht gestartet werden: click-to-pay handler</translation>
     </message>
     <message>
         <source>URI handling</source>
@@ -1882,20 +1877,16 @@ https://www.transifex.com/projects/p/monacoCoin/</translation>
         <translation>Abruf-URL der Zahlungsanforderung ist ungültig: %1</translation>
     </message>
     <message>
-        <source>Payment request file handling</source>
-        <translation>Zahlungsanforderungsdatei-Verarbeitung</translation>
-    </message>
-    <message>
-        <source>Payment request expired.</source>
-        <translation>Zahlungsanforderung abgelaufen</translation>
-    </message>
-    <message>
         <source>Invalid payment address %1</source>
         <translation>Ungültige Zahlungsadresse %1</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid monacoCoin address or malformed URI parameters.</source>
-        <translation>URI konnte nicht erfolgreich verarbeitet werden. Höchstwahrscheinlich ist dies entweder keine gültige monacoCoin-Adresse oder die URI-Parameter sind falsch gesetzt. </translation>
+        <source>URI cannot be parsed! This can be caused by an invalid Monoeci address or malformed URI parameters.</source>
+        <translation>URI konnte nicht erfolgreich verarbeitet werden. Höchstwahrscheinlich ist dies entweder keine gültige Monoeci-Adresse oder die URI-Parameter sind falsch gesetzt. </translation>
+    </message>
+    <message>
+        <source>Payment request file handling</source>
+        <translation>Zahlungsanforderungsdatei-Verarbeitung</translation>
     </message>
     <message>
         <source>Payment request file cannot be read! This can be caused by an invalid payment request file.</source>
@@ -1908,6 +1899,10 @@ https://www.transifex.com/projects/p/monacoCoin/</translation>
     <message>
         <source>Payment request network doesn't match client network.</source>
         <translation>Netzwerk der Zahlungsanforderung passt nicht zum Client-Netzwerk.</translation>
+    </message>
+    <message>
+        <source>Payment request expired.</source>
+        <translation>Zahlungsanforderung abgelaufen</translation>
     </message>
     <message>
         <source>Payment request is not initialized.</source>
@@ -1957,27 +1952,55 @@ https://www.transifex.com/projects/p/monacoCoin/</translation>
 <context>
     <name>PeerTableModel</name>
     <message>
-        <source>User Agent</source>
-        <translation>Benutzerprogramm</translation>
-    </message>
-    <message>
-        <source>Ping Time</source>
-        <translation>Ping-Antwort-Zeit</translation>
+        <source>NodeId</source>
+        <translation>KnotenId</translation>
     </message>
     <message>
         <source>Node/Service</source>
         <translation>Knoten/Dienste</translation>
     </message>
+    <message>
+        <source>User Agent</source>
+        <translation>Benutzerprogramm</translation>
+    </message>
+    <message>
+        <source>Ping</source>
+        <translation>Ping</translation>
+    </message>
 </context>
 <context>
     <name>QObject</name>
+    <message>
+        <source>Monoeci Core</source>
+        <translation>Monoeci Core</translation>
+    </message>
+    <message>
+        <source>Error: Specified data directory "%1" does not exist.</source>
+        <translation>Fehler: Das angegebene Datenverzeichnis "%1" wurde nicht gefunden.</translation>
+    </message>
+    <message>
+        <source>Error: Cannot parse configuration file: %1. Only use key=value syntax.</source>
+        <translation>Fehler: Konfigurationsdatei kann nicht eingelesen werden: %1. Bitte "Schlüssel=Wert"-Syntax beachten.</translation>
+    </message>
+    <message>
+        <source>Error: %1</source>
+        <translation>Fehler: %1</translation>
+    </message>
+    <message>
+        <source>Error reading masternode configuration file: %1</source>
+        <translation>Fehler beim Lesen der Masternode Konfigurationsdatei: %1</translation>
+    </message>
+    <message>
+        <source>Monoeci Core didn't yet exit safely...</source>
+        <translation>Monoeci Core wurde noch nicht sicher beendet...</translation>
+    </message>
     <message>
         <source>Amount</source>
         <translation>Betrag</translation>
     </message>
     <message>
-        <source>Enter a monacoCoin address (e.g. %1)</source>
-        <translation>monacoCoin-Adresse eingeben (z.B. %1)</translation>
+        <source>Enter a Monoeci address (e.g. %1)</source>
+        <translation>Monoeci-Adresse eingeben (z.B. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -2006,6 +2029,38 @@ https://www.transifex.com/projects/p/monacoCoin/</translation>
     <message>
         <source>%1 ms</source>
         <translation>%1 Ms</translation>
+    </message>
+    <message numerus="yes">
+        <source>%n second(s)</source>
+        <translation><numerusform>%n Sekunde</numerusform><numerusform>%n Sekunden</numerusform></translation>
+    </message>
+    <message numerus="yes">
+        <source>%n minute(s)</source>
+        <translation><numerusform>%n Minute</numerusform><numerusform>%n Minuten</numerusform></translation>
+    </message>
+    <message numerus="yes">
+        <source>%n hour(s)</source>
+        <translation><numerusform>%n Stunde</numerusform><numerusform>%n Stunden</numerusform></translation>
+    </message>
+    <message numerus="yes">
+        <source>%n day(s)</source>
+        <translation><numerusform>%n Tag</numerusform><numerusform>%n Tage</numerusform></translation>
+    </message>
+    <message numerus="yes">
+        <source>%n week(s)</source>
+        <translation><numerusform>%n Woche</numerusform><numerusform>%n Wochen</numerusform></translation>
+    </message>
+    <message numerus="yes">
+        <source>%n year(s)</source>
+        <translation><numerusform>%n Jahr</numerusform><numerusform>%n Jahre</numerusform></translation>
+    </message>
+    <message>
+        <source>%1 and %2</source>
+        <translation>%1 und %2</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>unbekannt</translation>
     </message>
 </context>
 <context>
@@ -2078,10 +2133,6 @@ https://www.transifex.com/projects/p/monacoCoin/</translation>
         <translation>Debugprotokolldatei</translation>
     </message>
     <message>
-        <source>Build date</source>
-        <translation>Erstellungsdatum</translation>
-    </message>
-    <message>
         <source>Current number of blocks</source>
         <translation>Aktuelle Anzahl Blöcke</translation>
     </message>
@@ -2114,8 +2165,8 @@ https://www.transifex.com/projects/p/monacoCoin/</translation>
         <translation>Speicherbenutzung</translation>
     </message>
     <message>
-        <source>Open the monacoCoin Core debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Öffnet die monacoCoin-Debugprotokolldatei aus dem aktuellen Datenverzeichnis. Dies kann bei großen Protokolldateien einige Sekunden dauern.</translation>
+        <source>Open the Monoeci Core debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Öffnet die Monoeci-Debugprotokolldatei aus dem aktuellen Datenverzeichnis. Dies kann bei großen Protokolldateien einige Sekunden dauern.</translation>
     </message>
     <message>
         <source>&amp;Console</source>
@@ -2190,6 +2241,18 @@ https://www.transifex.com/projects/p/monacoCoin/</translation>
         <translation>Benutzerprogramm</translation>
     </message>
     <message>
+        <source>Datadir</source>
+        <translation>Datenverzeichnis</translation>
+    </message>
+    <message>
+        <source>Decrease font size</source>
+        <translation>Fontgröße verringern</translation>
+    </message>
+    <message>
+        <source>Increase font size</source>
+        <translation>Fontgröße erhöhen</translation>
+    </message>
+    <message>
         <source>Services</source>
         <translation>Dienste</translation>
     </message>
@@ -2220,6 +2283,10 @@ https://www.transifex.com/projects/p/monacoCoin/</translation>
     <message>
         <source>Ping Wait</source>
         <translation>Warten auf Ping-Antwort</translation>
+    </message>
+    <message>
+        <source>Min Ping</source>
+        <translation>Min Ping</translation>
     </message>
     <message>
         <source>Time Offset</source>
@@ -2286,20 +2353,12 @@ https://www.transifex.com/projects/p/monacoCoin/</translation>
         <translation>-reindex: Blockkettenindex aus aktuellen Dateien blk000??.dat wieder aufbauen</translation>
     </message>
     <message>
-        <source>In:</source>
-        <translation>eingehend:</translation>
+        <source>&amp;Disconnect</source>
+        <translation>&amp;Trennen</translation>
     </message>
     <message>
-        <source>Out:</source>
-        <translation>ausgehend:</translation>
-    </message>
-    <message>
-        <source>&amp;Disconnect Node</source>
-        <translation>Verbin&amp;dung zu Knoten unterbrechen</translation>
-    </message>
-    <message>
-        <source>Ban Node for</source>
-        <translation>Knoten verbieten für</translation>
+        <source>Ban for</source>
+        <translation>Banne für</translation>
     </message>
     <message>
         <source>1 &amp;hour</source>
@@ -2318,12 +2377,12 @@ https://www.transifex.com/projects/p/monacoCoin/</translation>
         <translation>1 &amp;Jahr</translation>
     </message>
     <message>
-        <source>&amp;Unban Node</source>
+        <source>&amp;Unban</source>
         <translation>Knoten wieder erla&amp;uben</translation>
     </message>
     <message>
-        <source>Welcome to the monacoCoin Core RPC console.</source>
-        <translation>Willkommen in der monacoCoin Core RPC-Console.</translation>
+        <source>Welcome to the Monoeci Core RPC console.</source>
+        <translation>Willkommen in der Monoeci Core RPC-Console.</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
@@ -2332,6 +2391,18 @@ https://www.transifex.com/projects/p/monacoCoin/</translation>
     <message>
         <source>Type &lt;b&gt;help&lt;/b&gt; for an overview of available commands.</source>
         <translation>Bitte &lt;b&gt;help&lt;/b&gt; eingeben, um eine Übersicht verfügbarer Befehle zu erhalten.</translation>
+    </message>
+    <message>
+        <source>In:</source>
+        <translation>eingehend:</translation>
+    </message>
+    <message>
+        <source>Out:</source>
+        <translation>ausgehend:</translation>
+    </message>
+    <message>
+        <source>Network activity disabled</source>
+        <translation>Netzwerk-Aktivität deaktiviert</translation>
     </message>
     <message>
         <source>%1 B</source>
@@ -2393,8 +2464,8 @@ https://www.transifex.com/projects/p/monacoCoin/</translation>
         <translation>Vorhandene Empfangsadresse &amp;wiederverwenden (nicht empfohlen)</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the monacoCoin network.</source>
-        <translation>Eine optionale Nachricht, die an die Zahlungsanforderung angehängt wird. Sie wird angezeigt, wenn die Anforderung geöffnet wird. Hinweis: Diese Nachricht wird nicht mit der Zahlung über das monacoCoin-Netzwerk gesendet.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Monoeci network.</source>
+        <translation>Eine optionale Nachricht, die an die Zahlungsanforderung angehängt wird. Sie wird angezeigt, wenn die Anforderung geöffnet wird. Hinweis: Diese Nachricht wird nicht mit der Zahlung über das Monoeci-Netzwerk gesendet.</translation>
     </message>
     <message>
         <source>&amp;Message:</source>
@@ -2405,8 +2476,8 @@ https://www.transifex.com/projects/p/monacoCoin/</translation>
         <translation>Eine optionale Bezeichnung, die der neuen Empfangsadresse zugeordnet wird.</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the monacoCoin network.</source>
-        <translation>Eine optionale Nachricht, die an die Zahlungsanforderung angehängt wird. Sie wird angezeigt, wenn die Anforderung geöffnet wird.&lt;br&gt; Hinweis: Diese Nachricht wird nicht mit der Zahlung über das monacoCoin-Netzwerk gesendet.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the Monoeci network.</source>
+        <translation>Eine optionale Nachricht, die an die Zahlungsanforderung angehängt wird. Sie wird angezeigt, wenn die Anforderung geöffnet wird.&lt;br&gt; Hinweis: Diese Nachricht wird nicht mit der Zahlung über das Monoeci-Netzwerk gesendet.</translation>
     </message>
     <message>
         <source>Use this form to request payments. All fields are &lt;b&gt;optional&lt;/b&gt;.</source>
@@ -2459,6 +2530,10 @@ https://www.transifex.com/projects/p/monacoCoin/</translation>
     <message>
         <source>Remove</source>
         <translation>Entfernen</translation>
+    </message>
+    <message>
+        <source>Copy URI</source>
+        <translation>Kopiere URI</translation>
     </message>
     <message>
         <source>Copy label</source>
@@ -2524,6 +2599,14 @@ https://www.transifex.com/projects/p/monacoCoin/</translation>
         <translation>InstantSend</translation>
     </message>
     <message>
+        <source>Yes</source>
+        <translation>Ja</translation>
+    </message>
+    <message>
+        <source>No</source>
+        <translation>Nein</translation>
+    </message>
+    <message>
         <source>Resulting URI too long, try to reduce the text for label / message.</source>
         <translation>Resultierende URI ist zu lang, bitte den Text für Bezeichnung/Nachricht kürzen.</translation>
     </message>
@@ -2547,10 +2630,6 @@ https://www.transifex.com/projects/p/monacoCoin/</translation>
         <translation>Nachricht</translation>
     </message>
     <message>
-        <source>Amount</source>
-        <translation>Betrag</translation>
-    </message>
-    <message>
         <source>(no label)</source>
         <translation>(keine Bezeichnung)</translation>
     </message>
@@ -2562,12 +2641,16 @@ https://www.transifex.com/projects/p/monacoCoin/</translation>
         <source>(no amount)</source>
         <translation>(kein Betrag)</translation>
     </message>
+    <message>
+        <source>Amount</source>
+        <translation>Betrag</translation>
+    </message>
 </context>
 <context>
     <name>SendCoinsDialog</name>
     <message>
         <source>Send Coins</source>
-        <translation>monacoCoin überweisen</translation>
+        <translation>Monoeci überweisen</translation>
     </message>
     <message>
         <source>Coin Control Features</source>
@@ -2598,24 +2681,12 @@ https://www.transifex.com/projects/p/monacoCoin/</translation>
         <translation>Betrag:</translation>
     </message>
     <message>
-        <source>Priority:</source>
-        <translation>Priorität:</translation>
-    </message>
-    <message>
-        <source>medium</source>
-        <translation>mittel</translation>
-    </message>
-    <message>
         <source>Fee:</source>
         <translation>Gebühr:</translation>
     </message>
     <message>
         <source>Dust:</source>
         <translation>"Dust"</translation>
-    </message>
-    <message>
-        <source>no</source>
-        <translation>nein</translation>
     </message>
     <message>
         <source>After Fee:</source>
@@ -2662,7 +2733,7 @@ https://www.transifex.com/projects/p/monacoCoin/</translation>
         <translation>Wenn die benutzerdefinierten Gebühren auf 1000 duffs gesetzt sind und eine Transaktion hat nur 250 Bytes, dann kostet "pro Kilobyte" nur 250 duffs Gebühren, während "mindestens" 1000 duffs kostet. Transaktionen größer als 1 Kilobyte werden immer pro Kilobyte bezahlt.</translation>
     </message>
     <message>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for monacoCoin transactions than the network can process.</source>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for monoeci transactions than the network can process.</source>
         <translation>Nur die minimalen Gebühren zu zahlen ist völlig ausreichend so lange in einem neuen Block der Blockkette noch genug Platz für neue Transaktionen ist.&lt;br /&gt; Bitte beachten Sie dass wenn dies in der Zukunft nicht mehr der Fall sein sollte Ihre Transaktion eventuell niemals in einen neuen Block aufgenommen werden wird, also niemals bestätigt wird.</translation>
     </message>
     <message>
@@ -2762,10 +2833,6 @@ https://www.transifex.com/projects/p/monacoCoin/</translation>
         <translation>Byte kopieren</translation>
     </message>
     <message>
-        <source>Copy priority</source>
-        <translation>Priorität kopieren</translation>
-    </message>
-    <message>
         <source>Copy dust</source>
         <translation>"Dust" Betrag kopieren</translation>
     </message>
@@ -2794,22 +2861,6 @@ https://www.transifex.com/projects/p/monacoCoin/</translation>
         <translation>und InstantSend</translation>
     </message>
     <message>
-        <source>Duplicate address found: addresses should only be used once each.</source>
-        <translation>Doppelte Adresse gefunden: jede Adresse sollte jeweils nur 1x benutzt werden.</translation>
-    </message>
-    <message>
-        <source>A fee higher than %1 is considered an absurdly high fee.</source>
-        <translation>Gebühren höher als %1 sind extrem überhöht.</translation>
-    </message>
-    <message>
-        <source>Payment request expired.</source>
-        <translation>Zahlungsanforderung abgelaufen</translation>
-    </message>
-    <message>
-        <source>Pay only the required fee of %1</source>
-        <translation>Nur die minimalen Gebühren von %1 zahlen</translation>
-    </message>
-    <message>
         <source>%1 to %2</source>
         <translation>%1 an %2</translation>
     </message>
@@ -2826,16 +2877,12 @@ https://www.transifex.com/projects/p/monacoCoin/</translation>
         <translation>Gesamtbetrag = &lt;b&gt;%1&lt;/b&gt;&lt;br /&gt;= %2</translation>
     </message>
     <message>
-        <source>Confirm send coins</source>
-        <translation>Überweisung bestätigen</translation>
-    </message>
-    <message numerus="yes">
-        <source>Estimated to begin confirmation within %n block(s).</source>
-        <translation><numerusform>Geschätzter Beginn der Bestätigung in %n Block.</numerusform><numerusform>Geschätzter Beginn der Bestätigung in %n Blocks.</numerusform></translation>
-    </message>
-    <message>
         <source>&lt;b&gt;(%1 of %2 entries displayed)&lt;/b&gt;</source>
         <translation>&lt;b&gt;(%1 von %2 Einträgen angezeigt)&lt;/b&gt;</translation>
+    </message>
+    <message>
+        <source>Confirm send coins</source>
+        <translation>Überweisung bestätigen</translation>
     </message>
     <message>
         <source>The recipient address is not valid. Please recheck.</source>
@@ -2854,17 +2901,37 @@ https://www.transifex.com/projects/p/monacoCoin/</translation>
         <translation>Der angegebene Betrag übersteigt aufgrund der Transaktionsgebühr in Höhe von %1 ihren Kontostand.</translation>
     </message>
     <message>
+        <source>Duplicate address found: addresses should only be used once each.</source>
+        <translation>Doppelte Adresse gefunden: Jede Adresse sollte jeweils nur 1x benutzt werden.</translation>
+    </message>
+    <message>
         <source>Transaction creation failed!</source>
         <translation>Transaktionserstellung fehlgeschlagen!</translation>
     </message>
     <message>
         <source>The transaction was rejected! This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
         <translation>Die Transaktion wurde abgelehnt! 
-Dies kann passieren, wenn einige monacoCoin aus ihrer Wallet bereits ausgegeben wurden. Beispielsweise weil Sie eine Kopie ihrer wallet.dat nutzten und die monacoCoin dort ausgegeben haben. Diese Ausgaben sind in diesem Fall in der derzeit aktiven Wallet nicht vermerkt.</translation>
+Dies kann passieren, wenn einige Monoeci aus ihrer Wallet bereits ausgegeben wurden. Beispielsweise weil Sie eine Kopie ihrer wallet.dat nutzten und die Monoeci dort ausgegeben haben. Diese Ausgaben sind in diesem Fall in der derzeit aktiven Wallet nicht vermerkt.</translation>
     </message>
     <message>
-        <source>Warning: Invalid monacoCoin address</source>
-        <translation>Warnung: ungültige monacoCoin-Adresse</translation>
+        <source>A fee higher than %1 is considered an absurdly high fee.</source>
+        <translation>Gebühren höher als %1 sind extrem überhöht.</translation>
+    </message>
+    <message>
+        <source>Payment request expired.</source>
+        <translation>Zahlungsanforderung abgelaufen</translation>
+    </message>
+    <message>
+        <source>Pay only the required fee of %1</source>
+        <translation>Nur die minimalen Gebühren von %1 zahlen</translation>
+    </message>
+    <message numerus="yes">
+        <source>Estimated to begin confirmation within %n block(s).</source>
+        <translation><numerusform>Geschätzter Beginn der Bestätigung in %n Block.</numerusform><numerusform>Geschätzter Beginn der Bestätigung in %n Blöcken.</numerusform></translation>
+    </message>
+    <message>
+        <source>Warning: Invalid Monoeci address</source>
+        <translation>Warnung: ungültige Monoeci-Adresse</translation>
     </message>
     <message>
         <source>Warning: Unknown change address</source>
@@ -2886,8 +2953,8 @@ Dies kann passieren, wenn einige monacoCoin aus ihrer Wallet bereits ausgegeben 
         <translation>E&amp;mpfänger:</translation>
     </message>
     <message>
-        <source>The monacoCoin address to send the payment to</source>
-        <translation>monacoCoin-Adresse, an die überwiesen werden soll</translation>
+        <source>The Monoeci address to send the payment to</source>
+        <translation>Monoeci-Adresse, an die überwiesen werden soll</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2922,7 +2989,7 @@ Dies kann passieren, wenn einige monacoCoin aus ihrer Wallet bereits ausgegeben 
         <translation>Betra&amp;g:</translation>
     </message>
     <message>
-        <source>The fee will be deducted from the amount being sent. The recipient will receive a lower amount of monacoCoin than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
+        <source>The fee will be deducted from the amount being sent. The recipient will receive a lower amount of Monoeci than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
         <translation>Die Gebühr wird von der versendeten  Summe abgezogen, daher wird der Empfänger einen  niedrigeren Betrag erhalten, als Sie im Feld "Betrag" angegeben haben. Bei mehreren Empfängern wird die Gebühre gleichmäßig auf alle Empfänger aufgeteilt.</translation>
     </message>
     <message>
@@ -2934,8 +3001,8 @@ Dies kann passieren, wenn einige monacoCoin aus ihrer Wallet bereits ausgegeben 
         <translation>Nachricht:</translation>
     </message>
     <message>
-        <source>A message that was attached to the monacoCoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the monacoCoin network.</source>
-        <translation>Eine an die "monacoCoin:"-URI angefügte Nachricht, die zusammen mit der Transaktion gespeichert wird. Hinweis: Diese Nachricht wird nicht über das monacoCoin-Netzwerk gesendet.</translation>
+        <source>A message that was attached to the monoeci: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Monoeci network.</source>
+        <translation>Eine an die "monoeci:"-URI angefügte Nachricht, die zusammen mit der Transaktion gespeichert wird. Hinweis: Diese Nachricht wird nicht über das Monoeci-Netzwerk gesendet.</translation>
     </message>
     <message>
         <source>This is an unauthenticated payment request.</source>
@@ -2961,8 +3028,8 @@ Dies kann passieren, wenn einige monacoCoin aus ihrer Wallet bereits ausgegeben 
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>monacoCoin Core is shutting down...</source>
-        <translation>monacoCoin-Core wird herunter gefahren...</translation>
+        <source>Monoeci Core is shutting down...</source>
+        <translation>Monoeci-Core wird herunter gefahren...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -2980,12 +3047,12 @@ Dies kann passieren, wenn einige monacoCoin aus ihrer Wallet bereits ausgegeben 
         <translation>Nachricht &amp;signieren</translation>
     </message>
     <message>
-        <source>You can sign messages/agreements with your addresses to prove you can receive monacoCoin sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
+        <source>You can sign messages/agreements with your addresses to prove you can receive Monoeci sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
         <translation>Sie können Nachrichten mit ihren Adressen signieren, um den Besitz dieser Adressen zu beweisen. Bitte nutzen Sie diese Funktion mit Vorsicht und nehmen Sie sich vor Phishingangriffen in Acht. Signieren Sie nur Nachrichten, mit denen Sie vollständig einverstanden sind.</translation>
     </message>
     <message>
-        <source>The monacoCoin address to sign the message with</source>
-        <translation>monacoCoin-Adresse, mit der die Nachricht signiert werden soll</translation>
+        <source>The Monoeci address to sign the message with</source>
+        <translation>Monoeci-Adresse, mit der die Nachricht signiert werden soll</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -3016,8 +3083,8 @@ Dies kann passieren, wenn einige monacoCoin aus ihrer Wallet bereits ausgegeben 
         <translation>Aktuelle Signatur in die Zwischenablage kopieren</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this monacoCoin address</source>
-        <translation>Die Nachricht signieren, um den Besitz dieser monacoCoin-Adresse zu belegen</translation>
+        <source>Sign the message to prove you own this Monoeci address</source>
+        <translation>Die Nachricht signieren, um den Besitz dieser Monoeci-Adresse zu belegen</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -3040,12 +3107,12 @@ Dies kann passieren, wenn einige monacoCoin aus ihrer Wallet bereits ausgegeben 
         <translation>Geben Sie die signierende Adresse, Nachricht (achten Sie darauf Zeilenumbrüche, Leerzeichen, Tabulatoren usw. exakt zu kopieren) und Signatur unten ein, um die Nachricht zu verifizieren. Vorsicht, interpretieren Sie nicht mehr in die Signatur hinein, als in der signierten Nachricht selber enthalten ist, um nicht von einem Man-in-the-middle-Angriff hinters Licht geführt zu werden.</translation>
     </message>
     <message>
-        <source>The monacoCoin address the message was signed with</source>
-        <translation>monacoCoin-Adresse, mit der die Nachricht signiert worden ist</translation>
+        <source>The Monoeci address the message was signed with</source>
+        <translation>Monoeci-Adresse, mit der die Nachricht signiert worden ist</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified monacoCoin address</source>
-        <translation>Die Nachricht verifizieren, um sicherzustellen, dass diese mit der angegebenen monacoCoin-Adresse signiert wurde</translation>
+        <source>Verify the message to ensure it was signed with the specified Monoeci address</source>
+        <translation>Die Nachricht verifizieren, um sicherzustellen, dass diese mit der angegebenen Monoeci-Adresse signiert wurde</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -3111,8 +3178,12 @@ Dies kann passieren, wenn einige monacoCoin aus ihrer Wallet bereits ausgegeben 
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>monacoCoin Core</source>
-        <translation>monacoCoin Core</translation>
+        <source>[testnet]</source>
+        <translation>[Testnetz]</translation>
+    </message>
+    <message>
+        <source>Monoeci Core</source>
+        <translation>Monoeci Core</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -3123,12 +3194,12 @@ Dies kann passieren, wenn einige monacoCoin aus ihrer Wallet bereits ausgegeben 
         <translation>Die "Bitcoin Core"-Entwickler</translation>
     </message>
     <message>
-        <source>The monacoCoin Core developers</source>
-        <translation>Die "monacoCoin Core"-Entwickler</translation>
+        <source>The Dash Core developers</source>
+        <translation>Die "Dash Core"-Entwickler</translation>
     </message>
-    <message>
-        <source>[testnet]</source>
-        <translation>[Testnetz]</translation>
+	<message>
+        <source>The Monoeci Core developers</source>
+        <translation>Die "Monoeci Core"-Entwickler</translation>
     </message>
 </context>
 <context>
@@ -3155,6 +3226,22 @@ Dies kann passieren, wenn einige monacoCoin aus ihrer Wallet bereits ausgegeben 
     <message>
         <source>%1/offline</source>
         <translation>%1/offline</translation>
+    </message>
+    <message>
+        <source>0/unconfirmed, %1</source>
+        <translation>0/unbestätigt, %1</translation>
+    </message>
+    <message>
+        <source>in memory pool</source>
+        <translation>im Speicherpool</translation>
+    </message>
+    <message>
+        <source>not in memory pool</source>
+        <translation>nicht im Speicherpool</translation>
+    </message>
+    <message>
+        <source>abandoned</source>
+        <translation>eingestellt</translation>
     </message>
     <message>
         <source>%1/unconfirmed</source>
@@ -3269,12 +3356,16 @@ Dies kann passieren, wenn einige monacoCoin aus ihrer Wallet bereits ausgegeben 
         <translation>Transaktions-ID</translation>
     </message>
     <message>
+        <source>Transaction total size</source>
+        <translation>Gesamtgröße der Transaktion</translation>
+    </message>
+    <message>
         <source>Merchant</source>
         <translation>Händler</translation>
     </message>
     <message>
         <source>Generated coins must mature %1 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to "not accepted" and it won't be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</source>
-        <translation>Erzeugte monacoCoin müssen %1 Blöcke lang reifen, bevor sie ausgegeben werden können. Als Sie diesen Block erzeugten, wurde er an das Netzwerk übertragen, um ihn der Blockkette hinzuzufügen. Falls dies fehlschlägt wird der Status in "nicht angenommen" geändert und Sie werden keine monacoCoin gutgeschrieben bekommen. Das kann gelegentlich passieren, wenn ein anderer Knoten einen Block fast zeitgleich erzeugt.</translation>
+        <translation>Erzeugte Monoeci müssen %1 Blöcke lang reifen, bevor sie ausgegeben werden können. Als Sie diesen Block erzeugten, wurde er an das Netzwerk übertragen, um ihn der Blockkette hinzuzufügen. Falls dies fehlschlägt wird der Status in "nicht angenommen" geändert und Sie werden keine Monoeci gutgeschrieben bekommen. Das kann gelegentlich passieren, wenn ein anderer Knoten einen Block fast zeitgleich erzeugt.</translation>
     </message>
     <message>
         <source>Debug information</source>
@@ -3343,6 +3434,10 @@ Dies kann passieren, wenn einige monacoCoin aus ihrer Wallet bereits ausgegeben 
         <translation>Unbestätigt</translation>
     </message>
     <message>
+        <source>Abandoned</source>
+        <translation>Eingestellt</translation>
+    </message>
+    <message>
         <source>Confirming (%1 of %2 recommended confirmations)</source>
         <translation>Wird bestätigt (%1 von %2 empfohlenen Bestätigungen)</translation>
     </message>
@@ -3379,6 +3474,18 @@ Dies kann passieren, wenn einige monacoCoin aus ihrer Wallet bereits ausgegeben 
         <translation>über/durch PrivateSend empfangen</translation>
     </message>
     <message>
+        <source>Sent to</source>
+        <translation>Überwiesen an</translation>
+    </message>
+    <message>
+        <source>Payment to yourself</source>
+        <translation>Eigenüberweisung</translation>
+    </message>
+    <message>
+        <source>Mined</source>
+        <translation>Erarbeitet</translation>
+    </message>
+    <message>
         <source>PrivateSend Denominate</source>
         <translation>PrivateSend Stückelung</translation>
     </message>
@@ -3399,28 +3506,16 @@ Dies kann passieren, wenn einige monacoCoin aus ihrer Wallet bereits ausgegeben 
         <translation>PrivateSend</translation>
     </message>
     <message>
-        <source>User-defined intent/purpose of the transaction.</source>
-        <translation>Benutzerdefinierter Verwendungszweck der Transaktion</translation>
-    </message>
-    <message>
-        <source>Sent to</source>
-        <translation>Überwiesen an</translation>
-    </message>
-    <message>
-        <source>Payment to yourself</source>
-        <translation>Eigenüberweisung</translation>
-    </message>
-    <message>
-        <source>Mined</source>
-        <translation>Erarbeitet</translation>
-    </message>
-    <message>
         <source>watch-only</source>
         <translation>beobachtet</translation>
     </message>
     <message>
         <source>(n/a)</source>
         <translation>(k.A.)</translation>
+    </message>
+    <message>
+        <source>(no label)</source>
+        <translation>(keine Bezeichnung)</translation>
     </message>
     <message>
         <source>Transaction status. Hover over this field to show number of confirmations.</source>
@@ -3437,6 +3532,10 @@ Dies kann passieren, wenn einige monacoCoin aus ihrer Wallet bereits ausgegeben 
     <message>
         <source>Whether or not a watch-only address is involved in this transaction.</source>
         <translation>Zeigt ob eine beobachtete Adresse in dieser Transaktion beteiligt ist.</translation>
+    </message>
+    <message>
+        <source>User-defined intent/purpose of the transaction.</source>
+        <translation>Benutzerdefinierter Verwendungszweck der Transaktion</translation>
     </message>
     <message>
         <source>Amount removed from or added to balance.</source>
@@ -3526,6 +3625,10 @@ Dies kann passieren, wenn einige monacoCoin aus ihrer Wallet bereits ausgegeben 
         <translation>Minimaler Betrag</translation>
     </message>
     <message>
+        <source>Abandon transaction</source>
+        <translation>Transaktion einstellen</translation>
+    </message>
+    <message>
         <source>Copy address</source>
         <translation>Adresse kopieren</translation>
     </message>
@@ -3544,6 +3647,10 @@ Dies kann passieren, wenn einige monacoCoin aus ihrer Wallet bereits ausgegeben 
     <message>
         <source>Copy raw transaction</source>
         <translation>Unbearbeitete Transaktion kopieren</translation>
+    </message>
+    <message>
+        <source>Copy full transaction details</source>
+        <translation>Kopiere vollständige Transaktionsdetails</translation>
     </message>
     <message>
         <source>Edit label</source>
@@ -3632,11 +3739,11 @@ Dies kann passieren, wenn einige monacoCoin aus ihrer Wallet bereits ausgegeben 
     <name>WalletModel</name>
     <message>
         <source>Send Coins</source>
-        <translation>monacoCoin überweisen</translation>
+        <translation>Monoeci überweisen</translation>
     </message>
     <message>
-        <source>InstantSend doesn't support sending values that high yet. Transactions are currently limited to %1 MCC.</source>
-        <translation>InstantSend unterstützt das Versenden von Beträgen dieser Höhe noch nicht. Transaktionen sind zur Zeit auf maximal %1 MCC begrenzt.</translation>
+        <source>InstantSend doesn't support sending values that high yet. Transactions are currently limited to %1 XMCC.</source>
+        <translation>InstantSend unterstützt das Versenden von Beträgen dieser Höhe noch nicht. Transaktionen sind zur Zeit auf maximal %1 XMCC begrenzt.</translation>
     </message>
     <message>
         <source>Used way too many inputs (&gt;%1) for this InstantSend transaction, fees could be huge.</source>
@@ -3683,13 +3790,13 @@ Dies kann passieren, wenn einige monacoCoin aus ihrer Wallet bereits ausgegeben 
     </message>
 </context>
 <context>
-    <name>monacoCoin-core</name>
+    <name>monoeci-core</name>
     <message>
         <source>Bind to given address and always listen on it. Use [host]:port notation for IPv6</source>
         <translation>An die angegebene Adresse binden und immer abhören. Für IPv6 "[Host]:Port"-Schreibweise verwenden</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. monacoCoin Core is probably already running.</source>
+        <source>Cannot obtain a lock on data directory %s. Monoeci Core is probably already running.</source>
         <translation>Das Programm kann das Daten-Verzeichnis %s nicht als "in Verwendung" markieren. Wahrscheinlich läuft das Programm bereits.</translation>
     </message>
     <message>
@@ -3729,8 +3836,8 @@ Dies kann passieren, wenn einige monacoCoin aus ihrer Wallet bereits ausgegeben 
         <translation>Dies ist eine Vorab-Testversion - Verwendung auf eigene Gefahr - nicht für Mining- oder Handelsanwendungen nutzen!</translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. monacoCoin Core is probably already running.</source>
-        <translation>monacoCoin Core den Prozess %s auf dem Computer nicht an sich binden. Wahrscheinlich läuft das Programm bereits.</translation>
+        <source>Unable to bind to %s on this computer. Monoeci Core is probably already running.</source>
+        <translation>Monoeci Core den Prozess %s auf dem Computer nicht an sich binden. Wahrscheinlich läuft das Programm bereits.</translation>
     </message>
     <message>
         <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
@@ -3771,10 +3878,6 @@ Dies kann passieren, wenn einige monacoCoin aus ihrer Wallet bereits ausgegeben 
     <message>
         <source>Block creation options:</source>
         <translation>Blockerzeugungsoptionen:</translation>
-    </message>
-    <message>
-        <source>Can't denominate: no compatible inputs left.</source>
-        <translation>Kann nicht zerstückeln: keine kompatiblen Eingänge übrig.</translation>
     </message>
     <message>
         <source>Cannot downgrade wallet</source>
@@ -3921,6 +4024,10 @@ Dies kann passieren, wenn einige monacoCoin aus ihrer Wallet bereits ausgegeben 
         <translation>Unter MIT Software Lizenz zur Verfügung gestellt, siehe beigefügte Datei COPYING oder &lt;http://www.opensource.org/licenses/mit-license.php&gt;.</translation>
     </message>
     <message>
+        <source>Error loading %s: You can't enable HD on a already existing non-HD wallet</source>
+        <translation>Fehler beim Laden von %s: Sie können HD nicht bei einer bestehenden nicht-HD Wallet aktivieren</translation>
+    </message>
+    <message>
         <source>Found unconfirmed denominated outputs, will wait till they confirm to continue.</source>
         <translation>Unbestätigte für Darksend vorbereitete Ausgabebeträge gefunden, warte bis sie bestätigt sind bevor weitergemacht wird.</translation>
     </message>
@@ -3933,12 +4040,20 @@ Dies kann passieren, wenn einige monacoCoin aus ihrer Wallet bereits ausgegeben 
         <translation>Falls paytxfee  nicht gesetzt wurde automatisch genug Transaktionsgebühren hinzufügen, um die Transaktion durchschnittlich innerhalb n Blöcken zu bestätigen (Standard: %u)</translation>
     </message>
     <message>
+        <source>If this block is in the chain assume that it and its ancestors are valid and potentially skip their script verification (0 to verify all, default: %s, testnet: %s)</source>
+        <translation>Ist dieser Block in der Chain, gehe davon aus dass dieser und seine Vorgänger gültig sind und überspringe deren Skript-Verifizierung (0 um alles zu verifizieren, Standard: %s, Testnet: %s)</translation>
+    </message>
+    <message>
         <source>Invalid amount for -maxtxfee=&lt;amount&gt;: '%s' (must be at least the minrelay fee of %s to prevent stuck transactions)</source>
         <translation>Ungültiger Betrag für -maxtxfee=&lt;amount&gt;: '%s' (Betrag muss mindestens minrelay von %s Gebühren sein um "hängende" Transaktionen zu vermeiden)</translation>
     </message>
     <message>
         <source>Maintain a full transaction index, used by the getrawtransaction rpc call (default: %u)</source>
         <translation>Einen vollständigen Transaktionsindex für den getrawtransaction RPC-Aufruf führen (Standard: %u)</translation>
+    </message>
+    <message>
+        <source>Make sure to encrypt your wallet and delete all non-encrypted backups after you verified that wallet works!</source>
+        <translation>Verschlüsseln Sie ihre Wallet und löschen Sie alle unverschlüsselten Sicherungen nachdem Sie sichergestellt haben, dass diese funktioniert!</translation>
     </message>
     <message>
         <source>Maximum size of data in data carrier transactions we relay and mine (default: %u)</source>
@@ -3957,20 +4072,36 @@ Dies kann passieren, wenn einige monacoCoin aus ihrer Wallet bereits ausgegeben 
         <translation>Legt ein Prozessor-/CPU-Kernlimit fest, wenn CPU-Mining aktiviert ist (-1 = unbegrenzt, Standard: %d)</translation>
     </message>
     <message>
-        <source>Show N confirmations for a successfully locked transaction (0-9999, default: %u)</source>
-        <translation>Anzahl Bestätigungen  für eine erfolgreich gesperrte Transaktion (0-9999, voreingestellt: %u)</translation>
+        <source>Show N confirmations for a successfully locked transaction (0-24157, default: %u)</source>
+        <translation>Anzahl Bestätigungen  für eine erfolgreich gesperrte Transaktion (0-24157, voreingestellt: %u)</translation>
     </message>
     <message>
         <source>This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit &lt;https://www.openssl.org/&gt; and cryptographic software written by Eric Young and UPnP software written by Thomas Bernard.</source>
         <translation>Dieses Produkt enthält vom OpenSSL-Projekt entwickelte Software zur Benutzung des OpenSSL Toolkit &lt;https://www.openssl.org/&gt;, kryptographische Software geschrieben von Eric Young und UPnP Software geschrieben von Thomas Bernard.</translation>
     </message>
     <message>
-        <source>Unable to locate enough funds for this transaction that are not equal 1000 MCC.</source>
-        <translation>Für diese Transaktion konnten nicht genug Beträge gefunden werden, die ungleich 1000 MCC sind.</translation>
+        <source>Unable to locate enough funds for this transaction that are not equal 1000 XMCC.</source>
+        <translation>Für diese Transaktion konnten nicht genug Beträge gefunden werden, die ungleich 1000 XMCC sind.</translation>
+    </message>
+    <message>
+        <source>Use hierarchical deterministic key generation (HD) after bip39/bip44. Only has effect during wallet creation/first start</source>
+        <translation>Nutze hierarchisch-deterministische Schlüssel-Generierung (HD) gemäß BIP39/BIP44. Nur gültig bei erstmaligem Start der Wallet.</translation>
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: %s)</source>
         <translation>Separaten SOCKS5-Proxy verwenden, um Gegenstellen über versteckte Tor-Dienste zu erreichen (Standard: %s)</translation>
+    </message>
+    <message>
+        <source>User defined mnemonic for HD wallet (bip39). Only has effect during wallet creation/first start (default: randomly generated)</source>
+        <translation>Benutzerdefinierter Gedächtniscode für HD Wallet (BIP39). Nur gültig bei erstmaligem Start der Wallet (Standard: Zufallsgeneriert).</translation>
+    </message>
+    <message>
+        <source>User defined seed for HD wallet (should be in hex). Only has effect during wallet creation/first start (default: randomly generated)</source>
+        <translation>Benutzerdefinierter Seed für HD-Wallet (sollte im Hex-Format sein). Nur gültig bei erstmaligem Start der Wallet (Standard: Zufallsgeneriert).</translation>
+    </message>
+    <message>
+        <source>Warning: incorrect parameter -walletbackupsdir, path must exist! Using default path.</source>
+        <translation>Warnung: Ungültiger Parameter -walletbackupsdir. Pfad muss existieren! Nutze Standardpfad.</translation>
     </message>
     <message>
         <source>Whitelist peers connecting from the given netmask or IP address. Can be specified multiple times.</source>
@@ -3979,6 +4110,10 @@ Dies kann passieren, wenn einige monacoCoin aus ihrer Wallet bereits ausgegeben 
     <message>
         <source>Whitelisted peers cannot be DoS banned and their transactions are always relayed, even if they are already in the mempool, useful e.g. for a gateway</source>
         <translation>Erlaubte Gegenstellen können nicht wegen DoS ausgeschlossen werden und ihre Transaktionen werden immer weitergeleitet, sogar wenn sie schon im Memory-Pool sind. Dies ist z.B. für Gateways nützlich.</translation>
+    </message>
+    <message>
+        <source>You need to rebuild the database using -reindex-chainstate to change -txindex</source>
+        <translation>Sie müssen die Datenbank mit Hilfe von -reindex-chainstate neu aufbauen, um -txindex zu verändern</translation>
     </message>
     <message>
         <source>(default: %s)</source>
@@ -3993,8 +4128,16 @@ Dies kann passieren, wenn einige monacoCoin aus ihrer Wallet bereits ausgegeben 
         <translation>Peer-Adressen immer über DNS abfragen (Standard: %u)</translation>
     </message>
     <message>
+        <source>Can't mix: no compatible inputs found!</source>
+        <translation>Mixen nicht möglich: Keine kompatiblen Inputs gefunden!</translation>
+    </message>
+    <message>
         <source>Cannot resolve -whitebind address: '%s'</source>
         <translation>Kann Adresse via -whitebind nicht auflösen: '%s'</translation>
+    </message>
+    <message>
+        <source>Chain selection options:</source>
+        <translation>Chain Auswahloptionen:</translation>
     </message>
     <message>
         <source>Connect through SOCKS5 proxy</source>
@@ -4009,20 +4152,48 @@ Dies kann passieren, wenn einige monacoCoin aus ihrer Wallet bereits ausgegeben 
         <translation>Copyright (C) 2009-%i Die "Bitcoin Core"-Entwickler</translation>
     </message>
     <message>
-        <source>Copyright (C) 2016-%i The monacoCoin Core Developers</source>
-        <translation>Copyright (C) 2016-%i Die "monacoCoin Core"-Entwickler</translation>
+        <source>Copyright (C) 2014-%i The Dash Core Developers</source>
+        <translation>Copyright (C) 2014-%i Die "Dash Core"-Entwickler</translation>
+    </message>
+	<message>
+        <source>Copyright (C) 2017-%i The Monoeci Core Developers</source>
+        <translation>Copyright (C) 2017-%i Die "Monoeci Core"-Entwickler</translation>
     </message>
     <message>
         <source>Enable the client to act as a masternode (0-1, default: %u)</source>
         <translation>Masternode-Modus aktivieren. (0=aus, 1=an; Voreinstellung: %u)</translation>
     </message>
     <message>
+        <source>Entry exceeds maximum size.</source>
+        <translation>Eingabe überschreitet maximale Größe.</translation>
+    </message>
+    <message>
         <source>Error connecting to Masternode.</source>
         <translation>Fehler bei der Verbindung zum Masternode.</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of monacoCoin Core</source>
-        <translation>Fehler beim Laden von wallet.dat: Wallet benötigt neuere Version von monacoCoin Core</translation>
+        <source>Error loading %s: You can't disable HD on a already existing HD wallet</source>
+        <translation>Fehler beim Laden von %s: Sie können HD nicht bei einer bestehenden HD Wallet deaktivieren</translation>
+    </message>
+    <message>
+        <source>Error loading wallet.dat: Wallet requires newer version of Monoeci Core</source>
+        <translation>Fehler beim Laden von wallet.dat: Wallet benötigt neuere Version von Monoeci Core</translation>
+    </message>
+    <message>
+        <source>Failed to load fulfilled requests cache from</source>
+        <translation>Cache für erfüllte Anfragen konnte nicht geladen werden aus</translation>
+    </message>
+    <message>
+        <source>Failed to load governance cache from</source>
+        <translation>Cache für Governance konnte nicht geladen werden aus</translation>
+    </message>
+    <message>
+        <source>Failed to load masternode cache from</source>
+        <translation>Cache für Masternodes konnte nicht geladen werden aus</translation>
+    </message>
+    <message>
+        <source>Failed to load masternode payments cache from</source>
+        <translation>Cache für Masternode Zahlungen konnte nicht geladen werden aus</translation>
     </message>
     <message>
         <source>Found enough users, signing ( waiting %s )</source>
@@ -4065,9 +4236,9 @@ Dies kann passieren, wenn einige monacoCoin aus ihrer Wallet bereits ausgegeben 
         <translation>Hinweis</translation>
     </message>
     <message>
-        <source>Initialization sanity check failed. monacoCoin Core is shutting down.</source>
+        <source>Initialization sanity check failed. Monoeci Core is shutting down.</source>
         <translation>Fehler beim Initialisieren (Plausibilitätsprüfung fehlgeschlagen).
-monacoCoin Core wird heruntergefahren.</translation>
+Monoeci Core wird heruntergefahren.</translation>
     </message>
     <message>
         <source>Input is not valid.</source>
@@ -4106,12 +4277,24 @@ monacoCoin Core wird heruntergefahren.</translation>
         <translation>Ungültiger Betrag für -paytxfee=&lt;amount&gt;: '%s'</translation>
     </message>
     <message>
+        <source>Keypool ran out, please call keypoolrefill first</source>
+        <translation>Schlüssel-Pool aufgebraucht, bitte rufen Sie zunächst "keypoolrefill" auf</translation>
+    </message>
+    <message>
         <source>Listen for JSON-RPC connections on &lt;port&gt; (default: %u or testnet: %u)</source>
         <translation>&lt;port&gt;nach JSON-RPC-Verbindungen abhören (Standard: %u oder Testnetz: %u)</translation>
     </message>
     <message>
         <source>Listen for connections on &lt;port&gt; (default: %u or testnet: %u)</source>
         <translation>&lt;port&gt; nach Verbindungen abhören (Standard: %u oder Testnetz: %u)</translation>
+    </message>
+    <message>
+        <source>Loading banlist...</source>
+        <translation>Lade Bann-Liste...</translation>
+    </message>
+    <message>
+        <source>Loading fulfilled requests cache...</source>
+        <translation>Lade Cache erfüllter Anfragen...</translation>
     </message>
     <message>
         <source>Loading masternode cache...</source>
@@ -4142,6 +4325,10 @@ monacoCoin Core wird heruntergefahren.</translation>
         <translation>Am Mixen...</translation>
     </message>
     <message>
+        <source>Mnemonic passphrase is too long, must be at most 256 characters</source>
+        <translation>Gedächtnis-Passphrase zu lang. Maximal 256 Zeichen zulässig</translation>
+    </message>
+    <message>
         <source>Need to specify a port with -whitebind: '%s'</source>
         <translation>Für -whitebind muss eine Portnummer angegeben werden: '%s'</translation>
     </message>
@@ -4168,6 +4355,14 @@ monacoCoin Core wird heruntergefahren.</translation>
     <message>
         <source>Prepend debug output with timestamp (default: %u)</source>
         <translation>Debugausgaben einen Zeitstempel voranstellen (Standard: %u)</translation>
+    </message>
+    <message>
+        <source>Rebuild chain state and block index from the blk*.dat files on disk</source>
+        <translation>Zustand der Chain und des Block-Index aus blk*.dat Dateien auf Datenträger wiederherstellen</translation>
+    </message>
+    <message>
+        <source>Rebuild chain state from the currently indexed blocks</source>
+        <translation>Zustand der Chain aus gegenwärtig indizierten Blöcken wiederherstellen</translation>
     </message>
     <message>
         <source>Send trace/debug info to debug.log file (default: %u)</source>
@@ -4222,6 +4417,10 @@ monacoCoin Core wird heruntergefahren.</translation>
         <translation>An Masternode übermittelt, wartet in Warteschlange %s</translation>
     </message>
     <message>
+        <source>Synchroning blockchain...</source>
+        <translation>Synchronisiere Blockchain...</translation>
+    </message>
+    <message>
         <source>Synchronization failed</source>
         <translation>Synchronisation fehlgeschlagen</translation>
     </message>
@@ -4232,10 +4431,6 @@ monacoCoin Core wird heruntergefahren.</translation>
     <message>
         <source>Synchronizing masternodes...</source>
         <translation>Synchronisiere Masternodes...</translation>
-    </message>
-    <message>
-        <source>Synchronizing sporks...</source>
-        <translation>Synchronisiere Sporks...</translation>
     </message>
     <message>
         <source>This is not a Masternode.</source>
@@ -4290,15 +4485,15 @@ monacoCoin Core wird heruntergefahren.</translation>
         <translation>UPnP verwenden, um eine Portweiterleitung einzurichten (Standard: %u)</translation>
     </message>
     <message>
+        <source>Use the test chain</source>
+        <translation>Nutze Test-Chain</translation>
+    </message>
+    <message>
         <source>User Agent comment (%s) contains unsafe characters.</source>
         <translation>Der "User Agent"-Text (%s) enthält unsichere Zeichen.</translation>
     </message>
     <message>
-        <source>Value more than PrivateSend pool maximum allows.</source>
-        <translation>Wert größer als der vom PrivateSend Pool maximal erlaubte.</translation>
-    </message>
-    <message>
-        <source>Wallet needed to be rewritten: restart monacoCoin Core to complete</source>
+        <source>Wallet needed to be rewritten: restart Monoeci Core to complete</source>
         <translation>Die Wallet musste neu geschrieben werden. Bitte das Programm neu starten um den Vorgang abzuschließen</translation>
     </message>
     <message>
@@ -4342,7 +4537,7 @@ monacoCoin Core wird heruntergefahren.</translation>
         <translation>"KeePassHttp key" für die  AES-verschlüsselte Kommunikation mit "KeePass"</translation>
     </message>
     <message>
-        <source>Keep N MCC anonymized (default: %u)</source>
+        <source>Keep N XMCC anonymized (default: %u)</source>
         <translation>Betrag welcher anonymisiert vorgehalten wird. (Voreinstellung: %u)</translation>
     </message>
     <message>
@@ -4350,8 +4545,8 @@ monacoCoin Core wird heruntergefahren.</translation>
         <translation>Maximal &lt;n&gt; (noch) nicht einsortierte Zahlungen zwischenspeichern (Voreinstellung: %u)</translation>
     </message>
     <message>
-        <source>Disable all monacoCoin specific functionality (Masternodes, PrivateSend, InstantSend, Governance) (0-1, default: %u)</source>
-        <translation>Deaktiviere all monacoCoin-spezifischen Funktionen (Masternodes, PrivateSend, InstantSend, Governance) (0-1, Standard: %u)</translation>
+        <source>Disable all Monoeci specific functionality (Masternodes, PrivateSend, InstantSend, Governance) (0-1, default: %u)</source>
+        <translation>Deaktiviere all Monoeci-spezifischen Funktionen (Masternodes, PrivateSend, InstantSend, Governance) (0-1, Standard: %u)</translation>
     </message>
     <message>
         <source>Discover own IP addresses (default: 1 when listening and no -externalip or -proxy)</source>
@@ -4402,8 +4597,8 @@ monacoCoin Core wird heruntergefahren.</translation>
         <translation>Wenn &lt;category&gt; nicht angegeben wird oder &lt;category&gt; = 1, jegliche Debugginginformationen ausgeben.</translation>
     </message>
     <message>
-        <source>InstantSend doesn't support sending values that high yet. Transactions are currently limited to %1 MCC.</source>
-        <translation>InstantSend unterstützt das Versenden von Beträgen dieser Höhe noch nicht. Transaktionen sind zur Zeit auf maximal %1 MCC begrenzt.</translation>
+        <source>InstantSend doesn't support sending values that high yet. Transactions are currently limited to %1 XMCC.</source>
+        <translation>InstantSend unterstützt das Versenden von Beträgen dieser Höhe noch nicht. Transaktionen sind zur Zeit auf maximal %1 XMCC begrenzt.</translation>
     </message>
     <message>
         <source>InstantSend requires inputs with at least %d confirmations, you might need to wait a few minutes and try again.</source>
@@ -4430,16 +4625,16 @@ monacoCoin Core wird heruntergefahren.</translation>
         <translation>Maximale Gesamtgebühren (in %s) für eine einzelne Transaktion.  Sind diese Gebühren zu gering könnten große Transaktionen evtl. abgebrochen werden (Standard: %s)</translation>
     </message>
     <message>
-        <source>Please check that your computer's date and time are correct! If your clock is wrong monacoCoin Core will not work properly.</source>
-        <translation>Bitte überprüfen Sie die Datums- und Uhrzeiteinstellungen ihres Computers, da monacoCoin Core ansonsten nicht ordnungsgemäß funktionieren wird!</translation>
+        <source>Please check that your computer's date and time are correct! If your clock is wrong Monoeci Core will not work properly.</source>
+        <translation>Bitte überprüfen Sie die Datums- und Uhrzeiteinstellungen ihres Computers, da Monoeci Core ansonsten nicht ordnungsgemäß funktionieren wird!</translation>
     </message>
     <message>
         <source>PrivateSend uses exact denominated amounts to send funds, you might simply need to anonymize some more coins.</source>
-        <translation>PrivateSend benutzt exakt gestückelte Beträge zum Versenden, Sie müssen dafür möglicherweise noch mehr MCC anonymisieren.</translation>
+        <translation>PrivateSend benutzt exakt gestückelte Beträge zum Versenden, Sie müssen dafür möglicherweise noch mehr XMCC anonymisieren.</translation>
     </message>
     <message>
         <source>Provide liquidity to PrivateSend by infrequently mixing coins on a continual basis (0-100, default: %u, 1=very frequent, high fees, 100=very infrequent, low fees)</source>
-        <translation>Durch diese Einstellung können Sie dem PrivateSend-Netzwerk zusätzliche Liquidität zur Verfügung stellen in dem Sie von Zeit zu Zeit bereits anonymisierte MCC wieder dem Mixing-Prozess zuführen. (0-100, 0=aus, 1=sehr oft, 100=sehr selten (wenig Gebühren). Standard: %u)</translation>
+        <translation>Durch diese Einstellung können Sie dem PrivateSend-Netzwerk zusätzliche Liquidität zur Verfügung stellen in dem Sie von Zeit zu Zeit bereits anonymisierte XMCC wieder dem Mixing-Prozess zuführen. (0-100, 0=aus, 1=sehr oft, 100=sehr selten (wenig Gebühren). Standard: %u)</translation>
     </message>
     <message>
         <source>Prune configured below the minimum of %d MiB.  Please use a higher number.</source>
@@ -4490,8 +4685,8 @@ monacoCoin Core wird heruntergefahren.</translation>
         <translation>Für diese Transaktion konnten nicht genug mit PrivateSend gestückelte Beträge gefunden werden.</translation>
     </message>
     <message>
-        <source>Unable to locate enough PrivateSend non-denominated funds for this transaction that are not equal 1000 MCC.</source>
-        <translation>Für diese Transaktion konnten nicht genug nicht mit PrivateSend gestückelte Beträge gefunden werden, die ungleich 1000 MCC sind.</translation>
+        <source>Unable to locate enough PrivateSend non-denominated funds for this transaction that are not equal 1000 XMCC.</source>
+        <translation>Für diese Transaktion konnten nicht genug nicht mit PrivateSend gestückelte Beträge gefunden werden, die ungleich 1000 XMCC sind.</translation>
     </message>
     <message>
         <source>Unsupported argument -socks found. Setting SOCKS version isn't possible anymore, only SOCKS5 proxies are supported.</source>
@@ -4503,11 +4698,15 @@ monacoCoin Core wird heruntergefahren.</translation>
     </message>
     <message>
         <source>Use N separate masternodes for each denominated input to mix funds (2-16, default: %u)</source>
-        <translation>N unterschiedliche Masternodes benutzen, um monacoCoin zu anonymisieren (2-16, Standard: %u)</translation>
+        <translation>N unterschiedliche Masternodes benutzen, um Monoeci zu anonymisieren (2-16, Standard: %u)</translation>
     </message>
     <message>
         <source>Use UPnP to map the listening port (default: 1 when listening and no -proxy)</source>
         <translation>UPnP verwenden, um eine Portweiterleitung einzurichten (Standard: 1 wenn -listen=1 und -proxy gesetzt ist)</translation>
+    </message>
+    <message>
+        <source>User defined mnemonic passphrase for HD wallet (bip39). Only has effect during wallet creation/first start (default: empty string)</source>
+        <translation>Benutzerdefinierter Gedächtniscode für HD Wallet (BIP39). Nur gültig bei erstmaligem Start der Wallet (Standard: Leeres Zeichen).</translation>
     </message>
     <message>
         <source>Username and hashed password for JSON-RPC connections. The field &lt;userpw&gt; comes in the format: &lt;USERNAME&gt;:&lt;SALT&gt;$&lt;HASH&gt;. A canonical python script is included in share/rpcuser. This option can be specified multiple times</source>
@@ -4516,14 +4715,6 @@ monacoCoin Core wird heruntergefahren.</translation>
     <message>
         <source>WARNING! Failed to replenish keypool, please unlock your wallet to do so.</source>
         <translation>WARNUNG! Erzeugen neuer Schlüssel ist fehlgeschlagen, bitte entsperren Sie Ihre Wallet  um dies zu ermöglichen.</translation>
-    </message>
-    <message>
-        <source>WARNING: abnormally high number of blocks generated, %d blocks received in the last %d hours (%d expected)</source>
-        <translation>WARNUNG: es wurde eine abnorm hohe Anzahl von Blocks erzeugt, %d Blocks wurden in den letzten %d Stunden empfangen (Erwartungswert: %d Blocks)</translation>
-    </message>
-    <message>
-        <source>WARNING: check your network connection, %d blocks received in the last %d hours (%d expected)</source>
-        <translation>WARNUNG: überprüfen Sie Ihre Netzwerkverbindung, es wurden %d Blocks in den letzten %d Stunden empfangen (Erwartungswert: %d Blocks)</translation>
     </message>
     <message>
         <source>Wallet is locked, can't replenish keypool! Automatic backups and mixing are disabled, please unlock your wallet to replenish keypool.</source>
@@ -4535,7 +4726,7 @@ monacoCoin Core wird heruntergefahren.</translation>
     </message>
     <message>
         <source>You need to rebuild the database using -reindex to go back to unpruned mode.  This will redownload the entire blockchain</source>
-        <translation>Sie müssen die Datenbank mit Hilfe von -reindex neu aufbauen, um Zurück in den nicht abgeschnittenen/pruned Modus zu gehen. Dies wird die gesamte Blockchain downloaden</translation>
+        <translation>Sie müssen die Datenbank mit Hilfe von -reindex neu aufbauen, um zurück in den nicht abgeschnittenen/pruned Modus zu gehen. Dies wird die gesamte Blockchain downloaden</translation>
     </message>
     <message>
         <source>masternodeaddr option is deprecated. Please use masternode.conf to manage your remote masternodes.</source>
@@ -4564,10 +4755,6 @@ monacoCoin Core wird heruntergefahren.</translation>
     <message>
         <source>&lt;category&gt; can be:</source>
         <translation>&lt;Kategorie&gt; kann sein:</translation>
-    </message>
-    <message>
-        <source>Activating best chain...</source>
-        <translation>Beste Chain wird aktiviert...</translation>
     </message>
     <message>
         <source>Append comment to the user agent string</source>
@@ -4678,10 +4865,6 @@ monacoCoin Core wird heruntergefahren.</translation>
         <translation>Lade Blockindex...</translation>
     </message>
     <message>
-        <source>Loading fullfiled requests cache...</source>
-        <translation>Lade Cache der Ausgeführten Anforderungen...</translation>
-    </message>
-    <message>
         <source>Loading governance cache...</source>
         <translation>Lade Governance-Cache...</translation>
     </message>
@@ -4728,10 +4911,6 @@ monacoCoin Core wird heruntergefahren.</translation>
     <message>
         <source>No errors detected.</source>
         <translation>Keine Fehler gefunden.</translation>
-    </message>
-    <message>
-        <source>No funds detected in need of denominating.</source>
-        <translation>Kein Kapital gefunden, dass zerstückelt werden muss.</translation>
     </message>
     <message>
         <source>No matching denominations found for mixing.</source>
@@ -4800,10 +4979,6 @@ monacoCoin Core wird heruntergefahren.</translation>
     <message>
         <source>Pruning blockstore...</source>
         <translation>Alte Blocks werden abgeschnitten/pruned...</translation>
-    </message>
-    <message>
-        <source>Rebuild block chain index from current blk000??.dat files on startup</source>
-        <translation>Blockkettenindex aus aktuellen Dateien blk000??.dat wieder aufbauen</translation>
     </message>
     <message>
         <source>Rescan the block chain for missing wallet transactions on startup</source>
@@ -5012,10 +5187,6 @@ monacoCoin Core wird heruntergefahren.</translation>
     <message>
         <source>Warning</source>
         <translation>Warnung</translation>
-    </message>
-    <message>
-        <source>You need to rebuild the database using -reindex to change -txindex</source>
-        <translation>Sie müssen die Datenbank mit Hilfe von -reindex neu aufbauen, um -txindex zu verändern</translation>
     </message>
     <message>
         <source>Your entries added successfully.</source>

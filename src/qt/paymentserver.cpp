@@ -1,6 +1,6 @@
-// Copyright (c) 2011-2015 The Bitcoin Core developers
-// Copyright (c) 2014-2017 The *D ash Core developers
-// Copyright (c) 2016-2017 The monoeci Core developers
+// Copyright (c) 2011-2018 The Bitcoin Core developers
+// Copyright (c) 2014-2018 The Dash Core developers 
+// Copyright (c) 2017-2018 The Monoeci Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -12,7 +12,7 @@
 
 #include "base58.h"
 #include "chainparams.h"
-#include "main.h" // For minRelayTxFee
+#include "validation.h" // For minRelayTxFee
 #include "ui_interface.h"
 #include "util.h"
 #include "wallet/wallet.h"
@@ -48,8 +48,8 @@
 #include <QUrlQuery>
 #endif
 
-const int BITCOIN_IPC_CONNECT_TIMEOUT = 1000; // milliseconds
-const QString BITCOIN_IPC_PREFIX("monoeci:");
+const int MONOECI_IPC_CONNECT_TIMEOUT = 1000; // milliseconds
+const QString MONOECI_IPC_PREFIX("monoeci:");
 // BIP70 payment protocol messages
 const char* BIP70_MESSAGE_PAYMENTACK = "PaymentACK";
 const char* BIP70_MESSAGE_PAYMENTREQUEST = "PaymentRequest";
@@ -60,14 +60,19 @@ const char* BIP71_MIMETYPE_PAYMENTREQUEST = "application/monoeci-paymentrequest"
 // BIP70 max payment request size in bytes (DoS protection)
 const qint64 BIP70_MAX_PAYMENTREQUEST_SIZE = 50000;
 
-X509_STORE* PaymentServer::certStore = NULL;
-void PaymentServer::freeCertStore()
+struct X509StoreDeleter {
+      void operator()(X509_STORE* b) {
+          X509_STORE_free(b);
+      }
+};
+
+struct X509Deleter {
+      void operator()(X509* b) { X509_free(b); }
+};
+
+namespace // Anon namespace
 {
-    if (PaymentServer::certStore != NULL)
-    {
-        X509_STORE_free(PaymentServer::certStore);
-        PaymentServer::certStore = NULL;
-    }
+    std::unique_ptr<X509_STORE, X509StoreDeleter> certStore;
 }
 
 //
@@ -77,7 +82,7 @@ void PaymentServer::freeCertStore()
 //
 static QString ipcServerName()
 {
-    QString name("monoeciQt");
+    QString name("MonoeciQt");
 
     // Append a simple hash of the datadir
     // Note that GetDataDir(true) returns a different path
@@ -109,20 +114,15 @@ static void ReportInvalidCertificate(const QSslCertificate& cert)
 //
 void PaymentServer::LoadRootCAs(X509_STORE* _store)
 {
-    if (PaymentServer::certStore == NULL)
-        atexit(PaymentServer::freeCertStore);
-    else
-        freeCertStore();
-
     // Unit tests mostly use this, to pass in fake root CAs:
     if (_store)
     {
-        PaymentServer::certStore = _store;
+        certStore.reset(_store);
         return;
     }
 
     // Normal execution, use either -rootcertificates or system certs:
-    PaymentServer::certStore = X509_STORE_new();
+    certStore.reset(X509_STORE_new());
 
     // Note: use "-system-" default here so that users can pass -rootcertificates=""
     // and get 'I don't like X.509 certificates, don't trust anybody' behavior:
@@ -169,11 +169,11 @@ void PaymentServer::LoadRootCAs(X509_STORE* _store)
         QByteArray certData = cert.toDer();
         const unsigned char *data = (const unsigned char *)certData.data();
 
-        X509* x509 = d2i_X509(0, &data, certData.size());
-        if (x509 && X509_STORE_add_cert(PaymentServer::certStore, x509))
+        std::unique_ptr<X509, X509Deleter> x509(d2i_X509(0, &data, certData.size()));
+        if (x509 && X509_STORE_add_cert(certStore.get(), x509.get()))
         {
-            // Note: X509_STORE_free will free the X509* objects when
-            // the PaymentServer is destroyed
+            // Note: X509_STORE increases the reference count to the X509 object,
+            // we still have to release our reference to it.
             ++nRootCerts;
         }
         else
@@ -215,7 +215,7 @@ void PaymentServer::ipcParseCommandLine(int argc, char* argv[])
         // network as that would require fetching and parsing the payment request.
         // That means clicking such an URI which contains a testnet payment request
         // will start a mainnet instance and throw a "wrong network" error.
-        if (arg.startsWith(BITCOIN_IPC_PREFIX, Qt::CaseInsensitive)) // monoeci: URI
+        if (arg.startsWith(MONOECI_IPC_PREFIX, Qt::CaseInsensitive)) // monoeci: URI
         {
             savedPaymentRequests.append(arg);
 
@@ -273,7 +273,7 @@ bool PaymentServer::ipcSendCommandLine()
     {
         QLocalSocket* socket = new QLocalSocket();
         socket->connectToServer(ipcServerName(), QIODevice::WriteOnly);
-        if (!socket->waitForConnected(BITCOIN_IPC_CONNECT_TIMEOUT))
+        if (!socket->waitForConnected(MONOECI_IPC_CONNECT_TIMEOUT))
         {
             delete socket;
             socket = NULL;
@@ -288,7 +288,7 @@ bool PaymentServer::ipcSendCommandLine()
 
         socket->write(block);
         socket->flush();
-        socket->waitForBytesWritten(BITCOIN_IPC_CONNECT_TIMEOUT);
+        socket->waitForBytesWritten(MONOECI_IPC_CONNECT_TIMEOUT);
         socket->disconnectFromServer();
 
         delete socket;
@@ -409,7 +409,7 @@ void PaymentServer::handleURIOrFile(const QString& s)
         return;
     }
 
-    if (s.startsWith(BITCOIN_IPC_PREFIX, Qt::CaseInsensitive)) // monoeci: URI
+    if (s.startsWith(MONOECI_IPC_PREFIX, Qt::CaseInsensitive)) // monoeci: URI
     {
 #if QT_VERSION < 0x050000
         QUrl uri(s);
@@ -453,7 +453,7 @@ void PaymentServer::handleURIOrFile(const QString& s)
             }
             else
                 Q_EMIT message(tr("URI handling"),
-                    tr("URI cannot be parsed! This can be caused by an invalid monoeci address or malformed URI parameters."),
+                    tr("URI cannot be parsed! This can be caused by an invalid Monoeci address or malformed URI parameters."),
                     CClientUIInterface::ICON_WARNING);
 
             return;
@@ -552,7 +552,7 @@ bool PaymentServer::processPaymentRequest(const PaymentRequestPlus& request, Sen
     recipient.paymentRequest = request;
     recipient.message = GUIUtil::HtmlEscape(request.getDetails().memo());
 
-    request.getMerchant(PaymentServer::certStore, recipient.authenticatedMerchant);
+    request.getMerchant(certStore.get(), recipient.authenticatedMerchant);
 
     QList<std::pair<CScript, CAmount> > sendingTos = request.getPayTo();
     QStringList addresses;
@@ -574,7 +574,7 @@ bool PaymentServer::processPaymentRequest(const PaymentRequestPlus& request, Sen
             return false;
         }
 
-        // monoeci amounts are stored as (optional) uint64 in the protobuf messages (see paymentrequest.proto),
+        // Monoeci amounts are stored as (optional) uint64 in the protobuf messages (see paymentrequest.proto),
         // but CAmount is defined as int64_t. Because of that we need to verify that amounts are in a valid range
         // and no overflow has happened.
         if (!verifyAmount(sendingTo.second)) {
@@ -650,7 +650,7 @@ void PaymentServer::fetchPaymentACK(CWallet* wallet, SendCoinsRecipient recipien
     }
     else {
         CPubKey newKey;
-        if (wallet->GetKeyFromPool(newKey)) {
+        if (wallet->GetKeyFromPool(newKey, false)) {
             CKeyID keyID = newKey.GetID();
             wallet->SetAddressBook(keyID, strAccount, "refund");
 
@@ -808,4 +808,9 @@ bool PaymentServer::verifyAmount(const CAmount& requestAmount)
             .arg(MAX_MONEY);
     }
     return fVerified;
+}
+
+X509_STORE* PaymentServer::getCertStore()
+{
+    return certStore.get();
 }

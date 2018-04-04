@@ -1,4 +1,4 @@
-// Copyright (c) 2014-2015 The Bitcoin Core developers
+// Copyright (c) 2014-2018 The Bitcoin Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -7,7 +7,7 @@
 #include "versionbits.h"
 #include "test/test_monoeci.h"
 #include "chainparams.h"
-#include "main.h"
+#include "validation.h"
 #include "consensus/params.h"
 
 #include <boost/test/unit_test.hpp>
@@ -136,6 +136,8 @@ BOOST_FIXTURE_TEST_SUITE(versionbits_tests, TestingSetup)
 BOOST_AUTO_TEST_CASE(versionbits_test)
 {
     for (int i = 0; i < 64; i++) {
+        BOOST_TEST_MESSAGE("versionbits_test " << i);
+
         // DEFINED -> FAILED
         VersionBitsTester().TestDefined()
                            .Mine(1, TestTime(1), 0x100).TestDefined()
@@ -178,7 +180,7 @@ BOOST_AUTO_TEST_CASE(versionbits_test)
                            .Mine(2000, TestTime(10000), 0x101).TestStarted() // So that's what happens the next period
                            .Mine(2050, TestTime(10010), 0x200).TestStarted() // 50 old blocks
                            .Mine(2950, TestTime(10020), 0x100).TestStarted() // 900 new blocks
-                           .Mine(2999, TestTime(19999), 0x200).TestStarted() // 49 old blocks
+                           .Mine(2999, TestTime(34157), 0x200).TestStarted() // 49 old blocks
                            .Mine(3000, TestTime(29999), 0x200).TestLockedIn() // 1 old block (so 900 out of the past 1000)
                            .Mine(3999, TestTime(30001), 0).TestLockedIn()
                            .Mine(4000, TestTime(30002), 0).TestActive()

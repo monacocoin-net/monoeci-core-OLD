@@ -1,0 +1,6 @@
+usr/local/bin/monoeci-qt usr/bin
+share/pixmaps/monoeci32.xpm usr/share/pixmaps
+share/pixmaps/monoeci16.xpm usr/share/pixmaps
+share/pixmaps/monoeci128.png usr/share/pixmaps
+debian/monoeci-qt.desktop usr/share/applications
+debian/monoeci-qt.protocol usr/share/kde4/services/

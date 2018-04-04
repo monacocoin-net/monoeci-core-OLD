@@ -1,4 +1,4 @@
-<TS language="sk" version="2.1">
+<TS language="sk" version="2.0">
 <context>
     <name>AddressBookPage</name>
     <message>
@@ -62,12 +62,12 @@
         <translation>Adresa prijatia</translation>
     </message>
     <message>
-        <source>These are your monacoCoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Toto sú Vaše monacoCoin adresy pre posielanie platieb. Pred poslaním mincí vždy overte sumu a doručovaciu adresu.</translation>
+        <source>These are your Monoeci addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Toto sú Vaše Monoeci adresy pre posielanie platieb. Pred poslaním mincí vždy overte sumu a doručovaciu adresu.</translation>
     </message>
     <message>
-        <source>These are your monacoCoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Toto sú Vaše monacoCoin adresy pre posielanie platieb. Pre každú transakciu sa doporučuje použiť novú doručovaciu adresu.</translation>
+        <source>These are your Monoeci addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Toto sú Vaše Monoeci adresy pre posielanie platieb. Pre každú transakciu sa doporučuje použiť novú doručovaciu adresu.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -168,12 +168,16 @@
         <translation>Zmena hesla</translation>
     </message>
     <message>
+        <source>Enter the old passphrase and new passphrase to the wallet.</source>
+        <translation>Zadajte staré heslo a nové heslo k peňaženke.</translation>
+    </message>
+    <message>
         <source>Confirm wallet encryption</source>
         <translation>Potvrďte šifrovanie peňaženky</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR MCC&lt;/b&gt;!</source>
-        <translation>Upozornenie: Ak zašifrujete vašu peňaženku a stratíte prístupové heslo, potom &lt;b&gt;prídete o všetky svoje MCC-y&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR XMCC&lt;/b&gt;!</source>
+        <translation>Upozornenie: Ak zašifrujete vašu peňaženku a stratíte prístupové heslo, potom &lt;b&gt;prídete o všetky svoje XMCC-y&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -182,10 +186,6 @@
     <message>
         <source>Wallet encrypted</source>
         <translation>Peňaženka zašifrovaná</translation>
-    </message>
-    <message>
-        <source>Enter the old passphrase and new passphrase to the wallet.</source>
-        <translation>Zadajte staré heslo a nové heslo k peňaženke.</translation>
     </message>
     <message>
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
@@ -230,12 +230,16 @@
         <source>IP/Netmask</source>
         <translation>IP/Sieťová maska</translation>
     </message>
-    </context>
+    <message>
+        <source>Banned Until</source>
+        <translation>Blokovaný do</translation>
+    </message>
+</context>
 <context>
     <name>BitcoinGUI</name>
     <message>
-        <source>monacoCoin Core</source>
-        <translation>monacoCoin Core</translation>
+        <source>Monoeci Core</source>
+        <translation>Monoeci Core</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -258,16 +262,16 @@
         <translation>&amp;Odoslať</translation>
     </message>
     <message>
-        <source>Send coins to a monacoCoin address</source>
-        <translation>Poslať mince na monacoCoin adresu</translation>
+        <source>Send coins to a Monoeci address</source>
+        <translation>Poslať mince na Monoeci adresu</translation>
     </message>
     <message>
         <source>&amp;Receive</source>
         <translation>&amp;Prijať</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and monacoCoin: URIs)</source>
-        <translation>Vyžiadať platby (vygeneruje QR kódy a monacoCoin: URI)</translation>
+        <source>Request payments (generates QR codes and monoeci: URIs)</source>
+        <translation>Vyžiadať platby (vygeneruje QR kódy a Monoeci: URI)</translation>
     </message>
     <message>
         <source>&amp;Transactions</source>
@@ -294,12 +298,12 @@
         <translation>Ukončiť program</translation>
     </message>
     <message>
-        <source>&amp;About monacoCoin Core</source>
-        <translation>&amp;O monacoCoin Core</translation>
+        <source>&amp;About Monoeci Core</source>
+        <translation>&amp;O Monoeci Core</translation>
     </message>
     <message>
-        <source>Show information about monacoCoin Core</source>
-        <translation>Zobraziť informácie o monacoCoin Core</translation>
+        <source>Show information about Monoeci Core</source>
+        <translation>Zobraziť informácie o Monoeci Core</translation>
     </message>
     <message>
         <source>About &amp;Qt</source>
@@ -312,6 +316,10 @@
     <message>
         <source>&amp;Options...</source>
         <translation>&amp;Možnosti...</translation>
+    </message>
+    <message>
+        <source>Modify configuration options for Monoeci Core</source>
+        <translation>Upraviť možnosti konfigurácie Monoeci Core</translation>
     </message>
     <message>
         <source>&amp;Show / Hide</source>
@@ -362,16 +370,16 @@
         <translation>Podpísať &amp;správu...</translation>
     </message>
     <message>
-        <source>Sign messages with your monacoCoin addresses to prove you own them</source>
-        <translation>Podpísať správy s Vašimi monacoCoin adresami ako dôkaz že ich vlastníte</translation>
+        <source>Sign messages with your Monoeci addresses to prove you own them</source>
+        <translation>Podpísať správy s Vašimi Monoeci adresami ako dôkaz že ich vlastníte</translation>
     </message>
     <message>
         <source>&amp;Verify message...</source>
         <translation>Overiť správu</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified monacoCoin addresses</source>
-        <translation>Overiť správy pre uistenie, že boli podpísané zadanými monacoCoin adresami</translation>
+        <source>Verify messages to ensure they were signed with specified Monoeci addresses</source>
+        <translation>Overiť správy pre uistenie, že boli podpísané zadanými Monoeci adresami</translation>
     </message>
     <message>
         <source>&amp;Information</source>
@@ -414,8 +422,20 @@
         <translation>Zobraziť možnosti opravy peňaženky</translation>
     </message>
     <message>
+        <source>Open Wallet &amp;Configuration File</source>
+        <translation>Otvoriť &amp;konfiguračný súbor peňaženky</translation>
+    </message>
+    <message>
         <source>Open configuration file</source>
         <translation>Otvoriť konfiguračný súbor </translation>
+    </message>
+    <message>
+        <source>Open &amp;Masternode Configuration File</source>
+        <translation>Otvoriť konfiguračný súbor &amp;Masternode</translation>
+    </message>
+    <message>
+        <source>Open Masternode configuration file</source>
+        <translation>Otvoriť konfiguračný súbor Masternode</translation>
     </message>
     <message>
         <source>Show Automatic &amp;Backups</source>
@@ -446,20 +466,20 @@
         <translation>Otvoriť &amp;URI...</translation>
     </message>
     <message>
-        <source>Open a monacoCoin: URI or payment request</source>
-        <translation>Otvoriť monacoCoin: URI alebo žiadosť o platbu </translation>
+        <source>Open a monoeci: URI or payment request</source>
+        <translation>Otvoriť monoeci: URI alebo žiadosť o platbu </translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
         <translation>Možnosti príkazového riadku</translation>
     </message>
     <message>
-        <source>monacoCoin Core client</source>
-        <translation>monacoCoin Core klient</translation>
+        <source>&amp;PrivateSend information</source>
+        <translation>Informácie o &amp;PrivateSend</translation>
     </message>
     <message>
-        <source>Synchronizing additional data: %p%</source>
-        <translation>Synchronizujú sa ďalšie dáta: %p%</translation>
+        <source>Show the PrivateSend basic information</source>
+        <translation>Ukázať základné Informácie o PrivateSend</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -481,77 +501,45 @@
         <source>Tabs toolbar</source>
         <translation>Lišta záložiek</translation>
     </message>
+    <message>
+        <source>Monoeci Core client</source>
+        <translation>Monoeci Core klient</translation>
+    </message>
     <message numerus="yes">
-        <source>%n active connection(s) to monacoCoin network</source>
-        <translation><numerusform>%n aktívne spojenie so sieťou monacoCoin</numerusform><numerusform>%n aktívne spojenia so sieťou monacoCoin</numerusform><numerusform>%n aktívnych spojení so sieťou monacoCoin</numerusform></translation>
+        <source>%n active connection(s) to Monoeci network</source>
+        <translation><numerusform>%n aktívne spojenie so sieťou Monoeci</numerusform><numerusform>%n aktívne spojenia so sieťou Monoeci</numerusform><numerusform>%n aktívnych spojení so sieťou Monoeci</numerusform></translation>
+    </message>
+    <message>
+        <source>Network activity disabled</source>
+        <translation>Sieťová aktivita zakázaná</translation>
+    </message>
+    <message>
+        <source>Syncing Headers (%1%)...</source>
+        <translation>Synchronizujú sa hlavičky (%1%)...</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
         <translation>Synchronizácia so sieťou...</translation>
     </message>
     <message>
-        <source>Importing blocks from disk...</source>
-        <translation>Importujem bloky z disku...</translation>
+        <source>Indexing blocks on disk...</source>
+        <translation>Indexujem bloky na disku...</translation>
+    </message>
+    <message>
+        <source>Processing blocks on disk...</source>
+        <translation>Spracovávam bloky na disku...</translation>
     </message>
     <message>
         <source>Reindexing blocks on disk...</source>
         <translation>Preindexúvam bloky na disku...</translation>
     </message>
     <message>
-        <source>No block source available...</source>
-        <translation>Nedostupný zdroj blokov...</translation>
-    </message>
-    <message>
-        <source>Up to date</source>
-        <translation>Aktualizovaný</translation>
-    </message>
-    <message numerus="yes">
-        <source>%n hour(s)</source>
-        <translation><numerusform>%n hodina</numerusform><numerusform>%n hodiny</numerusform><numerusform>%n hodín</numerusform></translation>
-    </message>
-    <message>
-        <source>Modify configuration options for monacoCoin Core</source>
-        <translation>Upraviť možnosti konfigurácie monacoCoin Core</translation>
-    </message>
-    <message>
-        <source>Open Wallet &amp;Configuration File</source>
-        <translation>Otvoriť &amp;konfiguračný súbor peňaženky</translation>
-    </message>
-    <message>
-        <source>Open &amp;Masternode Configuration File</source>
-        <translation>Otvoriť konfiguračný súbor &amp;Masternode</translation>
-    </message>
-    <message>
-        <source>Open Masternode configuration file</source>
-        <translation>Otvoriť konfiguračný súbor Masternode</translation>
-    </message>
-    <message>
-        <source>&amp;PrivateSend information</source>
-        <translation>Informácie o &amp;PrivateSend</translation>
-    </message>
-    <message>
-        <source>Show the PrivateSend basic information</source>
-        <translation>Ukázať základné Informácie o PrivateSend</translation>
+        <source>Connecting to peers...</source>
+        <translation>Pripája sa k partnerom...</translation>
     </message>
     <message numerus="yes">
         <source>Processed %n block(s) of transaction history.</source>
         <translation><numerusform>Spracovaný jeden blok transakčnej histórie.</numerusform><numerusform>Spracované %n bloky transakčnej histórie.</numerusform><numerusform>Spracovaných %n blokov transakčnej histórie.</numerusform></translation>
-    </message>
-    <message numerus="yes">
-        <source>%n day(s)</source>
-        <translation><numerusform>%n deň</numerusform><numerusform>%n dni</numerusform><numerusform>%n dní</numerusform></translation>
-    </message>
-    <message numerus="yes">
-        <source>%n week(s)</source>
-        <translation><numerusform>%n týždeň</numerusform><numerusform>%n týždne</numerusform><numerusform>%n týždňov </numerusform></translation>
-    </message>
-    <message>
-        <source>%1 and %2</source>
-        <translation> %1 a  %2</translation>
-    </message>
-    <message numerus="yes">
-        <source>%n year(s)</source>
-        <translation><numerusform>%n rok</numerusform><numerusform>%n roky</numerusform><numerusform>%n rokov</numerusform></translation>
     </message>
     <message>
         <source>%1 behind</source>
@@ -568,6 +556,14 @@
     <message>
         <source>Transactions after this will not yet be visible.</source>
         <translation>Transakcie potom nebudú ešte viditeľné.</translation>
+    </message>
+    <message>
+        <source>Up to date</source>
+        <translation>Aktualizovaný</translation>
+    </message>
+    <message>
+        <source>Synchronizing additional data: %p%</source>
+        <translation>Synchronizujú sa ďalšie dáta: %p%</translation>
     </message>
     <message>
         <source>Error</source>
@@ -620,12 +616,20 @@
         <translation>Prijaté transakcie</translation>
     </message>
     <message>
-        <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt; for mixing only</source>
-        <translation>Peňaženka je &lt;b&gt;zašifrovaná&lt;/b&gt; a momentálne &lt;b&gt;odomknutá&lt;/b&gt; iba pre miešanie</translation>
+        <source>HD key generation is &lt;b&gt;enabled&lt;/b&gt;</source>
+        <translation>Generovanie HD kľúčov je &lt;b&gt;zapnuté&lt;/b&gt;</translation>
+    </message>
+    <message>
+        <source>HD key generation is &lt;b&gt;disabled&lt;/b&gt;</source>
+        <translation>Generovanie HD kľúčov je &lt;b&gt;vypnuté&lt;/b&gt;</translation>
     </message>
     <message>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt;</source>
         <translation>Peňaženka je &lt;b&gt;zašifrovaná&lt;/b&gt; a momentálne &lt;b&gt;odomknutá&lt;/b&gt;</translation>
+    </message>
+    <message>
+        <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt; for mixing only</source>
+        <translation>Peňaženka je &lt;b&gt;zašifrovaná&lt;/b&gt; a momentálne &lt;b&gt;odomknutá&lt;/b&gt; iba pre miešanie</translation>
     </message>
     <message>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</source>
@@ -658,10 +662,6 @@
         <translation>Suma:</translation>
     </message>
     <message>
-        <source>Priority:</source>
-        <translation>Priorita:</translation>
-    </message>
-    <message>
         <source>Fee:</source>
         <translation>Poplatok:</translation>
     </message>
@@ -684,6 +684,10 @@
     <message>
         <source>(un)select all</source>
         <translation>(ne)vybrať všetko</translation>
+    </message>
+    <message>
+        <source>toggle lock state</source>
+        <translation>prepnúť stav zámku</translation>
     </message>
     <message>
         <source>Tree mode</source>
@@ -726,10 +730,6 @@
         <translation>Potvrdené</translation>
     </message>
     <message>
-        <source>Priority</source>
-        <translation>Priorita</translation>
-    </message>
-    <message>
         <source>Copy address</source>
         <translation>Kopírovať adresu</translation>
     </message>
@@ -770,10 +770,6 @@
         <translation>Kopírovať bajty</translation>
     </message>
     <message>
-        <source>Copy priority</source>
-        <translation>Kopírovať prioritu</translation>
-    </message>
-    <message>
         <source>Copy dust</source>
         <translation>Kopírovať prach</translation>
     </message>
@@ -786,64 +782,8 @@
         <translation>Vybratý ne-anonymizovaný vstup. &lt;b&gt;PrivateSend bude vypnutý.&lt;/b&gt;&lt;br&gt;&lt;br&gt;Ak si stále želáte použiť PrivateSend, najskôr odznačte všetky ne-anonymizované vstupy a potom znova zaškrtnite PrivateSend políčko.</translation>
     </message>
     <message>
-        <source>highest</source>
-        <translation>najvyššie</translation>
-    </message>
-    <message>
-        <source>higher</source>
-        <translation>vyššie</translation>
-    </message>
-    <message>
-        <source>high</source>
-        <translation>vysoké</translation>
-    </message>
-    <message>
-        <source>medium-high</source>
-        <translation>stredne vysoké</translation>
-    </message>
-    <message>
-        <source>This label turns red if the priority is smaller than "medium".</source>
-        <translation>Tento popis začervenie, ak je priorita nižšia ako "stredná".</translation>
-    </message>
-    <message>
-        <source>This label turns red if any recipient receives an amount smaller than %1.</source>
-        <translation>Tento popis začervenie, ak ktorýkoľvek príjemca dostane sumu menšiu ako %1.</translation>
-    </message>
-    <message>
-        <source>Can vary +/- %1 duff(s) per input.</source>
-        <translation>Môže sa pohybovať +/- %1 duff(y) pre vstup.</translation>
-    </message>
-    <message>
-        <source>n/a</source>
-        <translation>nie je k dispozícii</translation>
-    </message>
-    <message>
-        <source>medium</source>
-        <translation>stredné</translation>
-    </message>
-    <message>
-        <source>low-medium</source>
-        <translation>stredne nízke</translation>
-    </message>
-    <message>
-        <source>low</source>
-        <translation>nízke</translation>
-    </message>
-    <message>
-        <source>lower</source>
-        <translation>nižšie</translation>
-    </message>
-    <message>
-        <source>lowest</source>
-        <translation>najnižšie</translation>
-    </message>
-    <message>
         <source>(%1 locked)</source>
         <translation>(%1 zamknutých)</translation>
-    </message>
-    <message>
-        <source>none</source>
-        <translation>žiadne</translation>
     </message>
     <message>
         <source>yes</source>
@@ -854,16 +794,12 @@
         <translation>nie</translation>
     </message>
     <message>
-        <source>This means a fee of at least %1 per kB is required.</source>
-        <translation>To znamená že požadovaný poplatok je aspoň  %1  za kB.</translation>
+        <source>This label turns red if any recipient receives an amount smaller than the current dust threshold.</source>
+        <translation>Tento popis sčervenie ak ktorýkoľvek príjemca dostane sumu menšiu ako súčasný limit pre "prach".</translation>
     </message>
     <message>
-        <source>Can vary +/- 1 byte per input.</source>
-        <translation>Môže sa pohybovať +/- 1 bajt pre vstup.</translation>
-    </message>
-    <message>
-        <source>Transactions with higher priority are more likely to get included into a block.</source>
-        <translation>Transakcie s vysokou prioritou sa pravdepodobnejsie dostanú do bloku.</translation>
+        <source>Can vary +/- %1 duff(s) per input.</source>
+        <translation>Môže sa pohybovať +/- %1 duff(y) pre vstup.</translation>
     </message>
     <message>
         <source>(no label)</source>
@@ -876,6 +812,10 @@
     <message>
         <source>(change)</source>
         <translation>(zmena)</translation>
+    </message>
+    <message>
+        <source>n/a</source>
+        <translation>nie je k dispozícii</translation>
     </message>
 </context>
 <context>
@@ -901,28 +841,28 @@
         <translation>Prosím vyberte úroveň súkromia.</translation>
     </message>
     <message>
-        <source>Use 2 separate masternodes to mix funds up to 1000 MCC</source>
-        <translation>Použiť 2 rozdielne masternode pre fixovanie prostriedkov až do 1000 MCC</translation>
+        <source>Use 2 separate masternodes to mix funds up to 1000 XMCC</source>
+        <translation>Použiť 2 rozdielne masternode pre fixovanie prostriedkov až do 1000 XMCC</translation>
     </message>
     <message>
-        <source>Use 8 separate masternodes to mix funds up to 1000 MCC</source>
-        <translation>Použiť 8 rozdielnych masternode pre fixovanie prostriedkov až do 1000 MCC</translation>
+        <source>Use 8 separate masternodes to mix funds up to 1000 XMCC</source>
+        <translation>Použiť 8 rozdielnych masternode pre fixovanie prostriedkov až do 1000 XMCC</translation>
     </message>
     <message>
         <source>Use 16 separate masternodes</source>
         <translation>Použiť 16 rozdielnych masternode</translation>
     </message>
     <message>
-        <source>This option is the quickest and will cost about ~0.025 MCC to anonymize 1000 MCC</source>
-        <translation>Táto možnosť je najrýchlejšia a bude stáť približne 0.025 MCC pre anonimizáciu 1000 MCC</translation>
+        <source>This option is the quickest and will cost about ~0.025 XMCC to anonymize 1000 XMCC</source>
+        <translation>Táto možnosť je najrýchlejšia a bude stáť približne 0.025 XMCC pre anonimizáciu 1000 XMCC</translation>
     </message>
     <message>
-        <source>This option is moderately fast and will cost about 0.05 MCC to anonymize 1000 MCC</source>
-        <translation>Táto možnosť je stredne rýchla bude stáť približne 0.05 MCC pre anonimizáciu 1000 MCC</translation>
+        <source>This option is moderately fast and will cost about 0.05 XMCC to anonymize 1000 XMCC</source>
+        <translation>Táto možnosť je stredne rýchla bude stáť približne 0.05 XMCC pre anonimizáciu 1000 XMCC</translation>
     </message>
     <message>
-        <source>0.1 MCC per 1000 MCC you anonymize.</source>
-        <translation>0.1 MCC za 1000 MCC ktoré spravíte anonymnými.</translation>
+        <source>0.1 XMCC per 1000 XMCC you anonymize.</source>
+        <translation>0.1 XMCC za 1000 XMCC ktoré spravíte anonymnými.</translation>
     </message>
     <message>
         <source>This is the slowest and most secure option. Using maximum anonymity will cost</source>
@@ -933,16 +873,16 @@
         <translation>Nastavenie PrivateSend</translation>
     </message>
     <message>
-        <source>PrivateSend was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening monacoCoin's configuration screen.</source>
-        <translation>Darksend bol úspešne nastavený na základnú hodnotu (%1 a 2 kolá). Toto nastavenie môžete kedykoľvek zmeniť otvorením konfiguračnej obrazovky monacoCoin.</translation>
+        <source>PrivateSend was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening Monoeci's configuration screen.</source>
+        <translation>Darksend bol úspešne nastavený na základnú hodnotu (%1 a 2 kolá). Toto nastavenie môžete kedykoľvek zmeniť otvorením konfiguračnej obrazovky Monoeci.</translation>
     </message>
     <message>
-        <source>PrivateSend was successfully set to high (%1 and 8 rounds). You can change this at any time by opening monacoCoin's configuration screen.</source>
-        <translation>PrivateSend bol úspešne nastavený na základnú hodnotu (%1 a 8 kôl). Toto nastavenie môžete kedykoľvek zmeniť otvorením konfiguračnej obrazovky monacoCoin.</translation>
+        <source>PrivateSend was successfully set to high (%1 and 8 rounds). You can change this at any time by opening Monoeci's configuration screen.</source>
+        <translation>PrivateSend bol úspešne nastavený na základnú hodnotu (%1 a 8 kôl). Toto nastavenie môžete kedykoľvek zmeniť otvorením konfiguračnej obrazovky Monoeci.</translation>
     </message>
     <message>
-        <source>PrivateSend was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening monacoCoin's configuration screen.</source>
-        <translation>PrivateSend bol úspešne nastavený na maximálnu hodnotu (%1 a 16 kôl). Toto nastavenie môžete kedykoľvek zmeniť otvorením konfiguračnej obrazovky monacoCoin.</translation>
+        <source>PrivateSend was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening Monoeci's configuration screen.</source>
+        <translation>PrivateSend bol úspešne nastavený na maximálnu hodnotu (%1 a 16 kôl). Toto nastavenie môžete kedykoľvek zmeniť otvorením konfiguračnej obrazovky Monoeci.</translation>
     </message>
 </context>
 <context>
@@ -984,8 +924,8 @@
         <translation>Upraviť odosielaciu adresu</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid monacoCoin address.</source>
-        <translation>Zadaná adresa "%1" nie je platná monacoCoin adresa.</translation>
+        <source>The entered address "%1" is not a valid Monoeci address.</source>
+        <translation>Zadaná adresa "%1" nie je platná Monoeci adresa.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -1026,8 +966,8 @@
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>monacoCoin Core</source>
-        <translation>monacoCoin Core</translation>
+        <source>Monoeci Core</source>
+        <translation>Monoeci Core</translation>
     </message>
     <message>
         <source>version</source>
@@ -1038,8 +978,8 @@
         <translation>(%1-bit)</translation>
     </message>
     <message>
-        <source>About monacoCoin Core</source>
-        <translation>O monacoCoin Core</translation>
+        <source>About Monoeci Core</source>
+        <translation>O Monoeci Core</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1054,8 +994,12 @@
         <translation>voľby príkazového riadku</translation>
     </message>
     <message>
-        <source>PrivateSend information</source>
-        <translation>Informácie o PrivateSend</translation>
+        <source>UI Options:</source>
+        <translation>Možnosti používateľského rozhrania:</translation>
+    </message>
+    <message>
+        <source>Choose data directory on startup (default: %u)</source>
+        <translation>Vyberte dátový priečinok pri štarte (predvolené: %u)</translation>
     </message>
     <message>
         <source>Set language, for example "de_DE" (default: system locale)</source>
@@ -1069,7 +1013,19 @@
         <source>Set SSL root certificates for payment request (default: -system-)</source>
         <translation>Nastaviť koreňový certifikát pre výzvy na platbu (prednastavené: -system-)</translation>
     </message>
-</context>
+    <message>
+        <source>Show splash screen on startup (default: %u)</source>
+        <translation>Zobraziť uvítaciu obrazovku pri štarte (predvolené: %u)</translation>
+    </message>
+    <message>
+        <source>Reset all settings changed in the GUI</source>
+        <translation>Zrušiť všetky zmeny v GUI</translation>
+    </message>
+    <message>
+        <source>PrivateSend information</source>
+        <translation>Informácie o PrivateSend</translation>
+    </message>
+    </context>
 <context>
     <name>Intro</name>
     <message>
@@ -1077,16 +1033,16 @@
         <translation>Vitajte</translation>
     </message>
     <message>
-        <source>Welcome to monacoCoin Core.</source>
-        <translation>Vitajte v monacoCoin Core.</translation>
+        <source>Welcome to Monoeci Core.</source>
+        <translation>Vitajte v Monoeci Core.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where monacoCoin Core will store its data.</source>
-        <translation>Keďže toto je prvý krát čo spúšťate tento program, môžete vybrať kam bude monacoCoin Core ukladať svoje dáta.</translation>
+        <source>As this is the first time the program is launched, you can choose where Monoeci Core will store its data.</source>
+        <translation>Keďže toto je prvý krát čo spúšťate tento program, môžete vybrať kam bude Monoeci Core ukladať svoje dáta.</translation>
     </message>
     <message>
-        <source>monacoCoin Core will download and store a copy of the monacoCoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>monacoCoin Core stiahne a uloží kópiu reťazca blokov monacoCoin. Pri najmenej %1GB dát bude uložených v tejto zložke and bude ďalej rásť. Peňaženka bude tiež uložená v tejto zložke.</translation>
+        <source>Monoeci Core will download and store a copy of the Monoeci block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>Monoeci Core stiahne a uloží kópiu reťazca blokov Monoeci. Pri najmenej %1GB dát bude uložených v tejto zložke and bude ďalej rásť. Peňaženka bude tiež uložená v tejto zložke.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1097,8 +1053,8 @@
         <translation>Použiť vlastný dátový adresár:</translation>
     </message>
     <message>
-        <source>monacoCoin Core</source>
-        <translation>monacoCoin Core</translation>
+        <source>Monoeci Core</source>
+        <translation>Monoeci Core</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1168,10 +1124,57 @@
         <translation>Všetky  Masternode</translation>
     </message>
     <message>
+        <source>Filter List:</source>
+        <translation>Zoznam filtrov:</translation>
+    </message>
+    <message>
         <source>Node Count:</source>
         <translation>Počet uzlov:</translation>
     </message>
     </context>
+<context>
+    <name>ModalOverlay</name>
+    <message>
+        <source>Form</source>
+        <translation>Forma</translation>
+    </message>
+    <message>
+        <source>Number of blocks left</source>
+        <translation>Počet zostávajúcich blokov</translation>
+    </message>
+    <message>
+        <source>Unknown...</source>
+        <translation>Neznáme...</translation>
+    </message>
+    <message>
+        <source>Last block time</source>
+        <translation>Čas posledného bloku</translation>
+    </message>
+    <message>
+        <source>Progress</source>
+        <translation>Postup synchronizácie</translation>
+    </message>
+    <message>
+        <source>Progress increase per hour</source>
+        <translation>Prírastok postupu za hodinu</translation>
+    </message>
+    <message>
+        <source>calculating...</source>
+        <translation>počíta sa...</translation>
+    </message>
+    <message>
+        <source>Estimated time left until synced</source>
+        <translation>Odhadovaný čas do ukončenia synchronizácie</translation>
+    </message>
+    <message>
+        <source>Hide</source>
+        <translation>Skryť</translation>
+    </message>
+    <message>
+        <source>Unknown. Syncing Headers (%1)...</source>
+        <translation>Neznámy. Synchronizujú sa hlavičky (%1)...</translation>
+    </message>
+</context>
 <context>
     <name>OpenURIDialog</name>
     <message>
@@ -1222,20 +1225,24 @@
         <translation>(0 = auto, &lt;0 = nechať toľko jadier voľných)</translation>
     </message>
     <message>
-        <source>Amount of monacoCoin to keep anonymized</source>
-        <translation>Suma monacoCoin ktorú držať anonymne </translation>
+        <source>Amount of Monoeci to keep anonymized</source>
+        <translation>Suma Monoeci ktorú držať anonymne </translation>
     </message>
     <message>
         <source>W&amp;allet</source>
         <translation>Peňaženka</translation>
     </message>
     <message>
-        <source>Automatically start monacoCoin Core after logging in to the system.</source>
-        <translation>Automaticky spustiť monacoCoin Core po prihlásení do systému.</translation>
+        <source>Automatically start Monoeci Core after logging in to the system.</source>
+        <translation>Automaticky spustiť Monoeci Core po prihlásení do systému.</translation>
     </message>
     <message>
-        <source>&amp;Start monacoCoin Core on system login</source>
-        <translation>&amp;Spusť monacoCoin po prihlásení do systému</translation>
+        <source>&amp;Start Monoeci Core on system login</source>
+        <translation>&amp;Spusť Monoeci po prihlásení do systému</translation>
+    </message>
+    <message>
+        <source>Show Masternodes Tab</source>
+        <translation>Ukázať záložku Masternodes</translation>
     </message>
     <message>
         <source>If you disable the spending of unconfirmed change, the change from a transaction&lt;br/&gt;cannot be used until that transaction has at least one confirmation.&lt;br/&gt;This also affects how your balance is computed.</source>
@@ -1258,12 +1265,16 @@
         <translation>Povoliť prichádzajúce spojenia</translation>
     </message>
     <message>
-        <source>Connect to the monacoCoin network through a SOCKS5 proxy.</source>
-        <translation>Pripojiť sa do siete monacoCoin cez proxy SOCKS5.</translation>
+        <source>Connect to the Monoeci network through a SOCKS5 proxy.</source>
+        <translation>Pripojiť sa do siete Monoeci cez proxy SOCKS5.</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
         <translation>&amp;Pripojiť sa cez SOCKS5 proxy (predvolené proxy):</translation>
+    </message>
+    <message>
+        <source>Minimize instead of exit the application when the window is closed. When this option is enabled, the application will be closed only after selecting Exit in the menu.</source>
+        <translation>Minimalizovať namiesto ukončenia aplikácie keď sa okno zavrie. Keď je zvolená táto možnosť, aplikácia sa zavrie len po zvolení Ukončiť v menu.</translation>
     </message>
     <message>
         <source>Expert</source>
@@ -1310,6 +1321,14 @@
         <translation>Port proxy (napr. 9050)</translation>
     </message>
     <message>
+        <source>Used for reaching peers via:</source>
+        <translation>Použité pre získavanie peerov cez:</translation>
+    </message>
+    <message>
+        <source>Shows, if the supplied default SOCKS5 proxy is used to reach peers via this network type.</source>
+        <translation>Zobrazuje, či je poskytované predvolené SOCKS5 proxy používané pre získavanie peerov cez tento typ siete.</translation>
+    </message>
+    <message>
         <source>IPv4</source>
         <translation>IPv4</translation>
     </message>
@@ -1322,8 +1341,20 @@
         <translation>Tor</translation>
     </message>
     <message>
+        <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services:</source>
+        <translation>Použiť samostatný SOCKS5 proxy server na dosiahnutie počítačov cez skryté služby Tor:</translation>
+    </message>
+    <message>
         <source>&amp;Window</source>
         <translation>Okno</translation>
+    </message>
+    <message>
+        <source>&amp;Hide the icon from the system tray.</source>
+        <translation>&amp;Skryť ikonu zo systémovej lišty.</translation>
+    </message>
+    <message>
+        <source>Hide tray icon</source>
+        <translation>Skryť ikonu v oblasti oznámení</translation>
     </message>
     <message>
         <source>Show only a tray icon after minimizing the window.</source>
@@ -1347,9 +1378,9 @@
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
-https://www.transifex.com/projects/p/monacoCoin/</source>
+https://www.transifex.com/projects/p/monoeci/</source>
         <translation>Chýbajúci alebo nekompletný preklad? Pomôžte nám tu:
-https://www.transifex.com/projects/p/monacoCoin/</translation>
+https://www.transifex.com/projects/p/monoeci/</translation>
     </message>
     <message>
         <source>User Interface Theme:</source>
@@ -1408,6 +1439,10 @@ https://www.transifex.com/projects/p/monacoCoin/</translation>
         <translation>Reštart klienta potrebný pre aktivovanie zmien.</translation>
     </message>
     <message>
+        <source>Client will be shut down. Do you want to proceed?</source>
+        <translation>Klient bude vypnutý, chcete pokračovať?</translation>
+    </message>
+    <message>
         <source>This change would require a client restart.</source>
         <translation>Táto zmena by vyžadovala reštart klienta.</translation>
     </message>
@@ -1423,8 +1458,8 @@ https://www.transifex.com/projects/p/monacoCoin/</translation>
         <translation>Forma</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the monacoCoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>Zobrazené informácie môžu byť zastaralé. Vaša peňaženka sa automaticky zosynchronizuje so sieťou monacoCoin akonáhle nadviaže spojenie, avšak tento proces ešte nebol dokončený.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Monoeci network after a connection is established, but this process has not completed yet.</source>
+        <translation>Zobrazené informácie môžu byť zastaralé. Vaša peňaženka sa automaticky zosynchronizuje so sieťou Monoeci akonáhle nadviaže spojenie, avšak tento proces ešte nebol dokončený.</translation>
     </message>
     <message>
         <source>Available:</source>
@@ -1523,8 +1558,8 @@ https://www.transifex.com/projects/p/monacoCoin/</translation>
         <translation>Čiastka a kolá:</translation>
     </message>
     <message>
-        <source>0 MCC / 0 Rounds</source>
-        <translation>0 MCC / 0 Kôl</translation>
+        <source>0 XMCC / 0 Rounds</source>
+        <translation>0 XMCC / 0 Kôl</translation>
     </message>
     <message>
         <source>Submitted Denom:</source>
@@ -1567,8 +1602,12 @@ https://www.transifex.com/projects/p/monacoCoin/</translation>
         <translation>nesynchronizované</translation>
     </message>
     <message>
-        <source>Disabled</source>
-        <translation>Vypnuté</translation>
+        <source>Start Mixing</source>
+        <translation>Začať miešanie</translation>
+    </message>
+    <message>
+        <source>Stop Mixing</source>
+        <translation>Zastaviť miešanie</translation>
     </message>
     <message>
         <source>No inputs detected</source>
@@ -1577,6 +1616,10 @@ https://www.transifex.com/projects/p/monacoCoin/</translation>
     <message numerus="yes">
         <source>%n Rounds</source>
         <translation><numerusform>%n kolo</numerusform><numerusform>%n kolá</numerusform><numerusform>%n kôl</numerusform></translation>
+    </message>
+    <message>
+        <source>Found enough compatible inputs to anonymize %1</source>
+        <translation>Nájdený dostatok kompatibilných vstupov na anonymizáciu %1</translation>
     </message>
     <message>
         <source>Not enough compatible inputs to anonymize &lt;span style='color:red;'&gt;%1&lt;/span&gt;,&lt;br&gt;will anonymize &lt;span style='color:red;'&gt;%2&lt;/span&gt; instead</source>
@@ -1591,32 +1634,32 @@ https://www.transifex.com/projects/p/monacoCoin/</translation>
         <translation>Denominované </translation>
     </message>
     <message>
-        <source>Anonymized</source>
-        <translation>Anonymizované</translation>
-    </message>
-    <message>
-        <source>Found enough compatible inputs to anonymize %1</source>
-        <translation>Nájdený dostatok kompatibilných vstupov na anonymizáciu %1</translation>
-    </message>
-    <message>
-        <source>Start Mixing</source>
-        <translation>Začať miešanie</translation>
-    </message>
-    <message>
-        <source>Stop Mixing</source>
-        <translation>Zastaviť miešanie</translation>
-    </message>
-    <message>
         <source>Mixed</source>
         <translation>Zmiešané</translation>
+    </message>
+    <message>
+        <source>Anonymized</source>
+        <translation>Anonymizované</translation>
     </message>
     <message>
         <source>keys left: %1</source>
         <translation>zostávajúce kľúče: %1</translation>
     </message>
     <message>
+        <source>Disabled</source>
+        <translation>Vypnuté</translation>
+    </message>
+    <message>
+        <source>ERROR! Failed to create automatic backup</source>
+        <translation>CHYBA! Nepodarilo sa vytvoriť automatickú zálohu</translation>
+    </message>
+    <message>
         <source>Enabled</source>
         <translation>Povolené </translation>
+    </message>
+    <message>
+        <source>see debug.log for details.</source>
+        <translation>podrobnosti nájdete v debug.log.</translation>
     </message>
     <message>
         <source>Last PrivateSend message:
@@ -1624,6 +1667,10 @@ https://www.transifex.com/projects/p/monacoCoin/</translation>
         <translation>Posledná PrivateSend správa:
 
 </translation>
+    </message>
+    <message>
+        <source>N/A</source>
+        <translation>nie je k dispozícii</translation>
     </message>
     <message>
         <source>PrivateSend was successfully reset.</source>
@@ -1641,10 +1688,6 @@ https://www.transifex.com/projects/p/monacoCoin/</translation>
         <source>Wallet is locked and user declined to unlock. Disabling PrivateSend.</source>
         <translation>Peňaženka je zamknutá a používateľ ju odmietol odomknúť. Vypína sa PrivateSend.</translation>
     </message>
-    <message>
-        <source>N/A</source>
-        <translation>nie je k dispozícii</translation>
-    </message>
 </context>
 <context>
     <name>PaymentServer</name>
@@ -1653,8 +1696,8 @@ https://www.transifex.com/projects/p/monacoCoin/</translation>
         <translation>Chyba pri vyžiadaní platby</translation>
     </message>
     <message>
-        <source>Cannot start monacoCoin: click-to-pay handler</source>
-        <translation>monacoCoin sa nedá spustiť: click-to-pay handler</translation>
+        <source>Cannot start monoeci: click-to-pay handler</source>
+        <translation>Monoeci sa nedá spustiť: click-to-pay handler</translation>
     </message>
     <message>
         <source>URI handling</source>
@@ -1665,16 +1708,16 @@ https://www.transifex.com/projects/p/monacoCoin/</translation>
         <translation>URL pre stiahnutie výzvy na zaplatenie je neplatné: %1</translation>
     </message>
     <message>
-        <source>Payment request file handling</source>
-        <translation>Obsluha súboru s požiadavkou na platbu</translation>
-    </message>
-    <message>
         <source>Invalid payment address %1</source>
         <translation>Neplatná adresa platby %1</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid monacoCoin address or malformed URI parameters.</source>
-        <translation>URI sa nedá analyzovať! Toto môže byť spôsobené neplatnou monacoCoin adresou, alebo nesprávnym tvarom URI parametrov.</translation>
+        <source>URI cannot be parsed! This can be caused by an invalid Monoeci address or malformed URI parameters.</source>
+        <translation>URI sa nedá analyzovať! Toto môže byť spôsobené neplatnou Monoeci adresou, alebo nesprávnym tvarom URI parametrov.</translation>
+    </message>
+    <message>
+        <source>Payment request file handling</source>
+        <translation>Obsluha súboru s požiadavkou na platbu</translation>
     </message>
     <message>
         <source>Payment request file cannot be read! This can be caused by an invalid payment request file.</source>
@@ -1689,12 +1732,20 @@ https://www.transifex.com/projects/p/monacoCoin/</translation>
         <translation>Sieť požiadavky na platbu sa nezhoduje s klientovou sieťou</translation>
     </message>
     <message>
+        <source>Payment request expired.</source>
+        <translation>Vypršala platnosť požiadavky na platbu.</translation>
+    </message>
+    <message>
         <source>Payment request is not initialized.</source>
         <translation>Požiadavka na platbu nie je inicializovaná.</translation>
     </message>
     <message>
         <source>Unverified payment requests to custom payment scripts are unsupported.</source>
         <translation>Program nepodporuje neoverené platobné výzvy na vlastná skripty.</translation>
+    </message>
+    <message>
+        <source>Invalid payment request.</source>
+        <translation>Chybná požiadavka na platbu.</translation>
     </message>
     <message>
         <source>Requested payment amount of %1 is too small (considered dust).</source>
@@ -1732,23 +1783,39 @@ https://www.transifex.com/projects/p/monacoCoin/</translation>
 <context>
     <name>PeerTableModel</name>
     <message>
+        <source>NodeId</source>
+        <translation>ID uzlu</translation>
+    </message>
+    <message>
+        <source>Node/Service</source>
+        <translation>Uzol/Služba</translation>
+    </message>
+    <message>
         <source>User Agent</source>
         <translation>Agent používateľa</translation>
     </message>
     <message>
-        <source>Ping Time</source>
-        <translation>Doba odozvy</translation>
+        <source>Ping</source>
+        <translation>Odozva</translation>
     </message>
-    </context>
+</context>
 <context>
     <name>QObject</name>
+    <message>
+        <source>Monoeci Core</source>
+        <translation>Monoeci Core</translation>
+    </message>
+    <message>
+        <source>Error: %1</source>
+        <translation>Chyba: %1</translation>
+    </message>
     <message>
         <source>Amount</source>
         <translation>Suma</translation>
     </message>
     <message>
-        <source>Enter a monacoCoin address (e.g. %1)</source>
-        <translation>Zadajte monacoCoin adresu (e.g. %1)</translation>
+        <source>Enter a Monoeci address (e.g. %1)</source>
+        <translation>Zadajte Monoeci adresu (e.g. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -1777,6 +1844,14 @@ https://www.transifex.com/projects/p/monacoCoin/</translation>
     <message>
         <source>%1 ms</source>
         <translation>%1 ms</translation>
+    </message>
+    <message>
+        <source>%1 and %2</source>
+        <translation> %1 a  %2</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>neznámy</translation>
     </message>
 </context>
 <context>
@@ -1849,10 +1924,6 @@ https://www.transifex.com/projects/p/monacoCoin/</translation>
         <translation>Súbor záznamu ladenia</translation>
     </message>
     <message>
-        <source>Build date</source>
-        <translation>Dátum zostavenia</translation>
-    </message>
-    <message>
         <source>Current number of blocks</source>
         <translation>Aktuálny počet blokov</translation>
     </message>
@@ -1871,6 +1942,18 @@ https://www.transifex.com/projects/p/monacoCoin/</translation>
     <message>
         <source>Number of Masternodes</source>
         <translation>Počet Mastenode</translation>
+    </message>
+    <message>
+        <source>Memory Pool</source>
+        <translation>Pamäť Poolu</translation>
+    </message>
+    <message>
+        <source>Current number of transactions</source>
+        <translation>Aktuálny počet tranzakcií</translation>
+    </message>
+    <message>
+        <source>Memory usage</source>
+        <translation>Využitie pamäte</translation>
     </message>
     <message>
         <source>&amp;Console</source>
@@ -1905,8 +1988,16 @@ https://www.transifex.com/projects/p/monacoCoin/</translation>
         <translation>&amp;Partnerské uzly</translation>
     </message>
     <message>
+        <source>Banned peers</source>
+        <translation>Zablokované spojenia</translation>
+    </message>
+    <message>
         <source>Select a peer to view detailed information.</source>
         <translation>Pre detailné informácie vyberte partnerský uzol.</translation>
+    </message>
+    <message>
+        <source>Whitelisted</source>
+        <translation>Povolené</translation>
     </message>
     <message>
         <source>Direction</source>
@@ -1917,12 +2008,36 @@ https://www.transifex.com/projects/p/monacoCoin/</translation>
         <translation>Verzia</translation>
     </message>
     <message>
+        <source>Starting Block</source>
+        <translation>Počiatočný Blok</translation>
+    </message>
+    <message>
+        <source>Synced Headers</source>
+        <translation>Synchronizované hlavičky</translation>
+    </message>
+    <message>
+        <source>Synced Blocks</source>
+        <translation>Synchronizované bloky</translation>
+    </message>
+    <message>
         <source>Wallet Path</source>
         <translation>Cesta k peňaženke</translation>
     </message>
     <message>
         <source>User Agent</source>
         <translation>Agent používateľa</translation>
+    </message>
+    <message>
+        <source>Datadir</source>
+        <translation>Priečinok s dátami</translation>
+    </message>
+    <message>
+        <source>Decrease font size</source>
+        <translation>Zmenšiť písmo</translation>
+    </message>
+    <message>
+        <source>Increase font size</source>
+        <translation>Zväčšiť písmo</translation>
     </message>
     <message>
         <source>Services</source>
@@ -1947,6 +2062,22 @@ https://www.transifex.com/projects/p/monacoCoin/</translation>
     <message>
         <source>Ping Time</source>
         <translation>Doba odozvy</translation>
+    </message>
+    <message>
+        <source>The duration of a currently outstanding ping.</source>
+        <translation>Trvanie aktuálneho pingu</translation>
+    </message>
+    <message>
+        <source>Ping Wait</source>
+        <translation>Čakanie na ping</translation>
+    </message>
+    <message>
+        <source>Min Ping</source>
+        <translation>Minimálna odozva</translation>
+    </message>
+    <message>
+        <source>Time Offset</source>
+        <translation>Časový posun</translation>
     </message>
     <message>
         <source>&amp;Wallet Repair</source>
@@ -2009,12 +2140,12 @@ https://www.transifex.com/projects/p/monacoCoin/</translation>
         <translation>-reindex: Znovu vytvoriť index reťazca blokov zo súčastného blk000??.dat súboru.</translation>
     </message>
     <message>
-        <source>In:</source>
-        <translation>Dnu:</translation>
+        <source>&amp;Disconnect</source>
+        <translation>&amp;Odpojiť</translation>
     </message>
     <message>
-        <source>Out:</source>
-        <translation>Von:</translation>
+        <source>Ban for</source>
+        <translation>Zakázať na</translation>
     </message>
     <message>
         <source>1 &amp;hour</source>
@@ -2033,12 +2164,28 @@ https://www.transifex.com/projects/p/monacoCoin/</translation>
         <translation>1 &amp;rok</translation>
     </message>
     <message>
+        <source>&amp;Unban</source>
+        <translation>&amp;Zrušiť zákaz</translation>
+    </message>
+    <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
         <translation>Použite šipky hore a dolu pre navigáciu históriou a &lt;b&gt;Ctrl-L&lt;/b&gt; pre vyčistenie obrazovky.</translation>
     </message>
     <message>
         <source>Type &lt;b&gt;help&lt;/b&gt; for an overview of available commands.</source>
         <translation>Napíš &lt;b&gt;help&lt;/b&gt; pre prehľad dostupných príkazov.</translation>
+    </message>
+    <message>
+        <source>In:</source>
+        <translation>Dnu:</translation>
+    </message>
+    <message>
+        <source>Out:</source>
+        <translation>Von:</translation>
+    </message>
+    <message>
+        <source>Network activity disabled</source>
+        <translation>Sieťová aktivita zakázaná</translation>
     </message>
     <message>
         <source>%1 B</source>
@@ -2055,6 +2202,10 @@ https://www.transifex.com/projects/p/monacoCoin/</translation>
     <message>
         <source>%1 GB</source>
         <translation>%1 GB</translation>
+    </message>
+    <message>
+        <source>(node id: %1)</source>
+        <translation>(ID uzlu: %1)</translation>
     </message>
     <message>
         <source>via %1</source>
@@ -2096,8 +2247,8 @@ https://www.transifex.com/projects/p/monacoCoin/</translation>
         <translation>Znovu použiť jestvujúcu prijímaciu adresu (neodporúča sa)</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the monacoCoin network.</source>
-        <translation>Pripojiť ku vyžiadanej platbe voliteľnú správu, ktorá sa zobrazí, keď bude žiadosť otvorená. Poznámka: Správa nebude poslaná spolu s platbou cez sieť monacoCoin.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Monoeci network.</source>
+        <translation>Pripojiť ku vyžiadanej platbe voliteľnú správu, ktorá sa zobrazí, keď bude žiadosť otvorená. Poznámka: Správa nebude poslaná spolu s platbou cez sieť Monoeci.</translation>
     </message>
     <message>
         <source>&amp;Message:</source>
@@ -2108,8 +2259,8 @@ https://www.transifex.com/projects/p/monacoCoin/</translation>
         <translation>Voliteľný popis ktorý sa pridá k tejto novej prijímajúcej adrese.</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the monacoCoin network.</source>
-        <translation>Pripojiť ku vyžiadanej platbe voliteľnú správu, ktorá sa zobrazí, keď bude žiadosť otvorená. &lt;br&gt;Poznámka: Správa nebude poslaná spolu s platbou cez sieť monacoCoin.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the Monoeci network.</source>
+        <translation>Pripojiť ku vyžiadanej platbe voliteľnú správu, ktorá sa zobrazí, keď bude žiadosť otvorená. &lt;br&gt;Poznámka: Správa nebude poslaná spolu s platbou cez sieť Monoeci.</translation>
     </message>
     <message>
         <source>Use this form to request payments. All fields are &lt;b&gt;optional&lt;/b&gt;.</source>
@@ -2162,6 +2313,10 @@ https://www.transifex.com/projects/p/monacoCoin/</translation>
     <message>
         <source>Remove</source>
         <translation>Odstrániť</translation>
+    </message>
+    <message>
+        <source>Copy URI</source>
+        <translation>Kopírovať URI</translation>
     </message>
     <message>
         <source>Copy label</source>
@@ -2227,6 +2382,14 @@ https://www.transifex.com/projects/p/monacoCoin/</translation>
         <translation>InstantSend</translation>
     </message>
     <message>
+        <source>Yes</source>
+        <translation>Áno</translation>
+    </message>
+    <message>
+        <source>No</source>
+        <translation>Nie</translation>
+    </message>
+    <message>
         <source>Resulting URI too long, try to reduce the text for label / message.</source>
         <translation>Výsledné URI príliš dlhé, skráť text pre názov / správu.</translation>
     </message>
@@ -2250,10 +2413,6 @@ https://www.transifex.com/projects/p/monacoCoin/</translation>
         <translation>Správa</translation>
     </message>
     <message>
-        <source>Amount</source>
-        <translation>Suma</translation>
-    </message>
-    <message>
         <source>(no label)</source>
         <translation>(bez popisu)</translation>
     </message>
@@ -2264,6 +2423,10 @@ https://www.transifex.com/projects/p/monacoCoin/</translation>
     <message>
         <source>(no amount)</source>
         <translation>(žiadna suma)</translation>
+    </message>
+    <message>
+        <source>Amount</source>
+        <translation>Suma</translation>
     </message>
 </context>
 <context>
@@ -2301,24 +2464,12 @@ https://www.transifex.com/projects/p/monacoCoin/</translation>
         <translation>Suma:</translation>
     </message>
     <message>
-        <source>Priority:</source>
-        <translation>Priorita:</translation>
-    </message>
-    <message>
-        <source>medium</source>
-        <translation>stredné</translation>
-    </message>
-    <message>
         <source>Fee:</source>
         <translation>Poplatok:</translation>
     </message>
     <message>
         <source>Dust:</source>
         <translation>Prach:</translation>
-    </message>
-    <message>
-        <source>no</source>
-        <translation>nie</translation>
     </message>
     <message>
         <source>After Fee:</source>
@@ -2365,8 +2516,8 @@ https://www.transifex.com/projects/p/monacoCoin/</translation>
         <translation>Ak je vlastný poplatok nastavený na 1000 duffov a transakcia je len 250 bytov, v tom prípade "za kilobajt" zaplatí iba 250 duffov na poplatkoch, &lt;br /&gt;zatiaľ čo "celkovo pri najmenšom" zaplatí 1000 duffov. Pre transakcie väčšie ako jeden kilobajt, obe zaplatia rovnako za kilobajt. </translation>
     </message>
     <message>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for monacoCoin transactions than the network can process.</source>
-        <translation>Platenie minimálneho poplatku je v poriadku pokiaľ je objem transakcií menší ako je miesto v bloku. &lt;br /&gt;Buďte opatrný pretože to môže skončiť s nikdy nepotvrdenými transakciami, akonáhle je dopyt po monacoCoin transakciách väčší ako dokáže sieť monacoCoin spracovať.</translation>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for monoeci transactions than the network can process.</source>
+        <translation>Platenie minimálneho poplatku je v poriadku pokiaľ je objem transakcií menší ako je miesto v bloku. &lt;br /&gt;Buďte opatrný pretože to môže skončiť s nikdy nepotvrdenými transakciami, akonáhle je dopyt po Monoeci transakciách väčší ako dokáže sieť Monoeci spracovať.</translation>
     </message>
     <message>
         <source>per kilobyte</source>
@@ -2465,10 +2616,6 @@ https://www.transifex.com/projects/p/monacoCoin/</translation>
         <translation>Kopírovať bajty</translation>
     </message>
     <message>
-        <source>Copy priority</source>
-        <translation>Kopírovať prioritu</translation>
-    </message>
-    <message>
         <source>Copy dust</source>
         <translation>Kopírovať prach</translation>
     </message>
@@ -2509,16 +2656,16 @@ https://www.transifex.com/projects/p/monacoCoin/</translation>
         <translation>Celková suma = &lt;b&gt;%1&lt;/b&gt;&lt;br /&gt;= %2</translation>
     </message>
     <message>
+        <source>&lt;b&gt;(%1 of %2 entries displayed)&lt;/b&gt;</source>
+        <translation>&lt;b&gt;(%1 z %2 zobrazených položiek)&lt;/b&gt;</translation>
+    </message>
+    <message>
         <source>Confirm send coins</source>
         <translation>Potvrdiť odoslanie mincí</translation>
     </message>
-    <message numerus="yes">
-        <source>Estimated to begin confirmation within %n block(s).</source>
-        <translation><numerusform>Odhad pre začiatok potvrdzovania je %n blok.</numerusform><numerusform>Odhad pre začiatok potvrdzovania sú %n bloky.</numerusform><numerusform>Odhad pre začiatok potvrdzovania je %n blokov.</numerusform></translation>
-    </message>
     <message>
-        <source>&lt;b&gt;(%1 of %2 entries displayed)&lt;/b&gt;</source>
-        <translation>&lt;b&gt;(%1 z %2 zobrazených položiek)&lt;/b&gt;</translation>
+        <source>The recipient address is not valid. Please recheck.</source>
+        <translation>Adresa príjemcu je neplatná. Prosím, overte ju.</translation>
     </message>
     <message>
         <source>The amount to pay must be larger than 0.</source>
@@ -2533,6 +2680,10 @@ https://www.transifex.com/projects/p/monacoCoin/</translation>
         <translation>Suma celkom prevyšuje Váš zostatok ak sú započítané %1 transakčné poplatky.</translation>
     </message>
     <message>
+        <source>Duplicate address found: addresses should only be used once each.</source>
+        <translation>Našla sa duplicitná adresa: každá adresa by sa mala použiť len raz.</translation>
+    </message>
+    <message>
         <source>Transaction creation failed!</source>
         <translation>Vytvorenie transakcie zlyhalo!</translation>
     </message>
@@ -2541,8 +2692,24 @@ https://www.transifex.com/projects/p/monacoCoin/</translation>
         <translation>Transakcia bola zamietnutá! Toto sa môže stať ak niektoré coins vo vašej peňaženke už boli minuté, ako keď použijete kópiu wallet.dat a coins boli minuté z kópie ale neoznačené ako minuté tu.</translation>
     </message>
     <message>
-        <source>Warning: Invalid monacoCoin address</source>
-        <translation>Upozornenie: Neplatná monacoCoin adresa</translation>
+        <source>A fee higher than %1 is considered an absurdly high fee.</source>
+        <translation>Poplatok vyšší ako %1 sa považuje za neprimerane vysoký.</translation>
+    </message>
+    <message>
+        <source>Payment request expired.</source>
+        <translation>Vypršala platnosť požiadavky na platbu.</translation>
+    </message>
+    <message>
+        <source>Pay only the required fee of %1</source>
+        <translation>Zaplatiť iba požadovaný poplatok %1</translation>
+    </message>
+    <message numerus="yes">
+        <source>Estimated to begin confirmation within %n block(s).</source>
+        <translation><numerusform>Odhad pre začiatok potvrdzovania je %n blok.</numerusform><numerusform>Odhad pre začiatok potvrdzovania sú %n bloky.</numerusform><numerusform>Odhad pre začiatok potvrdzovania je %n blokov.</numerusform></translation>
+    </message>
+    <message>
+        <source>Warning: Invalid Monoeci address</source>
+        <translation>Upozornenie: Neplatná Monoeci adresa</translation>
     </message>
     <message>
         <source>Warning: Unknown change address</source>
@@ -2564,8 +2731,8 @@ https://www.transifex.com/projects/p/monacoCoin/</translation>
         <translation>Zapla&amp;tiť:</translation>
     </message>
     <message>
-        <source>The monacoCoin address to send the payment to</source>
-        <translation>monacoCoin adresa pre poslanie platby</translation>
+        <source>The Monoeci address to send the payment to</source>
+        <translation>Monoeci adresa pre poslanie platby</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2600,12 +2767,24 @@ https://www.transifex.com/projects/p/monacoCoin/</translation>
         <translation>Su&amp;ma:</translation>
     </message>
     <message>
+        <source>S&amp;ubtract fee from amount</source>
+        <translation>Odpočítať poplatok od s&amp;umy</translation>
+    </message>
+    <message>
         <source>Message:</source>
         <translation>Správa:</translation>
     </message>
     <message>
-        <source>A message that was attached to the monacoCoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the monacoCoin network.</source>
-        <translation>Správa ktorá bola pripojená ku monacoCoin: URI ktorá sa uchová spolu s transakciou pre Vašu referenciu. Poznámka: Táto správa nebude poslaná cez sieť monacoCoin.</translation>
+        <source>A message that was attached to the monoeci: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Monoeci network.</source>
+        <translation>Správa ktorá bola pripojená ku monoeci: URI ktorá sa uchová spolu s transakciou pre Vašu referenciu. Poznámka: Táto správa nebude poslaná cez sieť Monoeci.</translation>
+    </message>
+    <message>
+        <source>This is an unauthenticated payment request.</source>
+        <translation>Toto je neoverená výzva k platbe.</translation>
+    </message>
+    <message>
+        <source>This is an authenticated payment request.</source>
+        <translation>Toto je overená výzva k platbe.</translation>
     </message>
     <message>
         <source>Pay To:</source>
@@ -2623,8 +2802,8 @@ https://www.transifex.com/projects/p/monacoCoin/</translation>
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>monacoCoin Core is shutting down...</source>
-        <translation>monacoCoin core sa vypína...</translation>
+        <source>Monoeci Core is shutting down...</source>
+        <translation>Monoeci core sa vypína...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -2642,8 +2821,8 @@ https://www.transifex.com/projects/p/monacoCoin/</translation>
         <translation>&amp;Podpísať Správu</translation>
     </message>
     <message>
-        <source>The monacoCoin address to sign the message with</source>
-        <translation>monacoCoin adresa na podpísanie správy</translation>
+        <source>The Monoeci address to sign the message with</source>
+        <translation>Monoeci adresa na podpísanie správy</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2674,8 +2853,8 @@ https://www.transifex.com/projects/p/monacoCoin/</translation>
         <translation>Kopírovať práve zvolenú adresu do systémového klipbordu</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this monacoCoin address</source>
-        <translation>Podpísať spravu aby ste dokázali, že vlastníte túto monacoCoin adresu</translation>
+        <source>Sign the message to prove you own this Monoeci address</source>
+        <translation>Podpísať spravu aby ste dokázali, že vlastníte túto Monoeci adresu</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -2694,12 +2873,16 @@ https://www.transifex.com/projects/p/monacoCoin/</translation>
         <translation>Overiť správu...</translation>
     </message>
     <message>
-        <source>The monacoCoin address the message was signed with</source>
-        <translation>Adresa monacoCoin s ktorou bola podpísaná správa</translation>
+        <source>Enter the receiver's address, message (ensure you copy line breaks, spaces, tabs, etc. exactly) and signature below to verify the message. Be careful not to read more into the signature than what is in the signed message itself, to avoid being tricked by a man-in-the-middle attack. Note that this only proves the signing party receives with the address, it cannot prove sendership of any transaction!</source>
+        <translation>Vložte adresu príjemcu, správu (uistite sa, že presne kopírujete ukončenia riadkov, medzery, odrážky, atď.) a podpis pre potvrdenie správy. Buďte opatrní a nedomýšľajte si viac než je uvedené v samotnej podpísanej správe a môžete sa tak vyhnúť podvodu MITM útokom. Toto len potvrdzuje, že podpisujúca strana môže prijímať na tejto adrese, nepotvrdzuje to vlastníctvo žiadnej transakcie!</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified monacoCoin address</source>
-        <translation>Overiť správu pre uistenie, že bola podpísaná zadanou monacoCoin adresou</translation>
+        <source>The Monoeci address the message was signed with</source>
+        <translation>Adresa Monoeci s ktorou bola podpísaná správa</translation>
+    </message>
+    <message>
+        <source>Verify the message to ensure it was signed with the specified Monoeci address</source>
+        <translation>Overiť správu pre uistenie, že bola podpísaná zadanou Monoeci adresou</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -2765,8 +2948,12 @@ https://www.transifex.com/projects/p/monacoCoin/</translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>monacoCoin Core</source>
-        <translation>monacoCoin Core</translation>
+        <source>[testnet]</source>
+        <translation>[testovacia sieť]</translation>
+    </message>
+    <message>
+        <source>Monoeci Core</source>
+        <translation>Monoeci Core</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -2777,12 +2964,12 @@ https://www.transifex.com/projects/p/monacoCoin/</translation>
         <translation>Vývojári Bitcoin Core</translation>
     </message>
     <message>
-        <source>The monacoCoin Core developers</source>
-        <translation>Vývojári monacoCoin Core</translation>
+        <source>The Dash Core developers</source>
+        <translation>Vývojári Dash Core</translation>
     </message>
-    <message>
-        <source>[testnet]</source>
-        <translation>[testovacia sieť]</translation>
+	<message>
+        <source>The Monoeci Core developers</source>
+        <translation>Vývojári Monoeci Core</translation>
     </message>
 </context>
 <context>
@@ -2809,6 +2996,10 @@ https://www.transifex.com/projects/p/monacoCoin/</translation>
     <message>
         <source>%1/offline</source>
         <translation>%1/offline</translation>
+    </message>
+    <message>
+        <source>0/unconfirmed, %1</source>
+        <translation>0/nepotvrdené, %1</translation>
     </message>
     <message>
         <source>%1/unconfirmed</source>
@@ -2923,6 +3114,10 @@ https://www.transifex.com/projects/p/monacoCoin/</translation>
         <translation>ID transakcie</translation>
     </message>
     <message>
+        <source>Transaction total size</source>
+        <translation>Celková veľkosť transakcie</translation>
+    </message>
+    <message>
         <source>Merchant</source>
         <translation>Kupec</translation>
     </message>
@@ -3033,6 +3228,18 @@ https://www.transifex.com/projects/p/monacoCoin/</translation>
         <translation>Prijaté cez PrivateSend</translation>
     </message>
     <message>
+        <source>Sent to</source>
+        <translation>Odoslané na</translation>
+    </message>
+    <message>
+        <source>Payment to yourself</source>
+        <translation>Platba sebe samému</translation>
+    </message>
+    <message>
+        <source>Mined</source>
+        <translation>Vyťažené</translation>
+    </message>
+    <message>
         <source>PrivateSend Denominate</source>
         <translation>Denominácia PrivateSend</translation>
     </message>
@@ -3053,24 +3260,16 @@ https://www.transifex.com/projects/p/monacoCoin/</translation>
         <translation>PrivateSend</translation>
     </message>
     <message>
-        <source>Sent to</source>
-        <translation>Odoslané na</translation>
-    </message>
-    <message>
-        <source>Payment to yourself</source>
-        <translation>Platba sebe samému</translation>
-    </message>
-    <message>
-        <source>Mined</source>
-        <translation>Vyťažené</translation>
-    </message>
-    <message>
         <source>watch-only</source>
         <translation>iba sledovanie</translation>
     </message>
     <message>
         <source>(n/a)</source>
         <translation>(n/a)</translation>
+    </message>
+    <message>
+        <source>(no label)</source>
+        <translation>(bez popisu)</translation>
     </message>
     <message>
         <source>Transaction status. Hover over this field to show number of confirmations.</source>
@@ -3192,6 +3391,14 @@ https://www.transifex.com/projects/p/monacoCoin/</translation>
         <translation>Kopírovať ID transakcie</translation>
     </message>
     <message>
+        <source>Copy raw transaction</source>
+        <translation>Skopírovať neupravenú transakciu</translation>
+    </message>
+    <message>
+        <source>Copy full transaction details</source>
+        <translation>Kopírovať všetky podrobnosti o transakcii</translation>
+    </message>
+    <message>
         <source>Edit label</source>
         <translation>Editovať popis</translation>
     </message>
@@ -3281,8 +3488,8 @@ https://www.transifex.com/projects/p/monacoCoin/</translation>
         <translation>Poslať Mince</translation>
     </message>
     <message>
-        <source>InstantSend doesn't support sending values that high yet. Transactions are currently limited to %1 MCC.</source>
-        <translation>InstantSend zatiaľ nepodporuje posielanie takto vysokých čiastok. Transakcie sú limitované na %1 MCC.</translation>
+        <source>InstantSend doesn't support sending values that high yet. Transactions are currently limited to %1 XMCC.</source>
+        <translation>InstantSend zatiaľ nepodporuje posielanie takto vysokých čiastok. Transakcie sú limitované na %1 XMCC.</translation>
     </message>
     </context>
 <context>
@@ -3325,14 +3532,14 @@ https://www.transifex.com/projects/p/monacoCoin/</translation>
     </message>
 </context>
 <context>
-    <name>monacoCoin-core</name>
+    <name>monoeci-core</name>
     <message>
         <source>Bind to given address and always listen on it. Use [host]:port notation for IPv6</source>
         <translation>Spojiť s danou adresou a vždy na nej počúvať. Použite zápis [host]:port pre IPv6</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. monacoCoin Core is probably already running.</source>
-        <translation>Nedá sa zamknúť dátový adresár %s. monacoCoin Core už pravdepodobne beží.</translation>
+        <source>Cannot obtain a lock on data directory %s. Monoeci Core is probably already running.</source>
+        <translation>Nedá sa zamknúť dátový adresár %s. Monoeci Core už pravdepodobne beží.</translation>
     </message>
     <message>
         <source>Error: Listening for incoming connections failed (listen returned error %s)</source>
@@ -3371,8 +3578,8 @@ https://www.transifex.com/projects/p/monacoCoin/</translation>
         <translation>Toto je predbežná testovacia zostava - používate na vlastné riziko - nepoužívajte na ťaženie alebo obchodné aplikácie</translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. monacoCoin Core is probably already running.</source>
-        <translation>Nedá sa viazať ku %s na tomto počítači. monacoCoin Core už pravdepodobne beží.</translation>
+        <source>Unable to bind to %s on this computer. Monoeci Core is probably already running.</source>
+        <translation>Nedá sa viazať ku %s na tomto počítači. Monoeci Core už pravdepodobne beží.</translation>
     </message>
     <message>
         <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
@@ -3413,10 +3620,6 @@ https://www.transifex.com/projects/p/monacoCoin/</translation>
     <message>
         <source>Block creation options:</source>
         <translation>Možnosti vytvorenia bloku:</translation>
-    </message>
-    <message>
-        <source>Can't denominate: no compatible inputs left.</source>
-        <translation>Nedá sa denominovať: nezostávajú žiadne kompatibilné vstupy.</translation>
     </message>
     <message>
         <source>Cannot downgrade wallet</source>
@@ -3519,6 +3722,10 @@ https://www.transifex.com/projects/p/monacoCoin/</translation>
         <translation>(1 = zachovať metaúdaje tx napr. vlastníka účtu a informácie o platobných príkazoch, 2 = zahodiť metaúdaje tx)</translation>
     </message>
     <message>
+        <source>Accept relayed transactions received from whitelisted peers even when not relaying transactions (default: %d)</source>
+        <translation>Akceptovať postúpené transakcie od povolených partnerov aj keď normálne nepostupujete transakcie (predvolené: %d)</translation>
+    </message>
+    <message>
         <source>Allow JSON-RPC connections from specified source. Valid for &lt;ip&gt; are a single IP (e.g. 1.2.3.4), a network/netmask (e.g. 1.2.3.4/255.255.255.0) or a network/CIDR (e.g. 1.2.3.4/24). This option can be specified multiple times</source>
         <translation>Povoliť JSON-RPC pripojenia zo zadaného zdroja. Pre &lt;ip&gt; sú platné jednoduché IP (napr. 1.2.3.4), sieť/netmask (napr. 1.2.3.4/255.255.255.0) alebo sieť/CIDR (napr. 1.2.3.4/24). Táto možnosť môže byť zadaná niekoľko krát</translation>
     </message>
@@ -3579,16 +3786,16 @@ https://www.transifex.com/projects/p/monacoCoin/</translation>
         <translation>Nastaviť počet vlákien pre generáciu mincí (-1 = všetky jadrá, predvolené: %d)</translation>
     </message>
     <message>
-        <source>Show N confirmations for a successfully locked transaction (0-9999, default: %u)</source>
-        <translation>Ukázať N potvrdení pre úspešne zamknutú transakciu (0-9999, predvolené: %u)</translation>
+        <source>Show N confirmations for a successfully locked transaction (0-24157, default: %u)</source>
+        <translation>Ukázať N potvrdení pre úspešne zamknutú transakciu (0-24157, predvolené: %u)</translation>
     </message>
     <message>
         <source>This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit &lt;https://www.openssl.org/&gt; and cryptographic software written by Eric Young and UPnP software written by Thomas Bernard.</source>
         <translation>Tento produkt obsahuje softvér vyvinutý projektom OpenSSL pre použitie sady nástrojov OpenSSL &lt;https://www.openssl.org/&gt; a kryptografického softvéru napísaného Eric Young a UPnP softvér napísaný Thomas Bernard.</translation>
     </message>
     <message>
-        <source>Unable to locate enough funds for this transaction that are not equal 1000 MCC.</source>
-        <translation>Nenašiel sa dostatok prostriedkov pre túto transakciu, ktorú nie sú rovné 1000 MCC.</translation>
+        <source>Unable to locate enough funds for this transaction that are not equal 1000 XMCC.</source>
+        <translation>Nenašiel sa dostatok prostriedkov pre túto transakciu, ktorú nie sú rovné 1000 XMCC.</translation>
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: %s)</source>
@@ -3631,8 +3838,12 @@ https://www.transifex.com/projects/p/monacoCoin/</translation>
         <translation>Autorské práva (C) 2009-%i Vývojári Bitcoin Core</translation>
     </message>
     <message>
-        <source>Copyright (C) 2016-%i The monacoCoin Core Developers</source>
-        <translation>Autorské práva (C) 2014-%i Vývojári jadra monacoCoin</translation>
+        <source>Copyright (C) 2014-%i The Dash Core Developers</source>
+        <translation>Autorské práva (C) 2014-%i Vývojári jadra Dash</translation>
+    </message>
+	<message>
+        <source>Copyright (C) 2017-%i The Monoeci Core Developers</source>
+        <translation>Autorské práva (C) 2017-%i Vývojári jadra Monoeci</translation>
     </message>
     <message>
         <source>Enable the client to act as a masternode (0-1, default: %u)</source>
@@ -3643,8 +3854,8 @@ https://www.transifex.com/projects/p/monacoCoin/</translation>
         <translation>Chyba pripojenia k Masternode.</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of monacoCoin Core</source>
-        <translation>Chyba pri načítaní wallet.dat: Peňaženka vyžaduje novšiu verziu monacoCoin Core</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of Monoeci Core</source>
+        <translation>Chyba pri načítaní wallet.dat: Peňaženka vyžaduje novšiu verziu Monoeci Core</translation>
     </message>
     <message>
         <source>Found enough users, signing ( waiting %s )</source>
@@ -3687,8 +3898,8 @@ https://www.transifex.com/projects/p/monacoCoin/</translation>
         <translation>Informácie</translation>
     </message>
     <message>
-        <source>Initialization sanity check failed. monacoCoin Core is shutting down.</source>
-        <translation>Inicializácia kontroly zdravia zlyhala. monacoCoin Core sa vypína.</translation>
+        <source>Initialization sanity check failed. Monoeci Core is shutting down.</source>
+        <translation>Inicializácia kontroly zdravia zlyhala. Monoeci Core sa vypína.</translation>
     </message>
     <message>
         <source>Input is not valid.</source>
@@ -3733,6 +3944,10 @@ https://www.transifex.com/projects/p/monacoCoin/</translation>
     <message>
         <source>Listen for connections on &lt;port&gt; (default: %u or testnet: %u)</source>
         <translation>Počúvať pripojenia na &lt;port&gt; (predvolené: %u alebo testovacia sieť: %u)</translation>
+    </message>
+    <message>
+        <source>Loading banlist...</source>
+        <translation>Načítavam banlist...</translation>
     </message>
     <message>
         <source>Loading masternode cache...</source>
@@ -3789,6 +4004,14 @@ https://www.transifex.com/projects/p/monacoCoin/</translation>
     <message>
         <source>Prepend debug output with timestamp (default: %u)</source>
         <translation>Na začiatok pripojiť časovú známku k ladiacemu výstupu (predvolené: %u)</translation>
+    </message>
+    <message>
+        <source>Rebuild chain state and block index from the blk*.dat files on disk</source>
+        <translation>Obnoviť stav reťazca a index blokov zo súborov blk*.dat na disku.</translation>
+    </message>
+    <message>
+        <source>Rebuild chain state from the currently indexed blocks</source>
+        <translation>Obnoviť stav reťazca z aktuálne indexovaných blokov.</translation>
     </message>
     <message>
         <source>Send trace/debug info to debug.log file (default: %u)</source>
@@ -3855,16 +4078,24 @@ https://www.transifex.com/projects/p/monacoCoin/</translation>
         <translation>Synchronizujú sa masternode...</translation>
     </message>
     <message>
-        <source>Synchronizing sporks...</source>
-        <translation>Synchronizujú sa sporky...</translation>
-    </message>
-    <message>
         <source>This is not a Masternode.</source>
         <translation>Toto nie je Masternode.</translation>
     </message>
     <message>
         <source>Threshold for disconnecting misbehaving peers (default: %u)</source>
         <translation>Hranica pre odpájanie zle sa správajúcim partnerským uzlom (predvolené: %u)</translation>
+    </message>
+    <message>
+        <source>Tor control port password (default: empty)</source>
+        <translation>Heslo na kontrolu portu pre Tor (predvolené: žiadne)</translation>
+    </message>
+    <message>
+        <source>Unable to start HTTP server. See debug log for details.</source>
+        <translation>Nepodarilo sa spustiť HTTP server. Pre viac detailov zobrazte debug log.</translation>
+    </message>
+    <message>
+        <source>Unknown response.</source>
+        <translation>Neznáma odpoveď.</translation>
     </message>
     <message>
         <source>Unsupported argument -benchmark ignored, use -debug=bench.</source>
@@ -3891,12 +4122,12 @@ https://www.transifex.com/projects/p/monacoCoin/</translation>
         <translation>Použiť UPnP pre mapovanie počúvajúceho portu (predvolené: %u)</translation>
     </message>
     <message>
-        <source>Value more than PrivateSend pool maximum allows.</source>
-        <translation>Väčšia hodnota ako dovoľuje fronta PrivateSend.</translation>
+        <source>Use the test chain</source>
+        <translation>Použiť testovaciu sieť</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart monacoCoin Core to complete</source>
-        <translation>Bolo potrebné prepísať peňaženku: k dokončeniu reštartujte monacoCoin Core</translation>
+        <source>Wallet needed to be rewritten: restart Monoeci Core to complete</source>
+        <translation>Bolo potrebné prepísať peňaženku: k dokončeniu reštartujte Monoeci Core</translation>
     </message>
     <message>
         <source>Will retry...</source>
@@ -3939,16 +4170,20 @@ https://www.transifex.com/projects/p/monacoCoin/</translation>
         <translation>Kľúč KeePassHttp pre šifrovanú AES komunikáciu s KeePass</translation>
     </message>
     <message>
-        <source>Keep N MCC anonymized (default: %u)</source>
-        <translation>Udržiavať N MCC anonymizovaných (predvolené: %u)</translation>
+        <source>Keep N XMCC anonymized (default: %u)</source>
+        <translation>Udržiavať N XMCC anonymizovaných (predvolené: %u)</translation>
     </message>
     <message>
         <source>Keep at most &lt;n&gt; unconnectable transactions in memory (default: %u)</source>
         <translation>V pamäti udržiavať najviac &lt;n&gt; nepotvrdených transakcií (predvolené: %u)</translation>
     </message>
     <message>
-        <source>Disable all monacoCoin specific functionality (Masternodes, PrivateSend, InstantSend, Governance) (0-1, default: %u)</source>
-        <translation>Vypnúť všetky funkcie špecifické pre monacoCoin (Masternodes, PrivateSend, InstantSend, Vláda) (0-1, predvolené: %u)</translation>
+        <source>Disable all Monoeci specific functionality (Masternodes, PrivateSend, InstantSend, Governance) (0-1, default: %u)</source>
+        <translation>Vypnúť všetky funkcie špecifické pre Monoeci (Masternodes, PrivateSend, InstantSend, Vláda) (0-1, predvolené: %u)</translation>
+    </message>
+    <message>
+        <source>Discover own IP addresses (default: 1 when listening and no -externalip or -proxy)</source>
+        <translation>Zisti vlastnú IP adresu (predvolené: 1 pre listen a -externalip alebo -proxy)</translation>
     </message>
     <message>
         <source>Enable InstantSend, show confirmations for locked transactions (0-1, default: %u)</source>
@@ -3971,8 +4206,12 @@ https://www.transifex.com/projects/p/monacoCoin/</translation>
         <translation>Poplatky (v %s/kB) menšie ako toto, sú považované za nulový transakčný poplatok (predvolené: %s)</translation>
     </message>
     <message>
-        <source>InstantSend doesn't support sending values that high yet. Transactions are currently limited to %1 MCC.</source>
-        <translation>InstantSend zatiaľ nepodporuje posielanie takto vysokých čiastok. Transakcie sú limitované na %1 MCC.</translation>
+        <source>If &lt;category&gt; is not supplied or if &lt;category&gt; = 1, output all debugging information.</source>
+        <translation>Pokiaľ &lt;category&gt; nie je nastavená, alebo &lt;category&gt; = 1, vypíš všetky informácie pre ladenie.</translation>
+    </message>
+    <message>
+        <source>InstantSend doesn't support sending values that high yet. Transactions are currently limited to %1 XMCC.</source>
+        <translation>InstantSend zatiaľ nepodporuje posielanie takto vysokých čiastok. Transakcie sú limitované na %1 XMCC.</translation>
     </message>
     <message>
         <source>InstantSend requires inputs with at least %d confirmations, you might need to wait a few minutes and try again.</source>
@@ -3983,8 +4222,8 @@ https://www.transifex.com/projects/p/monacoCoin/</translation>
         <translation>Celkové maximum poplatkov (v %s) pre použitie jednej transakcie peňaženky. Príliš malá hodnota môže prerušiť veľké transakcie (predvolené: %s)</translation>
     </message>
     <message>
-        <source>Please check that your computer's date and time are correct! If your clock is wrong monacoCoin Core will not work properly.</source>
-        <translation>Skontrolujte si prosím či máte správny čas a dátum na Vašom počítači. Ak je Vaše nastavenie zlé, monacoCoin Core nebude pracovať správne.</translation>
+        <source>Please check that your computer's date and time are correct! If your clock is wrong Monoeci Core will not work properly.</source>
+        <translation>Skontrolujte si prosím či máte správny čas a dátum na Vašom počítači. Ak je Vaše nastavenie zlé, Monoeci Core nebude pracovať správne.</translation>
     </message>
     <message>
         <source>PrivateSend uses exact denominated amounts to send funds, you might simply need to anonymize some more coins.</source>
@@ -3995,20 +4234,48 @@ https://www.transifex.com/projects/p/monacoCoin/</translation>
         <translation>Poskytnúť likviditu pre PrivateSend nepravidelným miešaním mincí na kontinuálnej báze (0-100, predvolené: %u, 1=veľmi často, vysoké poplatky, 100=veľmi zriedkavo, malé poplatky)</translation>
     </message>
     <message>
+        <source>Prune configured below the minimum of %d MiB.  Please use a higher number.</source>
+        <translation>Redukcia nastavená pod minimálnu hodnotu %d MiB. Prosím použite vyššiu hodnotu.</translation>
+    </message>
+    <message>
+        <source>The block database contains a block which appears to be from the future. This may be due to your computer's date and time being set incorrectly. Only rebuild the block database if you are sure that your computer's date and time are correct</source>
+        <translation>Databáza blokov obsahuje blok, ktorý vyzerá byť z budúcnosti. Toto môže byť spôsobené nesprávnym systémovým časom vášho počítača. Obnovujte databázu blokov len keď ste si istý, že systémový čas je nastavený správne.</translation>
+    </message>
+    <message>
+        <source>The transaction amount is too small to send after the fee has been deducted</source>
+        <translation>Suma je príliš malá pre odoslanie tranzakcie</translation>
+    </message>
+    <message>
+        <source>Total length of network version string (%i) exceeds maximum length (%i). Reduce the number or size of uacomments.</source>
+        <translation>Celková dĺžka verzie sieťového reťazca (%i) prekračuje maximálnu dĺžku (%i). Znížte počet a veľkosť komentárov.</translation>
+    </message>
+    <message>
+        <source>Tries to keep outbound traffic under the given target (in MiB per 24h), 0 = no limit (default: %d)</source>
+        <translation>Sa snaží držať odchádzajúce prevádzku v rámci daného cieľa (v MB za 24h), 0 = žiadny limit (predvolený: %d)</translation>
+    </message>
+    <message>
         <source>Unable to locate enough PrivateSend denominated funds for this transaction.</source>
         <translation>Nedá sa nájsť dostatok denominácií PrivateSend pre túto transakciu. </translation>
     </message>
     <message>
-        <source>Unable to locate enough PrivateSend non-denominated funds for this transaction that are not equal 1000 MCC.</source>
-        <translation>Nedá sa nájsť dostatok ne-denominovaných PrivateSend zdrojov pre túto transakciu, ktoré nie sú rovné 1000 MCC.</translation>
+        <source>Unable to locate enough PrivateSend non-denominated funds for this transaction that are not equal 1000 XMCC.</source>
+        <translation>Nedá sa nájsť dostatok ne-denominovaných PrivateSend zdrojov pre túto transakciu, ktoré nie sú rovné 1000 XMCC.</translation>
     </message>
     <message>
         <source>Unsupported argument -socks found. Setting SOCKS version isn't possible anymore, only SOCKS5 proxies are supported.</source>
         <translation>Nájdený nepodporovaný argument -socks. Nastavenie SOCKS verzie nie je už možné, podporované sú už iba proxy SOCKS5.</translation>
     </message>
     <message>
+        <source>Unsupported argument -whitelistalwaysrelay ignored, use -whitelistrelay and/or -whitelistforcerelay.</source>
+        <translation>Nepodporovaný argument -whitelistalwaysrelay ignorovaný, použite -whitelistrelay a/alebo -whitelistforcerelay.</translation>
+    </message>
+    <message>
         <source>Use UPnP to map the listening port (default: 1 when listening and no -proxy)</source>
         <translation>Skúsiť použiť UPnP pre mapovanie počúvajúceho portu (predvolené: 1 počas počúvania a bez -proxy)</translation>
+    </message>
+    <message>
+        <source>Warning: Unknown block versions being mined! It's possible unknown rules are in effect</source>
+        <translation>Varovanie: Neznáma verzia blokov sa doluje! Je možné, že neznáme pravidlá majú efekt</translation>
     </message>
     <message>
         <source>%s - %d confirmations</source>
@@ -4027,12 +4294,72 @@ https://www.transifex.com/projects/p/monacoCoin/</translation>
         <translation>(pre hlavnú sieť musí byť %d)</translation>
     </message>
     <message>
+        <source>-maxmempool must be at least %d MB</source>
+        <translation>-maxmempool musí byť najmenej %d MB</translation>
+    </message>
+    <message>
         <source>&lt;category&gt; can be:</source>
         <translation>&lt;category&gt; môže byť:</translation>
     </message>
     <message>
+        <source>Automatic backups disabled</source>
+        <translation>Automatické zálohy sú deaktivované</translation>
+    </message>
+    <message>
+        <source>Automatically create Tor hidden service (default: %d)</source>
+        <translation>Automaticky vytvoriť skrytú službu Tor (predvolené: %d)</translation>
+    </message>
+    <message>
+        <source>ERROR! Failed to create automatic backup</source>
+        <translation>CHYBA! Nepodarilo sa vytvoriť automatickú zálohu</translation>
+    </message>
+    <message>
+        <source>Enable publish hash block in &lt;address&gt;</source>
+        <translation>Povoliť zverejneneie hash blokov pre &lt;address&gt;</translation>
+    </message>
+    <message>
+        <source>Enable publish hash transaction in &lt;address&gt;</source>
+        <translation>Povoliť zverejnenie hash tranzakcií pre &lt;address&gt;</translation>
+    </message>
+    <message>
+        <source>Enable publish raw block in &lt;address&gt;</source>
+        <translation>Povoliť zverejnenie raw bloku pre &lt;address&gt;</translation>
+    </message>
+    <message>
+        <source>Enable publish raw transaction in &lt;address&gt;</source>
+        <translation>Povoliť publikovať hrubý prevod v &lt;address&gt;</translation>
+    </message>
+    <message>
+        <source>Error: A fatal internal error occurred, see debug.log for details</source>
+        <translation>Chyba: Vyskytla sa interná chyba, pre viac informácií zobrazte debug.log</translation>
+    </message>
+    <message>
+        <source>Failed to create backup %s!</source>
+        <translation>Nepodarilo sa vytvoriť zálohu %s!</translation>
+    </message>
+    <message>
+        <source>Failed to create backup, error: %s</source>
+        <translation>Nepodarilo sa vytvoriť zálohu, chyba: %s</translation>
+    </message>
+    <message>
+        <source>Failed to delete backup, error: %s</source>
+        <translation>Nepodarilo sa vymazať zálohu, chyba: %s</translation>
+    </message>
+    <message>
+        <source>Fee (in %s/kB) to add to transactions you send (default: %s)</source>
+        <translation>Poplatok (za %s/kB) pridaný do tranzakcie, ktorú posielate (predvolené: %s)</translation>
+    </message>
+    <message>
+        <source>Imports blocks from external blk000??.dat file on startup</source>
+        <translation>Importovať bloky z externého súboru blk000??.dat pri štarte</translation>
+    </message>
+    <message>
         <source>InstantSend options:</source>
         <translation>Možnosti InstantSend:</translation>
+    </message>
+    <message>
+        <source>Invalid amount for -fallbackfee=&lt;amount&gt;: '%s'</source>
+        <translation>Neplatná suma pre -fallbackfee=&lt;amount&gt;: '%s'</translation>
     </message>
     <message>
         <source>Last PrivateSend was too recent.</source>
@@ -4063,6 +4390,10 @@ https://www.transifex.com/projects/p/monacoCoin/</translation>
         <translation>Načítavanie peňaženky...</translation>
     </message>
     <message>
+        <source>Location of the auth cookie (default: data dir)</source>
+        <translation>Umiestnenie overovacieho cookie súboru (predvolená: Priečinok s dátami)</translation>
+    </message>
+    <message>
         <source>Masternode options:</source>
         <translation>Možnosti Masternode:</translation>
     </message>
@@ -4079,8 +4410,8 @@ https://www.transifex.com/projects/p/monacoCoin/</translation>
         <translation>Chýbajú vstupy transakčnej informácie.</translation>
     </message>
     <message>
-        <source>No funds detected in need of denominating.</source>
-        <translation>Nedetekované žiadne zdroje pre potreby denominácie.</translation>
+        <source>No errors detected.</source>
+        <translation>Nezistená žiadna chyba.</translation>
     </message>
     <message>
         <source>No matching denominations found for mixing.</source>
@@ -4103,12 +4434,20 @@ https://www.transifex.com/projects/p/monacoCoin/</translation>
         <translation>Nedostatok kľúčových slov súboru.</translation>
     </message>
     <message>
+        <source>Number of automatic wallet backups (default: %u)</source>
+        <translation>Počet automatických záloh peňaženky (predvolené: %u)</translation>
+    </message>
+    <message>
         <source>Options:</source>
         <translation>Možnosti:</translation>
     </message>
     <message>
         <source>Password for JSON-RPC connections</source>
         <translation>Heslo pre JSON-rPC spojenia</translation>
+    </message>
+    <message>
+        <source>Print version and exit</source>
+        <translation>Vytlačiť verziu a ukončiť</translation>
     </message>
     <message>
         <source>PrivateSend is idle.</source>
@@ -4125,6 +4464,38 @@ https://www.transifex.com/projects/p/monacoCoin/</translation>
     <message>
         <source>PrivateSend request incomplete:</source>
         <translation>Nedokončené PrivateSend požiadavky:</translation>
+    </message>
+    <message>
+        <source>Prune cannot be configured with a negative value.</source>
+        <translation>Redukovanie nemôže byť nastavené na zápornú hodnotu.</translation>
+    </message>
+    <message>
+        <source>Prune mode is incompatible with -txindex.</source>
+        <translation>Redukovanie je nekompatibilné s -txindex.</translation>
+    </message>
+    <message>
+        <source>Pruning blockstore...</source>
+        <translation>Redukovanie blockstore...</translation>
+    </message>
+    <message>
+        <source>Rescan the block chain for missing wallet transactions on startup</source>
+        <translation>Pri spustení skontrolovať reťaz blokov pre chýbajúce transakcie peňaženky</translation>
+    </message>
+    <message>
+        <source>Wasn't able to create wallet backup folder %s!</source>
+        <translation>Nepodarilo sa vytvorenie priečinku pre zálohu %s!</translation>
+    </message>
+    <message>
+        <source>ZeroMQ notification options:</source>
+        <translation>Možnosti pripojenia ZeroMQ:</translation>
+    </message>
+    <message>
+        <source>no mixing available.</source>
+        <translation>miešanie nedostupné.</translation>
+    </message>
+    <message>
+        <source>see debug.log for details.</source>
+        <translation>podrobnosti nájdete v debug.log.</translation>
     </message>
     <message>
         <source>RPC server options:</source>
@@ -4149,6 +4520,10 @@ https://www.transifex.com/projects/p/monacoCoin/</translation>
     <message>
         <source>Run in the background as a daemon and accept commands</source>
         <translation>Bežať na pozadí ako démon a prijímať príkazy</translation>
+    </message>
+    <message>
+        <source>Send trace/debug info to console instead of debug.log file</source>
+        <translation>Odoslať trace/debug informácie na konzolu namiesto debug.info žurnálu</translation>
     </message>
     <message>
         <source>Session not complete!</source>
@@ -4197,6 +4572,18 @@ https://www.transifex.com/projects/p/monacoCoin/</translation>
     <message>
         <source>Synchronization pending...</source>
         <translation>Synchronizácia čaká...</translation>
+    </message>
+    <message>
+        <source>Synchronizing governance objects...</source>
+        <translation>Synchronizujú sa objekty správy...</translation>
+    </message>
+    <message>
+        <source>Synchronizing masternode payments...</source>
+        <translation>Synchronizujú sa masternode platby...</translation>
+    </message>
+    <message>
+        <source>The transaction amount is too small to pay the fee</source>
+        <translation>Suma transakcie je príliš malá na zaplatenie poplatku</translation>
     </message>
     <message>
         <source>This help message</source>
@@ -4285,10 +4672,6 @@ https://www.transifex.com/projects/p/monacoCoin/</translation>
     <message>
         <source>Warning</source>
         <translation>Upozornenie</translation>
-    </message>
-    <message>
-        <source>You need to rebuild the database using -reindex to change -txindex</source>
-        <translation>Potrebujete prebudovať databázu použitím -reindex zmeniť -txindex</translation>
     </message>
     <message>
         <source>Your entries added successfully.</source>

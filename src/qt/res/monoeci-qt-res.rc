@@ -18,14 +18,14 @@ BEGIN
     BEGIN
         BLOCK "040904E4" // U.S. English - multilingual (hex)
         BEGIN
-            VALUE "CompanyName",        "monoeci"
-            VALUE "FileDescription",    "monoeci Core (GUI node for monoeci)"
+            VALUE "CompanyName",        "Monoeci"
+            VALUE "FileDescription",    "Monoeci Core (GUI node for Monoeci)"
             VALUE "FileVersion",        VER_FILEVERSION_STR
             VALUE "InternalName",       "monoeci-qt"
             VALUE "LegalCopyright",     COPYRIGHT_STR
             VALUE "LegalTrademarks1",   "Distributed under the MIT software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php."
             VALUE "OriginalFilename",   "monoeci-qt.exe"
-            VALUE "ProductName",        "monoeci Core"
+            VALUE "ProductName",        "Monoeci Core"
             VALUE "ProductVersion",     VER_PRODUCTVERSION_STR
         END
     END

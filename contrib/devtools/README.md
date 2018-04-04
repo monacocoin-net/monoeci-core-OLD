@@ -20,7 +20,7 @@ For example a file changed in 2015 (with 2015 being the current year):
 
 would be changed to:
 
-```// Copyright (c) 2009-2015 The Bitcoin Core developers```
+```// Copyright (c) 2009-2018 The Bitcoin Core developers```
 
 git-subtree-check.sh
 ====================
@@ -98,10 +98,10 @@ If only supported symbols are used the return value will be 0 and the output wil
 
 If there are 'unsupported' symbols, the return value will be 1 a list like this will be printed:
 
-    .../64/test_dash: symbol memcpy from unsupported version GLIBC_2.14
-    .../64/test_dash: symbol __fdelt_chk from unsupported version GLIBC_2.15
-    .../64/test_dash: symbol std::out_of_range::~out_of_range() from unsupported version GLIBCXX_3.4.15
-    .../64/test_dash: symbol _ZNSt8__detail15_List_nod from unsupported version GLIBCXX_3.4.15
+    .../64/test_monoeci: symbol memcpy from unsupported version GLIBC_2.14
+    .../64/test_monoeci: symbol __fdelt_chk from unsupported version GLIBC_2.15
+    .../64/test_monoeci: symbol std::out_of_range::~out_of_range() from unsupported version GLIBCXX_3.4.15
+    .../64/test_monoeci: symbol _ZNSt8__detail15_List_nod from unsupported version GLIBCXX_3.4.15
 
 update-translations.py
 ======================

@@ -13,7 +13,7 @@
 - (NSString *)__bundleIdentifier
 {
     if (self == [NSBundle mainBundle]) {
-        return @"org.monoeci.monoeci-Qt";
+        return @"org.monoeci.Monoeci-Qt";
     } else {
         return [self __bundleIdentifier];
     }

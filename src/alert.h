@@ -1,10 +1,10 @@
 // Copyright (c) 2010 Satoshi Nakamoto
-// Copyright (c) 2009-2015 The Bitcoin Core developers
+// Copyright (c) 2009-2018 The Bitcoin Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef BITCOIN_ALERT_H
-#define BITCOIN_ALERT_H
+#ifndef MONOECI_ALERT_H
+#define MONOECI_ALERT_H
 
 #include "serialize.h"
 #include "sync.h"
@@ -16,6 +16,7 @@
 
 class CAlert;
 class CNode;
+class CConnman;
 class uint256;
 
 extern std::map<uint256, CAlert> mapAlerts;
@@ -99,7 +100,7 @@ public:
     bool Cancels(const CAlert& alert) const;
     bool AppliesTo(int nVersion, const std::string& strSubVerIn) const;
     bool AppliesToMe() const;
-    bool RelayTo(CNode* pnode) const;
+    bool RelayTo(CNode* pnode, CConnman& connman) const;
     bool Sign();
     bool CheckSignature(const std::vector<unsigned char>& alertKey) const;
     bool ProcessAlert(const std::vector<unsigned char>& alertKey, bool fThread = true); // fThread means run -alertnotify in a free-running thread
@@ -111,4 +112,4 @@ public:
     static CAlert getAlertByHash(const uint256 &hash);
 };
 
-#endif // BITCOIN_ALERT_H
+#endif // MONOECI_ALERT_H
