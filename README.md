@@ -1,3 +1,5 @@
+![GitHub Logo](/logo-Monoeci.png)
+
 Monoeci Core V1 (0.12.2.3) (XMCC)
 ===============================
 
