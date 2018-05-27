@@ -99,10 +99,10 @@ arith_uint256 CMasternode::CalculateScore(const uint256& blockHash)
 	/* NEW SYSTEM BUT NOT COMPATIBLE WITH THE CURRENT ONE - MONOECI
     // Deterministically calculate a "score" for a Masternode based on any given (block)hash
     CHashWriter ss(SER_GETHASH, PROTOCOL_VERSION);
-    ss << outpoint << nCollateralMinConfBlockHash << blockHash;
+    ss << vin.prevout << nCollateralMinConfBlockHash << blockHash;
     return UintToArith256(ss.GetHash());
 	*/
-	uint256 aux = ArithToUint256(UintToArith256(outpoint.hash) + outpoint.n);
+	uint256 aux = ArithToUint256(UintToArith256(vin.prevout.hash) + vin.prevout.n);
 
     CHashWriter ss(SER_GETHASH, PROTOCOL_VERSION);
     ss << blockHash;
