@@ -1,6 +1,8 @@
+ Please use the new version : https://github.com/monacocoin-net/monoeci-core
+
 ![GitHub Logo](/logo-Monoeci.png)
 
-Monoeci Core V1 (0.12.2.3) (XMCC)
+Monoeci Core V1 (0.12.2) (XMCC)
 ===============================
 
 This is is under development. Please proceed with care.
