@@ -1,14 +1,10 @@
-![GitHub Logo](/logo-Monoeci.png)
-
 Monoeci Core V1 
 ===============================
 
 https://www.monoeci.io
 
-
 Easy Client update : 
 ----------------
-
 
 su monoeci
 cd
@@ -20,9 +16,6 @@ mkdir .monoeciCore
 cp monoeci.conf .monoeciCore/
 ./monoecid (or start service)
 
-
-  
- 
 Use for new server , include service and security options : 
 ----------------
 
