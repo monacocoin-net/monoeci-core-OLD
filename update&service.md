@@ -10,17 +10,17 @@ Easy Client update :
 ----------------
 
 #for user monoeci
-su monoeci
-cd
+ su monoeci
+ cd
 #if you user system service : service monoecid stop
-./monoeci-cli stop 
-tar jcvf  monoeci-save.tar.gz .monoeciCore/
-cp .monoeciCore/monoeci.conf .
-rm -fr .monoeciCore
-mkdir .monoeciCore
-cp monoeci.conf .monoeciCore/
+ ./monoeci-cli stop 
+ tar jcvf  monoeci-save.tar.gz .monoeciCore/
+ cp .monoeciCore/monoeci.conf .
+ rm -fr .monoeciCore
+ mkdir .monoeciCore
+ cp monoeci.conf .monoeciCore/
 #if you user system service : service monoecid start
-./monoecid (or start service)
+ ./monoecid (or start service)
 
 
 Use for new server , include service and security options : 
