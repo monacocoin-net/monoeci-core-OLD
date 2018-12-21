@@ -9,7 +9,7 @@ https://www.monoeci.io
 Easy Client update : 
 ----------------
 
-```
+
 su monoeci
 cd
 ./monoeci-cli stop 
@@ -20,13 +20,13 @@ mkdir .monoeciCore
 cp monoeci.conf .monoeciCore/
 ./monoecid (or start service)
 
-```
+
   
  
 Use for new server , include service and security options : 
 ----------------
 
-```sudo apt-get update && sudo apt-get upgrade -y
+sudo apt-get update && sudo apt-get upgrade -y
 sudo fallocate -l 4G /swapfile
 sudo chmod 600 /swapfile
 sudo mkswap /swapfile
@@ -43,45 +43,17 @@ cat <<EOF >> /etc/sysctl.conf
 vm.swappiness=10
 EOF
 exit
-```
+
 
 #Install fail2ban et anti-root kit
-	sudo apt -y install fail2ban
-	sudo systemctl enable fail2ban
-	sudo systemctl start fail2ban
-
-sudo apt -y install rkhunter
-
-# Scan your server every day 
-crontab -e 
-
-and add Create service step by step 
-
-sudo apt-get update && sudo apt-get upgrade -y
-
-sudo fallocate -l 4G /swapfile
-sudo chmod 600 /swapfile
-sudo mkswap /swapfile
-sudo swapon /swapfile
-
-sudo su -
-cat <<EOF >> /etc/fstab
-/swapfile none swap sw 0 0
-EOF
-exit
-
-sudo su -
-cat <<EOF >> /etc/sysctl.conf
-vm.swappiness=10
-EOF
-exit
-
+	
 sudo apt -y install fail2ban
 sudo systemctl enable fail2ban
 sudo systemctl start fail2ban
 
 sudo apt -y install rkhunter
 
+# Scan your server every day 
 crontab -e 
 
 #and add to last line : 
@@ -103,13 +75,13 @@ sudo apt-get install libzmq3-dev
 
 # install server monoeci
 adduser monoeci 
-#(Follow step by step and write password)
 
 wget https://github.com/monacocoin-net/monoeci-core-OLD/releases/download/0.12.2/monoeciCore-0.12.2-linux64-cli.Ubuntu16.04.tar.gz
 tar xvf monoeciCore-0.12.2-linux64-cli.Ubuntu16.04.tar.gz
 mv monoecid monoeci-cli monoeci-tx /usr/bin/
 
 # now you can use monoeci-cli everywhere with all user , not use ./monoeci-cli write directly monoeci-cli
+----------------
 
 sudo apt-get install pwgen
 su monoeci
@@ -117,6 +89,8 @@ cd
 mkdir .monoeciCore
 
 # Before Copy / Paste replace sentences
+----------------
+
 cat <<EOF > ~/.monoeciCore/monoeci.conf
 rpcuser=$(pwgen -s 32 1)
 rpcpassword=$(pwgen -s 64 1)
@@ -133,6 +107,7 @@ EOF
 nano ~/.monoeciCore/monoeci.conf
 
 # Create service now
+----------------
 
 exit
 
@@ -155,6 +130,7 @@ service monoecid start
 service monoecid enable
 
 #Check server config
+----------------
 
 su monoeci
 monoeci-cli getinfo
