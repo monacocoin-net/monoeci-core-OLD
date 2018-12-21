@@ -9,26 +9,24 @@ https://www.monoeci.io
 Easy Client update : 
 ----------------
 
-#for user monoeci
-   su monoeci
-   cd
-#if you user system service : service monoecid stop
-   ./monoeci-cli stop 
-   tar jcvf  monoeci-save.tar.gz .monoeciCore/
-   cp .monoeciCore/monoeci.conf .
-   rm -fr .monoeciCore
-   mkdir .monoeciCore
-   cp monoeci.conf .monoeciCore/
-# if you user system service : service monoecid start
-   ./monoecid (or start service)
+```
+su monoeci
+cd
+./monoeci-cli stop 
+tar jcvf  monoeci-save.tar.gz .monoeciCore/
+cp .monoeciCore/monoeci.conf .
+rm -fr .monoeciCore
+mkdir .monoeciCore
+cp monoeci.conf .monoeciCore/
+./monoecid (or start service)
 
-
+```
+  
+ 
 Use for new server , include service and security options : 
 ----------------
 
-sudo apt-get update && sudo apt-get upgrade -y
-
-#Create swap 4G
+```sudo apt-get update && sudo apt-get upgrade -y
 sudo fallocate -l 4G /swapfile
 sudo chmod 600 /swapfile
 sudo mkswap /swapfile
@@ -45,11 +43,12 @@ cat <<EOF >> /etc/sysctl.conf
 vm.swappiness=10
 EOF
 exit
+```
 
 #Install fail2ban et anti-root kit
-sudo apt -y install fail2ban
-sudo systemctl enable fail2ban
-sudo systemctl start fail2ban
+	sudo apt -y install fail2ban
+	sudo systemctl enable fail2ban
+	sudo systemctl start fail2ban
 
 sudo apt -y install rkhunter
 
