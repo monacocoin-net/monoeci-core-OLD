@@ -1,4 +1,13 @@
+![GitHub Logo](/logo-Monoeci.png)
+
+Monoeci Core V1 
+===============================
+
+https://www.monoeci.io
+
+
 Easy Client update : 
+----------------
 
 #for user monoeci
 su monoeci
@@ -15,6 +24,7 @@ cp monoeci.conf .monoeciCore/
 
 
 Use for new server , include service and security options : 
+----------------
 
 sudo apt-get update && sudo apt-get upgrade -y
 
